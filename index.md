@@ -6,204 +6,210 @@ Welcome to the AWS Solutions Architect Associate Exam Guide. This site provides 
 
 This guide is divided into the following main sections:
 
-### Português
+### Introdução / Introduction
 
-- [Introdução](/docs/pt/introducao.md)
-- [Domínio 1: Design de Arquiteturas Resilientes (30%)](/docs/pt/design-arquiteturas-resilientes.md)
-- [Domínio 2: Design de Arquiteturas de Alto Desempenho (28%)](/docs/pt/design-arquiteturas-alto-desempenho.md)
-- [Domínio 3: Design de Aplicações Seguras (24%)](/docs/pt/design-aplicacoes-seguras.md)
-- [Domínio 4: Design de Arquiteturas Otimizadas (18%)](/docs/pt/design-arquiteturas-otimizadas.md)
-- [Recursos Adicionais](/docs/pt/recursos-adicionais.md)
-- [Conclusão](/docs/pt/conclusao.md)
+- [Introdução](/docs/pt/introducao.md) / [Introduction](/docs/en/introduction.md)
 
-### English
+### Design de Arquiteturas Resilientes / Design Resilient Architectures (30%)
 
-- [Introduction](/docs/en/introduction.md)
-- [Domain 1: Design Resilient Architectures (30%)](/docs/en/design-resilient-architectures.md)
-- [Domain 2: Design High-Performing Architectures (28%)](/docs/en/design-high-performing-architectures.md)
-- [Domain 3: Design Secure Applications and Architectures (24%)](/docs/en/design-secure-applications-and-architectures.md)
-- [Domain 4: Design Cost-Optimized Architectures (18%)](/docs/en/design-cost-optimized-architectures.md)
-- [Additional Resources](/docs/en/additional-resources.md)
-- [Conclusion](/docs/en/conclusion.md)
+- [Design de Arquiteturas Resilientes](/docs/pt/design-arquiteturas-resilientes.md) / [Design Resilient Architectures](/docs/en/design-resilient-architectures.md)
 
+### Design de Arquiteturas de Alto Desempenho / Design High-Performing Architectures (28%)
 
-## Português
+- [Design de Arquiteturas de Alto Desempenho](/docs/pt/design-arquiteturas-alto-desempenho.md) / [Design High-Performing Architectures](/docs/en/design-high-performing-architectures.md)
 
-### [Introdução](/docs/pt/introducao.md)
+### Design de Aplicações Seguras / Design Secure Applications and Architectures (24%)
 
-- Visão geral da Certificação AWS Solutions Architect Associate
-- Importância da certificação
-- Formato e detalhes do exame
+- [Design de Aplicações Seguras](/docs/pt/design-aplicacoes-seguras.md) / [Design Secure Applications and Architectures](/docs/en/design-secure-applications-and-architectures.md)
 
-### Domínio 1: Design de Arquiteturas Resilientes (30%)
+### Design de Arquiteturas Otimizadas / Design Cost-Optimized Architectures (18%)
 
-#### [1.1 Design de Soluções de Arquitetura Multi-Camada](/docs/pt/design-arquiteturas-resilientes.md#11-design-de-solucoes-de-arquitetura-multi-camada)
-- Conceitos principais
-- Exemplos de arquiteturas
+- [Design de Arquiteturas Otimizadas](/docs/pt/design-arquiteturas-otimizadas.md) / [Design Cost-Optimized Architectures](/docs/en/design-cost-optimized-architectures.md)
 
-#### [1.2 Design de Arquiteturas Altamente Disponíveis e/ou Tolerantes a Falhas](/docs/pt/design-arquiteturas-resilientes.md#12-design-de-arquiteturas-altamente-disponiveis-eou-tolerantes-a-falhas)
-- Conceitos de alta disponibilidade
-- Tolerância a falhas
-- Recuperação de desastres
+### Recursos Adicionais / Additional Resources
 
-#### [1.3 Design de Mecanismos de Desacoplamento Usando Serviços AWS](/docs/pt/design-arquiteturas-resilientes.md#13-design-de-mecanismos-de-desacoplamento-usando-servicos-aws)
-- SQS
-- SNS
-- EventBridge
+- [Recursos Adicionais](/docs/pt/recursos-adicionais.md) / [Additional Resources](/docs/en/additional-resources.md)
 
-#### [1.4 Escolha de Armazenamento Resiliente Adequado](/docs/pt/design-arquiteturas-resilientes.md#14-escolha-de-armazenamento-resiliente-adequado)
+### Conclusão / Conclusion
 
-### Domínio 2: Design de Arquiteturas de Alto Desempenho (28%)
+- [Conclusão](/docs/pt/conclusao.md) / [Conclusion](/docs/en/conclusion.md)
 
-#### [2.1 Identificação de Soluções de Computação Elásticas e Escaláveis para uma Carga de Trabalho](/docs/pt/design-arquiteturas-alto-desempenho.md#21-identificacao-de-solucoes-de-computacao-elasticas-e-escalaveis-para-uma-carga-de-trabalho)
-- EC2
-- ECS/EKS
-- Lambda
+## AWS Services
 
-#### [2.2 Seleção de Soluções de Armazenamento de Alto Desempenho e Escaláveis para uma Carga de Trabalho](/docs/pt/design-arquiteturas-alto-desempenho.md#22-selecao-de-solucoes-de-armazenamento-de-alto-desempenho-e-escalaveis-para-uma-carga-de-trabalho)
-- S3
-- EBS
-- EFS
+### Analytics
 
-#### [2.3 Seleção de Soluções de Rede de Alto Desempenho para uma Carga de Trabalho](/docs/pt/design-arquiteturas-alto-desempenho.md#23-selecao-de-solucoes-de-rede-de-alto-desempenho-para-uma-carga-de-trabalho)
-- VPC
-- CloudFront
-- Global Accelerator
+- [Amazon Athena (PT)](/docs/pt/services/athena.md) / [Amazon Athena (EN)](/docs/en/services/athena.md)
+- [AWS Data Exchange (PT)](/docs/pt/services/data-exchange.md) / [AWS Data Exchange (EN)](/docs/en/services/data-exchange.md)
+- [AWS Data Pipeline (PT)](/docs/pt/services/data-pipeline.md) / [AWS Data Pipeline (EN)](/docs/en/services/data-pipeline.md)
+- [Amazon EMR (PT)](/docs/pt/services/emr.md) / [Amazon EMR (EN)](/docs/en/services/emr.md)
+- [AWS Glue (PT)](/docs/pt/services/glue.md) / [AWS Glue (EN)](/docs/en/services/glue.md)
+- [Amazon Kinesis (PT)](/docs/pt/services/kinesis.md) / [Amazon Kinesis (EN)](/docs/en/services/kinesis.md)
+- [AWS Lake Formation (PT)](/docs/pt/services/lake-formation.md) / [AWS Lake Formation (EN)](/docs/en/services/lake-formation.md)
+- [Amazon Managed Streaming for Apache Kafka (Amazon MSK) (PT)](/docs/pt/services/msk.md) / [Amazon Managed Streaming for Apache Kafka (Amazon MSK) (EN)](/docs/en/services/msk.md)
+- [Amazon OpenSearch Service (PT)](/docs/pt/services/opensearch.md) / [Amazon OpenSearch Service (EN)](/docs/en/services/opensearch.md)
+- [Amazon QuickSight (PT)](/docs/pt/services/quicksight.md) / [Amazon QuickSight (EN)](/docs/en/services/quicksight.md)
+- [Amazon Redshift (PT)](/docs/pt/services/redshift.md) / [Amazon Redshift (EN)](/docs/en/services/redshift.md)
 
-#### [2.4 Escolha de Soluções de Banco de Dados de Alto Desempenho para uma Carga de Trabalho](/docs/pt/design-arquiteturas-alto-desempenho.md#24-escolha-de-solucoes-de-banco-de-dados-de-alto-desempenho-para-uma-carga-de-trabalho)
-- RDS
-- DynamoDB
-- Aurora
+### Application Integration
 
-### Domínio 3: Design de Aplicações Seguras (24%)
+- [Amazon AppFlow (PT)](/docs/pt/services/appflow.md) / [Amazon AppFlow (EN)](/docs/en/services/appflow.md)
+- [AWS AppSync (PT)](/docs/pt/services/appsync.md) / [AWS AppSync (EN)](/docs/en/services/appsync.md)
+- [Amazon EventBridge (PT)](/docs/pt/services/eventbridge.md) / [Amazon EventBridge (EN)](/docs/en/services/eventbridge.md)
+- [Amazon MQ (PT)](/docs/pt/services/mq.md) / [Amazon MQ (EN)](/docs/en/services/mq.md)
+- [Amazon Simple Notification Service (Amazon SNS) (PT)](/docs/pt/services/sns.md) / [Amazon Simple Notification Service (Amazon SNS) (EN)](/docs/en/services/sns.md)
+- [Amazon Simple Queue Service (Amazon SQS) (PT)](/docs/pt/services/sqs.md) / [Amazon Simple Queue Service (Amazon SQS) (EN)](/docs/en/services/sqs.md)
+- [AWS Step Functions (PT)](/docs/pt/services/step-functions.md) / [AWS Step Functions (EN)](/docs/en/services/step-functions.md)
 
-#### [3.1 Design de Acesso Seguro aos Recursos AWS](/docs/pt/design-aplicacoes-seguras.md#31-design-de-acesso-seguro-aos-recursos-aws)
-- IAM
-- Políticas de recursos
+### AWS Cost Management
 
-#### [3.2 Design de Camadas de Aplicação Seguras](/docs/pt/design-aplicacoes-seguras.md#32-design-de-camadas-de-aplicacao-seguras)
-- Grupos de segurança
-- NACLs
+- [AWS Budgets (PT)](/docs/pt/services/budgets.md) / [AWS Budgets (EN)](/docs/en/services/budgets.md)
+- [AWS Cost and Usage Report (PT)](/docs/pt/services/cost-and-usage-report.md) / [AWS Cost and Usage Report (EN)](/docs/en/services/cost-and-usage-report.md)
+- [AWS Cost Explorer (PT)](/docs/pt/services/cost-explorer.md) / [AWS Cost Explorer (EN)](/docs/en/services/cost-explorer.md)
+- [Savings Plans (PT)](/docs/pt/services/savings-plans.md) / [Savings Plans (EN)](/docs/en/services/savings-plans.md)
 
-#### [3.3 Seleção de Opções de Segurança de Dados Adequadas](/docs/pt/design-aplicacoes-seguras.md#33-selecao-de-opcoes-de-seguranca-de-dados-adequadas)
-- Criptografia
-- KMS
+### Compute
 
-### Domínio 4: Design de Arquiteturas Otimizadas (18%)
+- [AWS Batch (PT)](/docs/pt/services/batch.md) / [AWS Batch (EN)](/docs/en/services/batch.md)
+- [Amazon EC2 (PT)](/docs/pt/services/ec2.md) / [Amazon EC2 (EN)](/docs/en/services/ec2.md)
+- [Amazon EC2 Auto Scaling (PT)](/docs/pt/services/ec2-auto-scaling.md) / [Amazon EC2 Auto Scaling (EN)](/docs/en/services/ec2-auto-scaling.md)
+- [AWS Elastic Beanstalk (PT)](/docs/pt/services/elastic-beanstalk.md) / [AWS Elastic Beanstalk (EN)](/docs/en/services/elastic-beanstalk.md)
+- [AWS Outposts (PT)](/docs/pt/services/outposts.md) / [AWS Outposts (EN)](/docs/en/services/outposts.md)
+- [AWS Serverless Application Repository (PT)](/docs/pt/services/serverless-application-repository.md) / [AWS Serverless Application Repository (EN)](/docs/en/services/serverless-application-repository.md)
+- [VMware Cloud on AWS (PT)](/docs/pt/services/vmware-cloud.md) / [VMware Cloud on AWS (EN)](/docs/en/services/vmware-cloud.md)
+- [AWS Wavelength (PT)](/docs/pt/services/wavelength.md) / [AWS Wavelength (EN)](/docs/en/services/wavelength.md)
 
-#### [4.1 Identificação de Soluções de Armazenamento Custo-Eficientes](/docs/pt/design-arquiteturas-otimizadas.md#41-identificacao-de-solucoes-de-armazenamento-custo-eficientes)
-- Classes de armazenamento S3
-- Acesso Infrequente EFS
+### Containers
 
-#### [4.2 Identificação de Serviços de Computação e Banco de Dados Custo-Eficientes](/docs/pt/design-arquiteturas-otimizadas.md#42-identificacao-de-servicos-de-computacao-e-banco-de-dados-custo-eficientes)
-- Instâncias Spot
-- Instâncias Reservadas
-- Planos de Economia
+- [Amazon ECS Anywhere (PT)](/docs/pt/services/ecs-anywhere.md) / [Amazon ECS Anywhere (EN)](/docs/en/services/ecs-anywhere.md)
+- [Amazon EKS Anywhere (PT)](/docs/pt/services/eks-anywhere.md) / [Amazon EKS Anywhere (EN)](/docs/en/services/eks-anywhere.md)
+- [Amazon EKS Distro (PT)](/docs/pt/services/eks-distro.md) / [Amazon EKS Distro (EN)](/docs/en/services/eks-distro.md)
+- [Amazon Elastic Container Registry (Amazon ECR) (PT)](/docs/pt/services/ecr.md) / [Amazon Elastic Container Registry (Amazon ECR) (EN)](/docs/en/services/ecr.md)
+- [Amazon Elastic Container Service (Amazon ECS) (PT)](/docs/pt/services/ecs.md) / [Amazon Elastic Container Service (Amazon ECS) (EN)](/docs/en/services/ecs.md)
+- [Amazon Elastic Kubernetes Service (Amazon EKS) (PT)](/docs/pt/services/eks.md) / [Amazon Elastic Kubernetes Service (Amazon EKS) (EN)](/docs/en/services/eks.md)
 
-#### [4.3 Design de Arquiteturas de Rede Custo-Eficientes](/docs/pt/design-arquiteturas-otimizadas.md#43-design-de-arquiteturas-de-rede-custo-eficientes)
-- Custos de transferência de dados
-- CloudFront
+### Database
 
-### [Recursos Adicionais](/docs/pt/recursos-adicionais.md)
+- [Amazon Aurora (PT)](/docs/pt/services/aurora.md) / [Amazon Aurora (EN)](/docs/en/services/aurora.md)
+- [Amazon Aurora Serverless (PT)](/docs/pt/services/aurora-serverless.md) / [Amazon Aurora Serverless (EN)](/docs/en/services/aurora-serverless.md)
+- [Amazon DocumentDB (with MongoDB compatibility) (PT)](/docs/pt/services/documentdb.md) / [Amazon DocumentDB (with MongoDB compatibility) (EN)](/docs/en/services/documentdb.md)
+- [Amazon DynamoDB (PT)](/docs/pt/services/dynamodb.md) / [Amazon DynamoDB (EN)](/docs/en/services/dynamodb.md)
+- [Amazon ElastiCache (PT)](/docs/pt/services/elasticache.md) / [Amazon ElastiCache (EN)](/docs/en/services/elasticache.md)
+- [Amazon Keyspaces (for Apache Cassandra) (PT)](/docs/pt/services/keyspaces.md) / [Amazon Keyspaces (for Apache Cassandra) (EN)](/docs/en/services/keyspaces.md)
+- [Amazon Neptune (PT)](/docs/pt/services/neptune.md) / [Amazon Neptune (EN)](/docs/en/services/neptune.md)
+- [Amazon Quantum Ledger Database (Amazon QLDB) (PT)](/docs/pt/services/qldb.md) / [Amazon Quantum Ledger Database (Amazon QLDB) (EN)](/docs/en/services/qldb.md)
+- [Amazon RDS (PT)](/docs/pt/services/rds.md) / [Amazon RDS (EN)](/docs/en/services/rds.md)
+- [Amazon Redshift (PT)](/docs/pt/services/redshift.md) / [Amazon Redshift (EN)](/docs/en/services/redshift.md)
 
-- Materiais de estudo
-- Exames práticos
-- Whitepapers da AWS
-- Links úteis
+### Developer Tools
 
-### [Conclusão](/docs/pt/conclusao.md)
+- [AWS X-Ray (PT)](/docs/pt/services/xray.md) / [AWS X-Ray (EN)](/docs/en/services/xray.md)
 
-- Dicas finais
-- Como agendar seu exame
-- Recapitulação dos pontos principais
+### Front-End Web and Mobile
 
+- [AWS Amplify (PT)](/docs/pt/services/amplify.md) / [AWS Amplify (EN)](/docs/en/services/amplify.md)
+- [Amazon API Gateway (PT)](/docs/pt/services/api-gateway.md) / [Amazon API Gateway (EN)](/docs/en/services/api-gateway.md)
+- [AWS Device Farm (PT)](/docs/pt/services/device-farm.md) / [AWS Device Farm (EN)](/docs/en/services/device-farm.md)
+- [Amazon Pinpoint (PT)](/docs/pt/services/pinpoint.md) / [Amazon Pinpoint (EN)](/docs/en/services/pinpoint.md)
 
-## English
+### Machine Learning
 
-### [Introduction](/docs/en/introduction.md)
+- [Amazon Comprehend (PT)](/docs/pt/services/comprehend.md) / [Amazon Comprehend (EN)](/docs/en/services/comprehend.md)
+- [Amazon Forecast (PT)](/docs/pt/services/forecast.md) / [Amazon Forecast (EN)](/docs/en/services/forecast.md)
+- [Amazon Fraud Detector (PT)](/docs/pt/services/fraud-detector.md) / [Amazon Fraud Detector (EN)](/docs/en/services/fraud-detector.md)
+- [Amazon Kendra (PT)](/docs/pt/services/kendra.md) / [Amazon Kendra (EN)](/docs/en/services/kendra.md)
+- [Amazon Lex (PT)](/docs/pt/services/lex.md) / [Amazon Lex (EN)](/docs/en/services/lex.md)
+- [Amazon Polly (PT)](/docs/pt/services/polly.md) / [Amazon Polly (EN)](/docs/en/services/polly.md)
+- [Amazon Rekognition (PT)](/docs/pt/services/rekognition.md) / [Amazon Rekognition (EN)](/docs/en/services/rekognition.md)
+- [Amazon SageMaker (PT)](/docs/pt/services/sagemaker.md) / [Amazon SageMaker (EN)](/docs/en/services/sagemaker.md)
+- [Amazon Textract (PT)](/docs/pt/services/textract.md) / [Amazon Textract (EN)](/docs/en/services/textract.md)
+- [Amazon Transcribe (PT)](/docs/pt/services/transcribe.md) / [Amazon Transcribe (EN)](/docs/en/services/transcribe.md)
+- [Amazon Translate (PT)](/docs/pt/services/translate.md) / [Amazon Translate (EN)](/docs/en/services/translate.md)
 
-- Overview of the AWS Solutions Architect Associate Certification
-- Importance of the certification
-- Exam format and details
+### Management and Governance
 
-### Domain 1: Design Resilient Architectures (30%)
+- [AWS Auto Scaling (PT)](/docs/pt/services/auto-scaling.md) / [AWS Auto Scaling (EN)](/docs/en/services/auto-scaling.md)
+- [AWS CloudFormation (PT)](/docs/pt/services/cloudformation.md) / [AWS CloudFormation (EN)](/docs/en/services/cloudformation.md)
+- [AWS CloudTrail (PT)](/docs/pt/services/cloudtrail.md) / [AWS CloudTrail (EN)](/docs/en/services/cloudtrail.md)
+- [Amazon CloudWatch (PT)](/docs/pt/services/cloudwatch.md) / [Amazon CloudWatch (EN)](/docs/en/services/cloudwatch.md)
+- [AWS Command Line Interface (AWS CLI) (PT)](/docs/pt/services/cli.md) / [AWS Command Line Interface (AWS CLI) (EN)](/docs/en/services/cli.md)
+- [AWS Compute Optimizer (PT)](/docs/pt/services/compute-optimizer.md) / [AWS Compute Optimizer (EN)](/docs/en/services/compute-optimizer.md)
+- [AWS Config (PT)](/docs/pt/services/config.md) / [AWS Config (EN)](/docs/en/services/config.md)
+- [AWS Control Tower (PT)](/docs/pt/services/control-tower.md) / [AWS Control Tower (EN)](/docs/en/services/control-tower.md)
+- [AWS Health Dashboard (PT)](/docs/pt/services/health-dashboard.md) / [AWS Health Dashboard (EN)](/docs/en/services/health-dashboard.md)
+- [AWS License Manager (PT)](/docs/pt/services/license-manager.md) / [AWS License Manager (EN)](/docs/en/services/license-manager.md)
+- [Amazon Managed Grafana (PT)](/docs/pt/services/managed-grafana.md) / [Amazon Managed Grafana (EN)](/docs/en/services/managed-grafana.md)
+- [Amazon Managed Service for Prometheus (PT)](/docs/pt/services/managed-prometheus.md) / [Amazon Managed Service for Prometheus (EN)](/docs/en/services/managed-prometheus.md)
+- [AWS Management Console (PT)](/docs/pt/services/management-console.md) / [AWS Management Console (EN)](/docs/en/services/management-console.md)
+- [AWS Organizations (PT)](/docs/pt/services/organizations.md) / [AWS Organizations (EN)](/docs/en/services/organizations.md)
+- [AWS Proton (PT)](/docs/pt/services/proton.md) / [AWS Proton (EN)](/docs/en/services/proton.md)
+- [AWS Service Catalog (PT)](/docs/pt/services/service-catalog.md) / [AWS Service Catalog (EN)](/docs/en/services/service-catalog.md)
+- [AWS Systems Manager (PT)](/docs/pt/services/systems-manager.md) / [AWS Systems Manager (EN)](/docs/en/services/systems-manager.md)
+- [AWS Trusted Advisor (PT)](/docs/pt/services/trusted-advisor.md) / [AWS Trusted Advisor (EN)](/docs/en/services/trusted-advisor.md)
+- [AWS Well-Architected Tool (PT)](/docs/pt/services/well-architected-tool.md) / [AWS Well-Architected Tool (EN)](/docs/en/services/well-architected-tool.md)
 
-#### [1.1 Design a Multi-Tier Architecture Solution](/docs/en/design-resilient-architectures.md#11-design-a-multi-tier-architecture-solution)
-- Key concepts
-- Example architectures
+### Media Services
 
-#### [1.2 Design Highly Available and/or Fault-Tolerant Architectures](/docs/en/design-resilient-architectures.md#12-design-highly-available-andor-fault-tolerant-architectures)
-- High availability concepts
-- Fault tolerance
-- Disaster recovery
+- [Amazon Elastic Transcoder (PT)](/docs/pt/services/elastic-transcoder.md) / [Amazon Elastic Transcoder (EN)](/docs/en/services/elastic-transcoder.md)
+- [Amazon Kinesis Video Streams (PT)](/docs/pt/services/kinesis-video-streams.md) / [Amazon Kinesis Video Streams (EN)](/docs/en/services/kinesis-video-streams.md)
 
-#### [1.3 Design Decoupling Mechanisms Using AWS Services](/docs/en/design-resilient-architectures.md#13-design-decoupling-mechanisms-using-aws-services)
-- SQS
-- SNS
-- EventBridge
+### Migration and Transfer
 
-#### [1.4 Choose Appropriate Resilient Storage](/docs/en/design-resilient-architectures.md#14-choose-appropriate-resilient-storage)
+- [AWS Application Discovery Service (PT)](/docs/pt/services/application-discovery-service.md) / [AWS Application Discovery Service (EN)](/docs/en/services/application-discovery-service.md)
+- [AWS Application Migration Service (PT)](/docs/pt/services/application-migration-service.md) / [AWS Application Migration Service (EN)](/docs/en/services/application-migration-service.md)
+- [AWS Database Migration Service (AWS DMS) (PT)](/docs/pt/services/dms.md) / [AWS Database Migration Service (AWS DMS) (EN)](/docs/en/services/dms.md)
+- [AWS DataSync (PT)](/docs/pt/services/datasync.md) / [AWS DataSync (EN)](/docs/en/services/datasync.md)
+- [AWS Migration Hub (PT)](/docs/pt/services/migration-hub.md) / [AWS Migration Hub (EN)](/docs/en/services/migration-hub.md)
+- [AWS Snow Family (PT)](/docs/pt/services/snow-family.md) / [AWS Snow Family (EN)](/docs/en/services/snow-family.md)
+- [AWS Transfer Family (PT)](/docs/pt/services/transfer-family.md) / [AWS Transfer Family (EN)](/docs/en/services/transfer-family.md)
 
-### Domain 2: Design High-Performing Architectures (28%)
+### Networking and Content Delivery
 
-#### [2.1 Identify Elastic and Scalable Compute Solutions for a Workload](/docs/en/design-high-performing-architectures.md#21-identify-elastic-and-scalable-compute-solutions-for-a-workload)
-- EC2
-- ECS/EKS
-- Lambda
+- [AWS Client VPN (PT)](/docs/pt/services/client-vpn.md) / [AWS Client VPN (EN)](/docs/en/services/client-vpn.md)
+- [Amazon CloudFront (PT)](/docs/pt/services/cloudfront.md) / [Amazon CloudFront (EN)](/docs/en/services/cloudfront.md)
+- [AWS Direct Connect (PT)](/docs/pt/services/direct-connect.md) / [AWS Direct Connect (EN)](/docs/en/services/direct-connect.md)
+- [Elastic Load Balancing (ELB) (PT)](/docs/pt/services/elb.md) / [Elastic Load Balancing (ELB) (EN)](/docs/en/services/elb.md)
+- [AWS Global Accelerator (PT)](/docs/pt/services/global-accelerator.md) / [AWS Global Accelerator (EN)](/docs/en/services/global-accelerator.md)
+- [AWS PrivateLink (PT)](/docs/pt/services/privatelink.md) / [AWS PrivateLink (EN)](/docs/en/services/privatelink.md)
+- [Amazon Route 53 (PT)](/docs/pt/services/route-53.md) / [Amazon Route 53 (EN)](/docs/en/services/route-53.md)
+- [AWS Site-to-Site VPN (PT)](/docs/pt/services/site-to-site-vpn.md) / [AWS Site-to-Site VPN (EN)](/docs/en/services/site-to-site-vpn.md)
+- [AWS Transit Gateway (PT)](/docs/pt/services/transit-gateway.md) / [AWS Transit Gateway (EN)](/docs/en/services/transit-gateway.md)
+- [Amazon VPC (PT)](/docs/pt/services/vpc.md) / [Amazon VPC (EN)](/docs/en/services/vpc.md)
 
-#### [2.2 Select High-Performing and Scalable Storage Solutions for a Workload](/docs/en/design-high-performing-architectures.md#22-select-high-performing-and-scalable-storage-solutions-for-a-workload)
-- S3
-- EBS
-- EFS
+### Security, Identity, and Compliance
 
-#### [2.3 Select High-Performing Networking Solutions for a Workload](/docs/en/design-high-performing-architectures.md#23-select-high-performing-networking-solutions-for-a-workload)
-- VPC
-- CloudFront
-- Global Accelerator
+- [AWS Artifact (PT)](/docs/pt/services/artifact.md) / [AWS Artifact (EN)](/docs/en/services/artifact.md)
+- [AWS Audit Manager (PT)](/docs/pt/services/audit-manager.md) / [AWS Audit Manager (EN)](/docs/en/services/audit-manager.md)
+- [AWS Certificate Manager (ACM) (PT)](/docs/pt/services/certificate-manager.md) / [AWS Certificate Manager (ACM) (EN)](/docs/en/services/certificate-manager.md)
+- [AWS CloudHSM (PT)](/docs/pt/services/cloudhsm.md) / [AWS CloudHSM (EN)](/docs/en/services/cloudhsm.md)
+- [Amazon Cognito (PT)](/docs/pt/services/cognito.md) / [Amazon Cognito (EN)](/docs/en/services/cognito.md)
+- [Amazon Detective (PT)](/docs/pt/services/detective.md) / [Amazon Detective (EN)](/docs/en/services/detective.md)
+- [AWS Directory Service (PT)](/docs/pt/services/directory-service.md) / [AWS Directory Service (EN)](/docs/en/services/directory-service.md)
+- [AWS Firewall Manager (PT)](/docs/pt/services/firewall-manager.md) / [AWS Firewall Manager (EN)](/docs/en/services/firewall-manager.md)
+- [Amazon GuardDuty (PT)](/docs/pt/services/guardduty.md) / [Amazon GuardDuty (EN)](/docs/en/services/guardduty.md)
+- [AWS IAM Identity Center (AWS Single Sign-On) (PT)](/docs/pt/services/identity-center.md) / [AWS IAM Identity Center (AWS Single Sign-On) (EN)](/docs/en/services/identity-center.md)
+- [AWS Identity and Access Management (IAM) (PT)](/docs/pt/services/iam.md) / [AWS Identity and Access Management (IAM) (EN)](/docs/en/services/iam.md)
+- [Amazon Inspector (PT)](/docs/pt/services/inspector.md) / [Amazon Inspector (EN)](/docs/en/services/inspector.md)
+- [AWS Key Management Service (AWS KMS) (PT)](/docs/pt/services/kms.md) / [AWS Key Management Service (AWS KMS) (EN)](/docs/en/services/kms.md)
+- [Amazon Macie (PT)](/docs/pt/services/macie.md) / [Amazon Macie (EN)](/docs/en/services/macie.md)
+- [AWS Network Firewall (PT)](/docs/pt/services/network-firewall.md) / [AWS Network Firewall (EN)](/docs/en/services/network-firewall.md)
+- [AWS Resource Access Manager (AWS RAM) (PT)](/docs/pt/services/ram.md) / [AWS Resource Access Manager (AWS RAM) (EN)](/docs/en/services/ram.md)
+- [AWS Secrets Manager (PT)](/docs/pt/services/secrets-manager.md) / [AWS Secrets Manager (EN)](/docs/en/services/secrets-manager.md)
+- [AWS Security Hub (PT)](/docs/pt/services/security-hub.md) / [AWS Security Hub (EN)](/docs/en/services/security-hub.md)
+- [AWS Shield (PT)](/docs/pt/services/shield.md) / [AWS Shield (EN)](/docs/en/services/shield.md)
+- [AWS WAF (PT)](/docs/pt/services/waf.md) / [AWS WAF (EN)](/docs/en/services/waf.md)
 
-#### [2.4 Choose High-Performing Database Solutions for a Workload](/docs/en/design-high-performing-architectures.md#24-choose-high-performing-database-solutions-for-a-workload)
-- RDS
-- DynamoDB
-- Aurora
+### Serverless
 
-### Domain 3: Design Secure Applications and Architectures (24%)
+- [AWS AppSync (PT)](/docs/pt/services/appsync.md) / [AWS AppSync (EN)](/docs/en/services/appsync.md)
+- [AWS Fargate (PT)](/docs/pt/services/fargate.md) / [AWS Fargate (EN)](/docs/en/services/fargate.md)
+- [AWS Lambda (PT)](/docs/pt/services/lambda.md) / [AWS Lambda (EN)](/docs/en/services/lambda.md)
 
-#### [3.1 Design Secure Access to AWS Resources](/docs/en/design-secure-applications-and-architectures.md#31-design-secure-access-to-aws-resources)
-- IAM
-- Resource policies
+### Storage
 
-#### [3.2 Design Secure Application Tiers](/docs/en/design-secure-applications-and-architectures.md#32-design-secure-application-tiers)
-- Security groups
-- NACLs
-
-#### [3.3 Select Appropriate Data Security Options](/docs/en/design-secure-applications-and-architectures.md#33-select-appropriate-data-security-options)
-- Encryption
-- KMS
-
-### Domain 4: Design Cost-Optimized Architectures (18%)
-
-#### [4.1 Identify Cost-Effective Storage Solutions](/docs/en/design-cost-optimized-architectures.md#41-identify-cost-effective-storage-solutions)
-- S3 storage classes
-- EFS Infrequent Access
-
-#### [4.2 Identify Cost-Effective Compute and Database Services](/docs/en/design-cost-optimized-architectures.md#42-identify-cost-effective-compute-and-database-services)
-- Spot instances
-- Reserved instances
-- Savings plans
-
-#### [4.3 Design Cost-Optimized Network Architectures](/docs/en/design-cost-optimized-architectures.md#43-design-cost-optimized-network-architectures)
-- Data transfer costs
-- CloudFront
-
-### [Additional Resources](/docs/en/additional-resources.md)
-
-- Study materials
-- Practice exams
-- AWS whitepapers
-- Helpful links
-
-### [Conclusion](/docs/en/conclusion.md)
-
-- Final tips
-- How to schedule your exam
-- Recap of key points
+- [AWS Backup (PT)](/docs/pt/services/backup.md) / [AWS Backup (EN)](/docs/en/services/backup.md)
+- [Amazon Elastic Block Store (Amazon EBS) (PT)](/docs/pt/services/ebs.md) / [Amazon Elastic Block Store (Amazon EBS) (EN)](/docs/en/services/ebs.md)
+- [Amazon Elastic File System (Amazon EFS) (PT)](/docs/pt/services/efs.md) / [Amazon Elastic File System (Amazon EFS) (EN)](/docs/en/services/efs.md)
+- [Amazon FSx (for all types) (PT)](/docs/pt/services/fsx.md) / [Amazon FSx (for all types) (EN)](/docs/en/services/fsx.md)
+- [Amazon S3 (PT)](/docs/pt/services/s3.md) / [Amazon S3 (EN)](/docs/en/services/s3.md)
+- [Amazon S3 Glacier (PT)](/docs/pt/services/s3-glacier.md) / [Amazon S3 Glacier (EN)](/docs/en/services/s3-glacier.md)
+- [AWS Storage Gateway (PT)](/docs/pt/services/storage-gateway.md) / [AWS Storage Gateway (EN)](/docs/en/services/storage-gateway.md)

@@ -1,11 +1,8 @@
-title: AWS Solutions Architect - Associate
-description: A simple documentation site for AWS Solutions Architect Associate Exam
+title: "AWS Solutions Architect Associate Exam Guide"
+description: "A comprehensive guide to prepare for the AWS Solutions Architect Associate Certification"
 theme: jekyll-theme-slate
 
 nav:
-  - title: "Home"
-    url: /
-
   - title: "English"
     nav:
       - title: "Introduction"
@@ -52,5 +49,556 @@ nav:
       - title: "Conclusão"
         url: /docs/pt/conclusao/
 
-
-
+services:
+  - category: "Analytics"
+    services:
+      - title: "Amazon Athena (EN)"
+        url: /docs/en/services/athena.md
+      - title: "Amazon Athena (PT)"
+        url: /docs/pt/services/athena.md
+      - title: "AWS Data Exchange (EN)"
+        url: /docs/en/services/data-exchange.md
+      - title: "AWS Data Exchange (PT)"
+        url: /docs/pt/services/data-exchange.md
+      - title: "AWS Data Pipeline (EN)"
+        url: /docs/en/services/data-pipeline.md
+      - title: "AWS Data Pipeline (PT)"
+        url: /docs/pt/services/data-pipeline.md
+      - title: "Amazon EMR (EN)"
+        url: /docs/en/services/emr.md
+      - title: "Amazon EMR (PT)"
+        url: /docs/pt/services/emr.md
+      - title: "AWS Glue (EN)"
+        url: /docs/en/services/glue.md
+      - title: "AWS Glue (PT)"
+        url: /docs/pt/services/glue.md
+      - title: "Amazon Kinesis (EN)"
+        url: /docs/en/services/kinesis.md
+      - title: "Amazon Kinesis (PT)"
+        url: /docs/pt/services/kinesis.md
+      - title: "AWS Lake Formation (EN)"
+        url: /docs/en/services/lake-formation.md
+      - title: "AWS Lake Formation (PT)"
+        url: /docs/pt/services/lake-formation.md
+      - title: "Amazon Managed Streaming for Apache Kafka (Amazon MSK) (EN)"
+        url: /docs/en/services/msk.md
+      - title: "Amazon Managed Streaming for Apache Kafka (Amazon MSK) (PT)"
+        url: /docs/pt/services/msk.md
+      - title: "Amazon OpenSearch Service (EN)"
+        url: /docs/en/services/opensearch.md
+      - title: "Amazon OpenSearch Service (PT)"
+        url: /docs/pt/services/opensearch.md
+      - title: "Amazon QuickSight (EN)"
+        url: /docs/en/services/quicksight.md
+      - title: "Amazon QuickSight (PT)"
+        url: /docs/pt/services/quicksight.md
+      - title: "Amazon Redshift (EN)"
+        url: /docs/en/services/redshift.md
+      - title: "Amazon Redshift (PT)"
+        url: /docs/pt/services/redshift.md
+  - category: "Application Integration"
+    services:
+      - title: "Amazon AppFlow (EN)"
+        url: /docs/en/services/appflow.md
+      - title: "Amazon AppFlow (PT)"
+        url: /docs/pt/services/appflow.md
+      - title: "AWS AppSync (EN)"
+        url: /docs/en/services/appsync.md
+      - title: "AWS AppSync (PT)"
+        url: /docs/pt/services/appsync.md
+      - title: "Amazon EventBridge (EN)"
+        url: /docs/en/services/eventbridge.md
+      - title: "Amazon EventBridge (PT)"
+        url: /docs/pt/services/eventbridge.md
+      - title: "Amazon MQ (EN)"
+        url: /docs/en/services/mq.md
+      - title: "Amazon MQ (PT)"
+        url: /docs/pt/services/mq.md
+      - title: "Amazon Simple Notification Service (Amazon SNS) (EN)"
+        url: /docs/en/services/sns.md
+      - title: "Amazon Simple Notification Service (Amazon SNS) (PT)"
+        url: /docs/pt/services/sns.md
+      - title: "Amazon Simple Queue Service (Amazon SQS) (EN)"
+        url: /docs/en/services/sqs.md
+      - title: "Amazon Simple Queue Service (Amazon SQS) (PT)"
+        url: /docs/pt/services/sqs.md
+      - title: "AWS Step Functions (EN)"
+        url: /docs/en/services/step-functions.md
+      - title: "AWS Step Functions (PT)"
+        url: /docs/pt/services/step-functions.md
+  - category: "AWS Cost Management"
+    services:
+      - title: "AWS Budgets (EN)"
+        url: /docs/en/services/budgets.md
+      - title: "AWS Budgets (PT)"
+        url: /docs/pt/services/budgets.md
+      - title: "AWS Cost and Usage Report (EN)"
+        url: /docs/en/services/cost-and-usage-report.md
+      - title: "AWS Cost and Usage Report (PT)"
+        url: /docs/pt/services/cost-and-usage-report.md
+      - title: "AWS Cost Explorer (EN)"
+        url: /docs/en/services/cost-explorer.md
+      - title: "AWS Cost Explorer (PT)"
+        url: /docs/pt/services/cost-explorer.md
+      - title: "Savings Plans (EN)"
+        url: /docs/en/services/savings-plans.md
+      - title: "Savings Plans (PT)"
+        url: /docs/pt/services/savings-plans.md
+  - category: "Compute"
+    services:
+      - title: "AWS Batch (EN)"
+        url: /docs/en/services/batch.md
+      - title: "AWS Batch (PT)"
+        url: /docs/pt/services/batch.md
+      - title: "Amazon EC2 (EN)"
+        url: /docs/en/services/ec2.md
+      - title: "Amazon EC2 (PT)"
+        url: /docs/pt/services/ec2.md
+      - title: "Amazon EC2 Auto Scaling (EN)"
+        url: /docs/en/services/ec2-auto-scaling.md
+      - title: "Amazon EC2 Auto Scaling (PT)"
+        url: /docs/pt/services/ec2-auto-scaling.md
+      - title: "AWS Elastic Beanstalk (EN)"
+        url: /docs/en/services/elastic-beanstalk.md
+      - title: "AWS Elastic Beanstalk (PT)"
+        url: /docs/pt/services/elastic-beanstalk.md
+      - title: "AWS Outposts (EN)"
+        url: /docs/en/services/outposts.md
+      - title: "AWS Outposts (PT)"
+        url: /docs/pt/services/outposts.md
+      - title: "AWS Serverless Application Repository (EN)"
+        url: /docs/en/services/serverless-application-repository.md
+      - title: "AWS Serverless Application Repository (PT)"
+        url: /docs/pt/services/serverless-application-repository.md
+      - title: "VMware Cloud on AWS (EN)"
+        url: /docs/en/services/vmware-cloud.md
+      - title: "VMware Cloud on AWS (PT)"
+        url: /docs/pt/services/vmware-cloud.md
+      - title: "AWS Wavelength (EN)"
+        url: /docs/en/services/wavelength.md
+      - title: "AWS Wavelength (PT)"
+        url: /docs/pt/services/wavelength.md
+  - category: "Containers"
+    services:
+      - title: "Amazon ECS Anywhere (EN)"
+        url: /docs/en/services/ecs-anywhere.md
+      - title: "Amazon ECS Anywhere (PT)"
+        url: /docs/pt/services/ecs-anywhere.md
+      - title: "Amazon EKS Anywhere (EN)"
+        url: /docs/en/services/eks-anywhere.md
+      - title: "Amazon EKS Anywhere (PT)"
+        url: /docs/pt/services/eks-anywhere.md
+      - title: "Amazon EKS Distro (EN)"
+        url: /docs/en/services/eks-distro.md
+      - title: "Amazon EKS Distro (PT)"
+        url: /docs/pt/services/eks-distro.md
+      - title: "Amazon Elastic Container Registry (Amazon ECR) (EN)"
+        url: /docs/en/services/ecr.md
+      - title: "Amazon Elastic Container Registry (Amazon ECR) (PT)"
+        url: /docs/pt/services/ecr.md
+      - title: "Amazon Elastic Container Service (Amazon ECS) (EN)"
+        url: /docs/en/services/ecs.md
+      - title: "Amazon Elastic Container Service (Amazon ECS) (PT)"
+        url: /docs/pt/services/ecs.md
+      - title: "Amazon Elastic Kubernetes Service (Amazon EKS) (EN)"
+        url: /docs/en/services/eks.md
+      - title: "Amazon Elastic Kubernetes Service (Amazon EKS) (PT)"
+        url: /docs/pt/services/eks.md
+  - category: "Database"
+    services:
+      - title: "Amazon Aurora (EN)"
+        url: /docs/en/services/aurora.md
+      - title: "Amazon Aurora (PT)"
+        url: /docs/pt/services/aurora.md
+      - title: "Amazon Aurora Serverless (EN)"
+        url: /docs/en/services/aurora-serverless.md
+      - title: "Amazon Aurora Serverless (PT)"
+        url: /docs/pt/services/aurora-serverless.md
+      - title: "Amazon DocumentDB (with MongoDB compatibility) (EN)"
+        url: /docs/en/services/documentdb.md
+      - title: "Amazon DocumentDB (with MongoDB compatibility) (PT)"
+        url: /docs/pt/services/documentdb.md
+      - title: "Amazon DynamoDB (EN)"
+        url: /docs/en/services/dynamodb.md
+      - title: "Amazon DynamoDB (PT)"
+        url: /docs/pt/services/dynamodb.md
+      - title: "Amazon ElastiCache (EN)"
+        url: /docs/en/services/elasticache.md
+      - title: "Amazon ElastiCache (PT)"
+        url: /docs/pt/services/elasticache.md
+      - title: "Amazon Keyspaces (for Apache Cassandra) (EN)"
+        url: /docs/en/services/keyspaces.md
+      - title: "Amazon Keyspaces (for Apache Cassandra) (PT)"
+        url: /docs/pt/services/keyspaces.md
+      - title: "Amazon Neptune (EN)"
+        url: /docs/en/services/neptune.md
+      - title: "Amazon Neptune (PT)"
+        url: /docs/pt/services/neptune.md
+      - title: "Amazon Quantum Ledger Database (Amazon QLDB) (EN)"
+        url: /docs/en/services/qldb.md
+      - title: "Amazon Quantum Ledger Database (Amazon QLDB) (PT)"
+        url: /docs/pt/services/qldb.md
+      - title: "Amazon RDS (EN)"
+        url: /docs/en/services/rds.md
+      - title: "Amazon RDS (PT)"
+        url: /docs/pt/services/rds.md
+      - title: "Amazon Redshift (EN)"
+        url: /docs/en/services/redshift.md
+      - title: "Amazon Redshift (PT)"
+        url: /docs/pt/services/redshift.md
+  - category: "Developer Tools"
+    services:
+      - title: "AWS X-Ray (EN)"
+        url: /docs/en/services/xray.md
+      - title: "AWS X-Ray (PT)"
+        url: /docs/pt/services/xray.md
+  - category: "Front-End Web and Mobile"
+    services:
+      - title: "AWS Amplify (EN)"
+        url: /docs/en/services/amplify.md
+      - title: "AWS Amplify (PT)"
+        url: /docs/pt/services/amplify.md
+      - title: "Amazon API Gateway (EN)"
+        url: /docs/en/services/api-gateway.md
+      - title: "Amazon API Gateway (PT)"
+        url: /docs/pt/services/api-gateway.md
+      - title: "AWS Device Farm (EN)"
+        url: /docs/en/services/device-farm.md
+      - title: "AWS Device Farm (PT)"
+        url: /docs/pt/services/device-farm.md
+      - title: "Amazon Pinpoint (EN)"
+        url: /docs/en/services/pinpoint.md
+      - title: "Amazon Pinpoint (PT)"
+        url: /docs/pt/services/pinpoint.md
+  - category: "Machine Learning"
+    services:
+      - title: "Amazon Comprehend (EN)"
+        url: /docs/en/services/comprehend.md
+      - title: "Amazon Comprehend (PT)"
+        url: /docs/pt/services/comprehend.md
+      - title: "Amazon Forecast (EN)"
+        url: /docs/en/services/forecast.md
+      - title: "Amazon Forecast (PT)"
+        url: /docs/pt/services/forecast.md
+      - title: "Amazon Fraud Detector (EN)"
+        url: /docs/en/services/fraud-detector.md
+      - title: "Amazon Fraud Detector (PT)"
+        url: /docs/pt/services/fraud-detector.md
+      - title: "Amazon Kendra (EN)"
+        url: /docs/en/services/kendra.md
+      - title: "Amazon Kendra (PT)"
+        url: /docs/pt/services/kendra.md
+      - title: "Amazon Lex (EN)"
+        url: /docs/en/services/lex.md
+      - title: "Amazon Lex (PT)"
+        url: /docs/pt/services/lex.md
+      - title: "Amazon Polly (EN)"
+        url: /docs/en/services/polly.md
+      - title: "Amazon Polly (PT)"
+        url: /docs/pt/services/polly.md
+      - title: "Amazon Rekognition (EN)"
+        url: /docs/en/services/rekognition.md
+      - title: "Amazon Rekognition (PT)"
+        url: /docs/pt/services/rekognition.md
+      - title: "Amazon SageMaker (EN)"
+        url: /docs/en/services/sagemaker.md
+      - title: "Amazon SageMaker (PT)"
+        url: /docs/pt/services/sagemaker.md
+      - title: "Amazon Textract (EN)"
+        url: /docs/en/services/textract.md
+      - title: "Amazon Textract (PT)"
+        url: /docs/pt/services/textract.md
+      - title: "Amazon Transcribe (EN)"
+        url: /docs/en/services/transcribe.md
+      - title: "Amazon Transcribe (PT)"
+        url: /docs/pt/services/transcribe.md
+      - title: "Amazon Translate (EN)"
+        url: /docs/en/services/translate.md
+      - title: "Amazon Translate (PT)"
+        url: /docs/pt/services/translate.md
+  - category: "Management and Governance"
+    services:
+      - title: "AWS Auto Scaling (EN)"
+        url: /docs/en/services/auto-scaling.md
+      - title: "AWS Auto Scaling (PT)"
+        url: /docs/pt/services/auto-scaling.md
+      - title: "AWS CloudFormation (EN)"
+        url: /docs/en/services/cloudformation.md
+      - title: "AWS CloudFormation (PT)"
+        url: /docs/pt/services/cloudformation.md
+      - title: "AWS CloudTrail (EN)"
+        url: /docs/en/services/cloudtrail.md
+      - title: "AWS CloudTrail (PT)"
+        url: /docs/pt/services/cloudtrail.md
+      - title: "Amazon CloudWatch (EN)"
+        url: /docs/en/services/cloudwatch.md
+      - title: "Amazon CloudWatch (PT)"
+        url: /docs/pt/services/cloudwatch.md
+      - title: "AWS Command Line Interface (AWS CLI) (EN)"
+        url: /docs/en/services/cli.md
+      - title: "AWS Command Line Interface (AWS CLI) (PT)"
+        url: /docs/pt/services/cli.md
+      - title: "AWS Compute Optimizer (EN)"
+        url: /docs/en/services/compute-optimizer.md
+      - title: "AWS Compute Optimizer (PT)"
+        url: /docs/pt/services/compute-optimizer.md
+      - title: "AWS Config (EN)"
+        url: /docs/en/services/config.md
+      - title: "AWS Config (PT)"
+        url: /docs/pt/services/config.md
+      - title: "AWS Control Tower (EN)"
+        url: /docs/en/services/control-tower.md
+      - title: "AWS Control Tower (PT)"
+        url: /docs/pt/services/control-tower.md
+      - title: "AWS Health Dashboard (EN)"
+        url: /docs/en/services/health-dashboard.md
+      - title: "AWS Health Dashboard (PT)"
+        url: /docs/pt/services/health-dashboard.md
+      - title: "AWS License Manager (EN)"
+        url: /docs/en/services/license-manager.md
+      - title: "AWS License Manager (PT)"
+        url: /docs/pt/services/license-manager.md
+      - title: "Amazon Managed Grafana (EN)"
+        url: /docs/en/services/managed-grafana.md
+      - title: "Amazon Managed Grafana (PT)"
+        url: /docs/pt/services/managed-grafana.md
+      - title: "Amazon Managed Service for Prometheus (EN)"
+        url: /docs/en/services/managed-prometheus.md
+      - title: "Amazon Managed Service for Prometheus (PT)"
+        url: /docs/pt/services/managed-prometheus.md
+      - title: "AWS Management Console (EN)"
+        url: /docs/en/services/management-console.md
+      - title: "AWS Management Console (PT)"
+        url: /docs/pt/services/management-console.md
+      - title: "AWS Organizations (EN)"
+        url: /docs/en/services/organizations.md
+      - title: "AWS Organizations (PT)"
+        url: /docs/pt/services/organizations.md
+      - title: "AWS Proton (EN)"
+        url: /docs/en/services/proton.md
+      - title: "AWS Proton (PT)"
+        url: /docs/pt/services/proton.md
+      - title: "AWS Service Catalog (EN)"
+        url: /docs/en/services/service-catalog.md
+      - title: "AWS Service Catalog (PT)"
+        url: /docs/pt/services/service-catalog.md
+      - title: "AWS Systems Manager (EN)"
+        url: /docs/en/services/systems-manager.md
+      - title: "AWS Systems Manager (PT)"
+        url: /docs/pt/services/systems-manager.md
+      - title: "AWS Trusted Advisor (EN)"
+        url: /docs/en/services/trusted-advisor.md
+      - title: "AWS Trusted Advisor (PT)"
+        url: /docs/pt/services/trusted-advisor.md
+      - title: "AWS Well-Architected Tool (EN)"
+        url: /docs/en/services/well-architected-tool.md
+      - title: "AWS Well-Architected Tool (PT)"
+        url: /docs/pt/services/well-architected-tool.md
+  - category: "Media Services"
+    services:
+      - title: "Amazon Elastic Transcoder (EN)"
+        url: /docs/en/services/elastic-transcoder.md
+      - title: "Amazon Elastic Transcoder (PT)"
+        url: /docs/pt/services/elastic-transcoder.md
+      - title: "Amazon Kinesis Video Streams (EN)"
+        url: /docs/en/services/kinesis-video-streams.md
+      - title: "Amazon Kinesis Video Streams (PT)"
+        url: /docs/pt/services/kinesis-video-streams.md
+  - category: "Migration and Transfer"
+    services:
+      - title: "AWS Application Discovery Service (EN)"
+        url: /docs/en/services/application-discovery-service.md
+      - title: "AWS Application Discovery Service (PT)"
+        url: /docs/pt/services/application-discovery-service.md
+      - title: "AWS Application Migration Service (EN)"
+        url: /docs/en/services/application-migration-service.md
+      - title: "AWS Application Migration Service (PT)"
+        url: /docs/pt/services/application-migration-service.md
+      - title: "AWS Database Migration Service (AWS DMS) (EN)"
+        url: /docs/en/services/dms.md
+      - title: "AWS Database Migration Service (AWS DMS) (PT)"
+        url: /docs/pt/services/dms.md
+      - title: "AWS DataSync (EN)"
+        url: /docs/en/services/datasync.md
+      - title: "AWS DataSync (PT)"
+        url: /docs/pt/services/datasync.md
+      - title: "AWS Migration Hub (EN)"
+        url: /docs/en/services/migration-hub.md
+      - title: "AWS Migration Hub (PT)"
+        url: /docs/pt/services/migration-hub.md
+      - title: "AWS Snow Family (EN)"
+        url: /docs/en/services/snow-family.md
+      - title: "AWS Snow Family (PT)"
+        url: /docs/pt/services/snow-family.md
+      - title: "AWS Transfer Family (EN)"
+        url: /docs/en/services/transfer-family.md
+      - title: "AWS Transfer Family (PT)"
+        url: /docs/pt/services/transfer-family.md
+  - category: "Networking and Content Delivery"
+    services:
+      - title: "AWS Client VPN (EN)"
+        url: /docs/en/services/client-vpn.md
+      - title: "AWS Client VPN (PT)"
+        url: /docs/pt/services/client-vpn.md
+      - title: "Amazon CloudFront (EN)"
+        url: /docs/en/services/cloudfront.md
+      - title: "Amazon CloudFront (PT)"
+        url: /docs/pt/services/cloudfront.md
+      - title: "AWS Direct Connect (EN)"
+        url: /docs/en/services/direct-connect.md
+      - title: "AWS Direct Connect (PT)"
+        url: /docs/pt/services/direct-connect.md
+      - title: "Elastic Load Balancing (ELB) (EN)"
+        url: /docs/en/services/elb.md
+      - title: "Elastic Load Balancing (ELB) (PT)"
+        url: /docs/pt/services/elb.md
+      - title: "AWS Global Accelerator (EN)"
+        url: /docs/en/services/global-accelerator.md
+      - title: "AWS Global Accelerator (PT)"
+        url: /docs/pt/services/global-accelerator.md
+      - title: "AWS PrivateLink (EN)"
+        url: /docs/en/services/privatelink.md
+      - title: "AWS PrivateLink (PT)"
+        url: /docs/pt/services/privatelink.md
+      - title: "Amazon Route 53 (EN)"
+        url: /docs/en/services/route-53.md
+      - title: "Amazon Route 53 (PT)"
+        url: /docs/pt/services/route-53.md
+      - title: "AWS Site-to-Site VPN (EN)"
+        url: /docs/en/services/site-to-site-vpn.md
+      - title: "AWS Site-to-Site VPN (PT)"
+        url: /docs/pt/services/site-to-site-vpn.md
+      - title: "AWS Transit Gateway (EN)"
+        url: /docs/en/services/transit-gateway.md
+      - title: "AWS Transit Gateway (PT)"
+        url: /docs/pt/services/transit-gateway.md
+      - title: "Amazon VPC (EN)"
+        url: /docs/en/services/vpc.md
+      - title: "Amazon VPC (PT)"
+        url: /docs/pt/services/vpc.md
+  - category: "Security, Identity, and Compliance"
+    services:
+      - title: "AWS Artifact (EN)"
+        url: /docs/en/services/artifact.md
+      - title: "AWS Artifact (PT)"
+        url: /docs/pt/services/artifact.md
+      - title: "AWS Audit Manager (EN)"
+        url: /docs/en/services/audit-manager.md
+      - title: "AWS Audit Manager (PT)"
+        url: /docs/pt/services/audit-manager.md
+      - title: "AWS Certificate Manager (ACM) (EN)"
+        url: /docs/en/services/certificate-manager.md
+      - title: "AWS Certificate Manager (ACM) (PT)"
+        url: /docs/pt/services/certificate-manager.md
+      - title: "AWS CloudHSM (EN)"
+        url: /docs/en/services/cloudhsm.md
+      - title: "AWS CloudHSM (PT)"
+        url: /docs/pt/services/cloudhsm.md
+      - title: "Amazon Cognito (EN)"
+        url: /docs/en/services/cognito.md
+      - title: "Amazon Cognito (PT)"
+        url: /docs/pt/services/cognito.md
+      - title: "Amazon Detective (EN)"
+        url: /docs/en/services/detective.md
+      - title: "Amazon Detective (PT)"
+        url: /docs/pt/services/detective.md
+      - title: "AWS Directory Service (EN)"
+        url: /docs/en/services/directory-service.md
+      - title: "AWS Directory Service (PT)"
+        url: /docs/pt/services/directory-service.md
+      - title: "AWS Firewall Manager (EN)"
+        url: /docs/en/services/firewall-manager.md
+      - title: "AWS Firewall Manager (PT)"
+        url: /docs/pt/services/firewall-manager.md
+      - title: "Amazon GuardDuty (EN)"
+        url: /docs/en/services/guardduty.md
+      - title: "Amazon GuardDuty (PT)"
+        url: /docs/pt/services/guardduty.md
+      - title: "AWS IAM Identity Center (AWS Single Sign-On) (EN)"
+        url: /docs/en/services/identity-center.md
+      - title: "AWS IAM Identity Center (AWS Single Sign-On) (PT)"
+        url: /docs/pt/services/identity-center.md
+      - title: "AWS Identity and Access Management (IAM) (EN)"
+        url: /docs/en/services/iam.md
+      - title: "AWS Identity and Access Management (IAM) (PT)"
+        url: /docs/pt/services/iam.md
+      - title: "Amazon Inspector (EN)"
+        url: /docs/en/services/inspector.md
+      - title: "Amazon Inspector (PT)"
+        url: /docs/pt/services/inspector.md
+      - title: "AWS Key Management Service (AWS KMS) (EN)"
+        url: /docs/en/services/kms.md
+      - title: "AWS Key Management Service (AWS KMS) (PT)"
+        url: /docs/pt/services/kms.md
+      - title: "Amazon Macie (EN)"
+        url: /docs/en/services/macie.md
+      - title: "Amazon Macie (PT)"
+        url: /docs/pt/services/macie.md
+      - title: "AWS Network Firewall (EN)"
+        url: /docs/en/services/network-firewall.md
+      - title: "AWS Network Firewall (PT)"
+        url: /docs/pt/services/network-firewall.md
+      - title: "AWS Resource Access Manager (AWS RAM) (EN)"
+        url: /docs/en/services/ram.md
+      - title: "AWS Resource Access Manager (AWS RAM) (PT)"
+        url: /docs/pt/services/ram.md
+      - title: "AWS Secrets Manager (EN)"
+        url: /docs/en/services/secrets-manager.md
+      - title: "AWS Secrets Manager (PT)"
+        url: /docs/pt/services/secrets-manager.md
+      - title: "AWS Security Hub (EN)"
+        url: /docs/en/services/security-hub.md
+      - title: "AWS Security Hub (PT)"
+        url: /docs/pt/services/security-hub.md
+      - title: "AWS Shield (EN)"
+        url: /docs/en/services/shield.md
+      - title: "AWS Shield (PT)"
+        url: /docs/pt/services/shield.md
+      - title: "AWS WAF (EN)"
+        url: /docs/en/services/waf.md
+      - title: "AWS WAF (PT)"
+        url: /docs/pt/services/waf.md
+  - category: "Serverless"
+    services:
+      - title: "AWS AppSync (EN)"
+        url: /docs/en/services/appsync.md
+      - title: "AWS AppSync (PT)"
+        url: /docs/pt/services/appsync.md
+      - title: "AWS Fargate (EN)"
+        url: /docs/en/services/fargate.md
+      - title: "AWS Fargate (PT)"
+        url: /docs/pt/services/fargate.md
+      - title: "AWS Lambda (EN)"
+        url: /docs/en/services/lambda.md
+      - title: "AWS Lambda (PT)"
+        url: /docs/pt/services/lambda.md
+  - category: "Storage"
+    services:
+      - title: "AWS Backup (EN)"
+        url: /docs/en/services/backup.md
+      - title: "AWS Backup (PT)"
+        url: /docs/pt/services/backup.md
+      - title: "Amazon Elastic Block Store (Amazon EBS) (EN)"
+        url: /docs/en/services/ebs.md
+      - title: "Amazon Elastic Block Store (Amazon EBS) (PT)"
+        url: /docs/pt/services/ebs.md
+      - title: "Amazon Elastic File System (Amazon EFS) (EN)"
+        url: /docs/en/services/efs.md
+      - title: "Amazon Elastic File System (Amazon EFS) (PT)"
+        url: /docs/pt/services/efs.md
+      - title: "Amazon FSx (for all types) (EN)"
+        url: /docs/en/services/fsx.md
+      - title: "Amazon FSx (for all types) (PT)"
+        url: /docs/pt/services/fsx.md
+      - title: "Amazon S3 (EN)"
+        url: /docs/en/services/s3.md
+      - title: "Amazon S3 (PT)"
+        url: /docs/pt/services/s3.md
+      - title: "Amazon S3 Glacier (EN)"
+        url: /docs/en/services/s3-glacier.md
+      - title: "Amazon S3 Glacier (PT)"
+        url: /docs/pt/services/s3-glacier.md
+      - title: "AWS Storage Gateway (EN)"
+        url: /docs/en/services/storage-gateway.md
+      - title: "AWS Storage Gateway (PT)"
+        url: /docs/pt/services/storage-gateway.md
