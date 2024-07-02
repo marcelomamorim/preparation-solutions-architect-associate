@@ -1,0 +1,17 @@
+<nav class="custom-nav">
+  <ul>
+    {% for item in site.nav %}
+      <li>
+        <a href="#">{{ item.title }}</a>
+        {% if item.nav %}
+          <ul>
+            {% for subitem in item.nav %}
+              <li><a href="{{ subitem.url }}">{{ subitem.title }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
+  
