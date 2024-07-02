@@ -1,3 +1,56 @@
 title: My Documentation
-description: A simple documentation site
+description: A simple documentation site for AWS Solutions Architect Associate Exam
 theme: jekyll-theme-slate
+
+nav:
+  - title: "Home"
+    url: /
+
+  - title: "English"
+    nav:
+      - title: "Introduction"
+        url: /docs/en/introduction/
+
+      - title: "Design Resilient Architectures"
+        url: /docs/en/design-resilient-architectures/
+
+      - title: "Design High-Performing Architectures"
+        url: /docs/en/design-high-performing-architectures/
+
+      - title: "Design Secure Applications and Architectures"
+        url: /docs/en/design-secure-applications-and-architectures/
+
+      - title: "Design Cost-Optimized Architectures"
+        url: /docs/en/design-cost-optimized-architectures/
+
+      - title: "Additional Resources"
+        url: /docs/en/additional-resources/
+
+      - title: "Conclusion"
+        url: /docs/en/conclusion/
+
+  - title: "Português"
+    nav:
+      - title: "Introdução"
+        url: /docs/pt/introducao/
+
+      - title: "Design de Arquiteturas Resilientes"
+        url: /docs/pt/design-arquiteturas-resilientes/
+
+      - title: "Design de Arquiteturas de Alto Desempenho"
+        url: /docs/pt/design-arquiteturas-alto-desempenho/
+
+      - title: "Design de Aplicações Seguras"
+        url: /docs/pt/design-aplicacoes-seguras/
+
+      - title: "Design de Arquiteturas Otimizadas"
+        url: /docs/pt/design-arquiteturas-otimizadas/
+
+      - title: "Recursos Adicionais"
+        url: /docs/pt/recursos-adicionais/
+
+      - title: "Conclusão"
+        url: /docs/pt/conclusao/
+
+
+
