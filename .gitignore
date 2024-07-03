@@ -113,6 +113,8 @@ dist
 # FuseBox cache
 .fusebox/
 
+/scripts
+
 # DynamoDB Local files
 .dynamodb/
 
@@ -128,3 +130,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+/myenv
