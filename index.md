@@ -2,6 +2,16 @@
 
 Bem-vindo ao Guia do Exame AWS Solutions Architect Associate. Este site fornece recursos abrangentes e conteúdo estruturado para ajudá-lo a se preparar para a Certificação AWS Solutions Architect Associate. Você pode navegar pelos materiais do curso em português selecionando a seção desejada abaixo.
 
+## Navegação
+
+- [Introdução](/docs/pt/introducao/)
+- [Design de Arquiteturas Resilientes](/docs/pt/design-arquiteturas-resilientes/)
+- [Design de Arquiteturas de Alto Desempenho](/docs/pt/design-arquiteturas-alto-desempenho/)
+- [Design de Aplicações Seguras](/docs/pt/design-aplicacoes-seguras/)
+- [Design de Arquiteturas Otimizadas](/docs/pt/design-arquiteturas-otimizadas/)
+- [Recursos Adicionais](/docs/pt/recursos-adicionais/)
+- [Conclusão](/docs/pt/conclusao/)
+
 ## Guia de Estudo de 8 Semanas
 
 ### Semana 1: Introdução e Analytics
