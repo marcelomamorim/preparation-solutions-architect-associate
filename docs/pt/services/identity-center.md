@@ -10,31 +10,31 @@ Adicione uma breve descrição do serviço aqui.
 
 ## Links Úteis
 
-- [What Is](https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html)
-- [Getting Started](https://docs.aws.amazon.com/singlesignon/latest/userguide/getting-started.html)
-- [Security](https://docs.aws.amazon.com/singlesignon/latest/userguide/security.html)
-- [Monitoring](https://docs.aws.amazon.com/singlesignon/latest/userguide/monitoring.html)
-- [Api](https://docs.aws.amazon.com/singlesignon/latest/userguide/api.html)
+- [O que é](https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html)
+- [Começando](https://docs.aws.amazon.com/singlesignon/latest/userguide/getting-started.html)
+- [Segurança](https://docs.aws.amazon.com/singlesignon/latest/userguide/security.html)
+- [Monitoramento](https://docs.aws.amazon.com/singlesignon/latest/userguide/monitoring.html)
+- [API](https://docs.aws.amazon.com/singlesignon/latest/userguide/api.html)
 
 ## Tópicos Principais
 
-### What is IAM Identity Center?
+### O que é o IAM Identity Center?
 
-AWS IAM Identity Center is the recommended AWS service for managing human user access to AWS
-    resources. It is a single place where you can assign your workforce users, also known as workforce identities, consistent access to multiple
-    AWS accounts and applications. IAM Identity Center is offered at no additional charge.
+AWS IAM Identity Center é o serviço AWS recomendado para gerenciar o acesso do usuário humano à AWS
+recursos.É um único local onde você pode atribuir seus usuários da força de trabalho, também conhecidos como identidades da força de trabalho, acesso consistente a múltiplos
+Contas e aplicativos da AWS.O IAM Identity Center é oferecido sem custo adicional.
 
-With IAM Identity Center, you can create or connect workforce users and centrally manage their access
-    across all their AWS accounts and applications. You can use multi-account
-      permissions to assign your workforce users access to AWS accounts. You can use
-      application assignments to assign your users access to AWS managed and
-    customer managed applications.
+Com o IAM Identity Center, você pode criar ou conectar usuários da força de trabalho e gerenciar centralmente seu acesso
+em todas as suas contas e aplicativos da AWS.Você pode usar contas múltiplas
+Permissões para atribuir aos usuários da sua força de trabalho acesso às contas da AWS.Você pode usar
+atribuições de aplicativos para atribuir seus usuários a acesso à AWS gerenciada e
+Aplicativos gerenciados pelo cliente.
 
-IAM Identity Center includes the following core capabilities and features:
+O IAM Identity Center inclui os seguintes recursos e recursos principais:
 
-On July 26, 2022, AWS Single Sign-On was renamed to AWS IAM Identity Center. For existing customers,
-      the following table is meant to describe some of the more common term changes that have been
-      updated throughout this guide as a result of the rename.
+Em 26 de julho de 2022, o AWS Single Sign-On foi renomeado para o AWS IAM Identity Center.Para clientes existentes,
+A tabela a seguir visa descrever algumas das mudanças de termo mais comuns que foram
+Atualizado ao longo deste guia como resultado da renomeação.
 
 ## Exemplos de Uso
 
@@ -43,3 +43,7 @@ Adicione exemplos de uso do serviço aqui.
 ## Melhores Práticas
 
 Adicione melhores práticas relacionadas ao uso do serviço aqui.
+
+## Palavras-chave
+
+Identidade, AWS, EU SOU, o, para, e, Centro, em, você, acesso

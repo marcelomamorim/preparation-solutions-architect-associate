@@ -10,11 +10,11 @@ Adicione uma breve descrição do serviço aqui.
 
 ## Links Úteis
 
-- [What Is Fraud Detector](https://docs.aws.amazon.com/frauddetector/latest/ug/what-is-fraud-detector.html)
-- [Getting Started](https://docs.aws.amazon.com/frauddetector/latest/ug/getting-started.html)
-- [Security](https://docs.aws.amazon.com/frauddetector/latest/ug/security.html)
-- [Monitoring](https://docs.aws.amazon.com/frauddetector/latest/ug/monitoring.html)
-- [Api](https://docs.aws.amazon.com/frauddetector/latest/ug/api.html)
+- [O que é detector de fraude](https://docs.aws.amazon.com/frauddetector/latest/ug/what-is-fraud-detector.html)
+- [Começando](https://docs.aws.amazon.com/frauddetector/latest/ug/getting-started.html)
+- [Segurança](https://docs.aws.amazon.com/frauddetector/latest/ug/security.html)
+- [Monitoramento](https://docs.aws.amazon.com/frauddetector/latest/ug/monitoring.html)
+- [API](https://docs.aws.amazon.com/frauddetector/latest/ug/api.html)
 
 ## Tópicos Principais
 
@@ -27,3 +27,7 @@ Adicione exemplos de uso do serviço aqui.
 ## Melhores Práticas
 
 Adicione melhores práticas relacionadas ao uso do serviço aqui.
+
+## Palavras-chave
+
+Amazonas, Fraude, o, em, AWS, e, Detector, você, para, de

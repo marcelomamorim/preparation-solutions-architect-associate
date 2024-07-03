@@ -10,40 +10,40 @@ Adicione uma breve descrição do serviço aqui.
 
 ## Links Úteis
 
-- [Chap_Auroraoverview](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html)
-- [Aurora Getting Started](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-getting-started.html)
-- [Aurora Security](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-security.html)
-- [Aurora Monitoring](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-monitoring.html)
-- [Aurora Api](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-api.html)
+- [Chap_auroraoverview](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html)
+- [Aurora começando](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-getting-started.html)
+- [Aurora Segurança](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-security.html)
+- [Monitoramento da Aurora](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-monitoring.html)
+- [AURORA API](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-api.html)
 
 ## Tópicos Principais
 
-### What is Amazon Aurora?
+### O que é Amazon Aurora?
 
-Amazon Aurora (Aurora) is a fully managed relational database engine that's compatible with MySQL and PostgreSQL. You already know
-        how MySQL and PostgreSQL combine the speed and reliability of high-end commercial databases with the simplicity and
-        cost-effectiveness of open-source databases. The code, tools, and applications you use today with your existing MySQL and PostgreSQL
-        databases can be used with Aurora. With some workloads, Aurora can deliver up to five times the throughput of MySQL and up to three
-        times the throughput of PostgreSQL without requiring changes to most of your existing applications.
+A Amazon Aurora (Aurora) é um mecanismo de banco de dados relacional totalmente gerenciado que é compatível com o MySQL e o PostgreSQL.Você já sabe
+Como o MySQL e o PostgreSQL combinam a velocidade e a confiabilidade dos bancos de dados comerciais de ponta com a simplicidade e
+custo-efetividade dos bancos de dados de código aberto.O código, ferramentas e aplicativos que você usa hoje com seu MySQL e PostgreSQL existentes
+Os bancos de dados podem ser usados ​​com aurora.Com algumas cargas de trabalho, Aurora pode entregar até cinco vezes a taxa de transferência do MySQL e até três
+vezes a taxa de transferência do PostgreSQL sem exigir alterações na maioria dos aplicativos existentes.
 
-Aurora includes a high-performance storage subsystem. Its MySQL- and PostgreSQL-compatible database engines are customized to take
-        advantage of that fast distributed storage. The underlying storage grows automatically as needed. An Aurora cluster volume can grow
-        to a maximum size of 128 tebibytes (TiB). Aurora also automates and standardizes database clustering and replication, which are
-        typically among the most challenging aspects of database configuration and administration.
+Aurora inclui um subsistema de armazenamento de alto desempenho.Seus mecanismos de banco de dados compatíveis com MySQL e PostgreSQL são personalizados para tomar
+vantagem desse armazenamento distribuído rápido.O armazenamento subjacente cresce automaticamente conforme necessário.Um volume de cluster de aurora pode crescer
+para um tamanho máximo de 128 tebibytes (TIB).Aurora também automatiza e padroniza o clustering e a replicação do banco de dados, que são
+Normalmente, entre os aspectos mais desafiadores da configuração e administração do banco de dados.
 
-Aurora is part of the managed database service Amazon Relational Database Service (Amazon RDS). Amazon RDS makes it easier to set up, operate, and
-      scale a relational database in the cloud. If you are not already familiar with Amazon RDS, see the 
-      Amazon Relational Database Service User Guide. To learn more about the
-      variety of database options available on Amazon Web Services, see 
-      Choosing the right 
-      database for your organization on AWS.
+O Aurora faz parte do serviço de banco de dados Relacional do banco de dados gerenciado (Amazon RDS).A Amazon RDS facilita a configuração, operação e
+Escala um banco de dados relacional na nuvem.Se você ainda não está familiarizado com a Amazon RDS, veja o
+Guia do Usuário do Serviço de Database Relacional da Amazon.Para saber mais sobre o
+Variedade de opções de banco de dados disponíveis nos serviços da Web da Amazon, consulte
+Escolhendo o direito
+Banco de dados para sua organização na AWS.
 
-Amazon RDS is responsible for hosting the software components and infrastructure of DB instances and DB 
-            clusters. You are responsible for query tuning, which is the process of adjusting SQL queries to improve 
-            performance. Query performance is highly dependent on database design, data size, data distribution, 
-            application workload, and query patterns, which can vary greatly. Monitoring and tuning are highly 
-            individualized processes that you own for your RDS databases. You can use Amazon RDS Performance Insights and other tools to 
-            identify problematic queries.
+A Amazon RDS é responsável por hospedar os componentes de software e a infraestrutura de instâncias de banco de dados e DB
+Clusters.Você é responsável pelo ajuste de consulta, que é o processo de ajustar as consultas SQL para melhorar
+desempenho.O desempenho da consulta é altamente dependente do design do banco de dados, tamanho de dados, distribuição de dados,
+Carga de trabalho de aplicativo e padrões de consulta, que podem variar bastante.Monitoramento e ajuste são altamente
+processos individualizados que você possui para seus bancos de dados RDS.Você pode usar insights de desempenho do Amazon RDS e outras ferramentas para
+Identifique consultas problemáticas.
 
 ## Exemplos de Uso
 
@@ -52,3 +52,7 @@ Adicione exemplos de uso do serviço aqui.
 ## Melhores Práticas
 
 Adicione melhores práticas relacionadas ao uso do serviço aqui.
+
+## Palavras-chave
+
+Amazonas, e, aurora, o, de, para, para, Rds, base de dados, é

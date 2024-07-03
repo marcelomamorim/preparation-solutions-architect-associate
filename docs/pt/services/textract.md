@@ -10,30 +10,30 @@ Adicione uma breve descrição do serviço aqui.
 
 ## Links Úteis
 
-- [What Is](https://docs.aws.amazon.com/textract/latest/dg/what-is.html)
-- [Getting Started](https://docs.aws.amazon.com/textract/latest/dg/getting-started.html)
-- [Security](https://docs.aws.amazon.com/textract/latest/dg/security.html)
-- [Monitoring](https://docs.aws.amazon.com/textract/latest/dg/monitoring.html)
-- [Api](https://docs.aws.amazon.com/textract/latest/dg/api.html)
+- [O que é](https://docs.aws.amazon.com/textract/latest/dg/what-is.html)
+- [Começando](https://docs.aws.amazon.com/textract/latest/dg/getting-started.html)
+- [Segurança](https://docs.aws.amazon.com/textract/latest/dg/security.html)
+- [Monitoramento](https://docs.aws.amazon.com/textract/latest/dg/monitoring.html)
+- [API](https://docs.aws.amazon.com/textract/latest/dg/api.html)
 
 ## Tópicos Principais
 
-### What is Amazon Textract?
+### O que é a Amazon Textract?
 
-Amazon Textract helps you add document text detection and analysis to your applications.
-        Using Amazon Textract, you can do the following:
+A Amazon Textract ajuda a adicionar a detecção e análise de texto de documentos aos seus aplicativos.
+Usando o Amazon Textract, você pode fazer o seguinte:
 
-Amazon Textract is based on the same proven, highly scalable, deep-learning technology that
-        was developed by Amazon's computer vision scientists to analyze billions of images and
-        videos daily. You don't need any machine learning expertise to use it, as Amazon Textract
-        includes simple, easy-to-use API operations that can analyze image files and PDF files.
-        Amazon Textract is always learning from new data, and Amazon is continually adding new
-        features to the service.
+A Amazon Texract é baseada na mesma tecnologia comprovada, altamente escalável e de aprendizado profundo que
+foi desenvolvido pelos cientistas da Visão Computal da Amazon para analisar bilhões de imagens e
+Vídeos diariamente.Você não precisa de nenhum conhecimento de aprendizado de máquina para usá -lo, pois a Amazon Textract
+Inclui operações de API simples e fácil de usar que podem analisar arquivos de imagem e arquivos PDF.
+A Amazon Texract está sempre aprendendo com novos dados, e a Amazon está adicionando continuamente novos
+recursos para o serviço.
 
-The following are common use cases for using
-        Amazon Textract:
+A seguir são casos de uso comuns para usar
+Amazon Textract:
 
-Some of the benefits of using Amazon Textract include:
+Alguns dos benefícios do uso do Amazon Textract incluem:
 
 ## Exemplos de Uso
 
@@ -42,3 +42,7 @@ Adicione exemplos de uso do serviço aqui.
 ## Melhores Práticas
 
 Adicione melhores práticas relacionadas ao uso do serviço aqui.
+
+## Palavras-chave
+
+Amazonas, o, Textract, e, pode, você, para, para, é, em
