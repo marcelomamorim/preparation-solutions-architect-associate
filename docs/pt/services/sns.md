@@ -10,11 +10,16 @@ Adicione uma breve descrição do serviço aqui.
 
 ## Links Úteis
 
-- [Sns](https://docs.aws.amazon.com/sns/latest/dg/welcome.html)
+- [Welcome](https://docs.aws.amazon.com/sns/latest/dg/welcome.html)
+- [Getting Started](https://docs.aws.amazon.com/sns/latest/dg/getting-started.html)
+- [Security](https://docs.aws.amazon.com/sns/latest/dg/security.html)
+- [Monitoring](https://docs.aws.amazon.com/sns/latest/dg/monitoring.html)
+- [Sns Api](https://docs.aws.amazon.com/sns/latest/dg/sns-api.html)
 
 ## Tópicos Principais
 
-What is Amazon SNS?
+### What is Amazon SNS?
+
 Amazon Simple Notification Service (Amazon SNS) is a managed service that provides message delivery from publishers to
         subscribers (also known as producers and consumers). Publishers communicate asynchronously with
         subscribers by sending messages to a topic, which is a

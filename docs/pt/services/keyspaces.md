@@ -10,7 +10,11 @@ Adicione uma breve descrição do serviço aqui.
 
 ## Links Úteis
 
-- [Keyspaces](https://docs.aws.amazon.com/keyspaces/latest/devguide/what-is.html)
+- [What Is](https://docs.aws.amazon.com/keyspaces/latest/devguide/what-is.html)
+- [Getting Started](https://docs.aws.amazon.com/keyspaces/latest/devguide/getting-started.html)
+- [Security](https://docs.aws.amazon.com/keyspaces/latest/devguide/security.html)
+- [Monitoring](https://docs.aws.amazon.com/keyspaces/latest/devguide/monitoring.html)
+- [Api](https://docs.aws.amazon.com/keyspaces/latest/devguide/api.html)
 
 ## Tópicos Principais
 

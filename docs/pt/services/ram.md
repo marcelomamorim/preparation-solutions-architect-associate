@@ -10,11 +10,16 @@ Adicione uma breve descrição do serviço aqui.
 
 ## Links Úteis
 
-- [Ram](https://docs.aws.amazon.com/ram/latest/userguide/what-is.html)
+- [What Is](https://docs.aws.amazon.com/ram/latest/userguide/what-is.html)
+- [Getting Started](https://docs.aws.amazon.com/ram/latest/userguide/getting-started.html)
+- [Security](https://docs.aws.amazon.com/ram/latest/userguide/security.html)
+- [Monitoring](https://docs.aws.amazon.com/ram/latest/userguide/monitoring.html)
+- [Api](https://docs.aws.amazon.com/ram/latest/userguide/api.html)
 
 ## Tópicos Principais
 
-What is AWS Resource Access Manager?
+### What is AWS Resource Access Manager?
+
 AWS Resource Access Manager (AWS RAM) helps you securely share your resources across AWS accounts, within
         your organization or organizational units (OUs), and with AWS Identity and Access Management (IAM) roles and users
         for supported resource types. If you have multiple AWS accounts, you can create a resource
@@ -24,10 +29,13 @@ AWS Resource Access Manager (AWS RAM) helps you securely share your resources ac
         can also share with specific AWS accounts by account ID, regardless of whether the account
         is part of an organization. Some supported resource types
         also let you share them with specified IAM roles and users.
+
 The following video provides a brief introduction to AWS RAM and describes how to create
             a resource share. For more information, see Creating a resource share in AWS RAM.
+
 The following video demonstrates how to apply AWS managed permissions to your AWS resources. For
             more information, see Managing permissions in AWS RAM. 
+
 This video demonstrates how to author and associate customer managed permissions following the best practice
             of least privilege. For more information see, Creating and using customer managed
             permissions in AWS RAM.

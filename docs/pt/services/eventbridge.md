@@ -10,21 +10,29 @@ Adicione uma breve descrição do serviço aqui.
 
 ## Links Úteis
 
-- [Eventbridge](https://docs.aws.amazon.com/eventbridge/latest/userguide/what-is-amazon-eventbridge.html)
+- [What Is Amazon Eventbridge](https://docs.aws.amazon.com/eventbridge/latest/userguide/what-is-amazon-eventbridge.html)
+- [Getting Started](https://docs.aws.amazon.com/eventbridge/latest/userguide/getting-started.html)
+- [Security](https://docs.aws.amazon.com/eventbridge/latest/userguide/security.html)
+- [Monitoring](https://docs.aws.amazon.com/eventbridge/latest/userguide/monitoring.html)
+- [Eventbridge Api](https://docs.aws.amazon.com/eventbridge/latest/userguide/eventbridge-api.html)
 
 ## Tópicos Principais
 
-What Is Amazon EventBridge?
+### What Is Amazon EventBridge?
+
 EventBridge is a serverless service that uses events to connect application components together,
     making it easier for you to build scalable event-driven applications. Event-driven architecture
     is a style of building loosely-coupled software systems that work together by emitting and
     responding to events. Event-driven architecture can help you boost agility and build reliable,
     scalable applications. 
+
 Use EventBridge to route events from sources such as home-grown applications, AWS services, and
     third-party software to consumer applications across your organization. EventBridge provides simple and
     consistent ways to ingest, filter, transform, and deliver events so you can build applications
     quickly.
+
 The following video provides a brief introduction to the features of Amazon EventBridge: 
+
 EventBridge includes two ways to process events: event buses and
     pipes.
 

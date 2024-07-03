@@ -10,7 +10,11 @@ Adicione uma breve descrição do serviço aqui.
 
 ## Links Úteis
 
-- [Managed Prometheus](https://docs.aws.amazon.com/prometheus/latest/userguide/what-is.html)
+- [What Is](https://docs.aws.amazon.com/prometheus/latest/userguide/what-is.html)
+- [Getting Started](https://docs.aws.amazon.com/prometheus/latest/userguide/getting-started.html)
+- [Security](https://docs.aws.amazon.com/prometheus/latest/userguide/security.html)
+- [Monitoring](https://docs.aws.amazon.com/prometheus/latest/userguide/monitoring.html)
+- [Api](https://docs.aws.amazon.com/prometheus/latest/userguide/api.html)
 
 ## Tópicos Principais
 

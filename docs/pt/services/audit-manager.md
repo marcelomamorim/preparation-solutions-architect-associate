@@ -10,23 +10,31 @@ Adicione uma breve descrição do serviço aqui.
 
 ## Links Úteis
 
-- [Audit Manager](https://docs.aws.amazon.com/audit-manager/latest/userguide/what-is.html)
+- [What Is](https://docs.aws.amazon.com/audit-manager/latest/userguide/what-is.html)
+- [Getting Started](https://docs.aws.amazon.com/audit-manager/latest/userguide/getting-started.html)
+- [Security](https://docs.aws.amazon.com/audit-manager/latest/userguide/security.html)
+- [Monitoring](https://docs.aws.amazon.com/audit-manager/latest/userguide/monitoring.html)
+- [Api](https://docs.aws.amazon.com/audit-manager/latest/userguide/api.html)
 
 ## Tópicos Principais
 
-What is AWS Audit Manager?
+### What is AWS Audit Manager?
+
 Welcome to the AWS Audit Manager User
     Guide.
+
 AWS Audit Manager helps you continually audit your AWS usage to simplify how you manage risk and
     compliance with regulations and industry standards. Audit Manager automates evidence collection so you
     can more easily assess whether your policies, procedures, and activitiesâalso known as controlsâare operating effectively. When it's time for an audit, Audit Manager
     helps you manage stakeholder reviews of your controls. This means that you can build audit-ready
     reports with much less manual effort.
+
 Audit Manager provides prebuilt frameworks that structure and automate assessments for a given
     compliance standard or regulation. Frameworks include a prebuilt collection of controls with
     descriptions and testing procedures. These controls are grouped according to the requirements of
     the specified compliance standard or regulation. You can also customize frameworks and controls
     to support internal audits according to your specific requirements. 
+
 You can create an assessment from any framework. When you create an assessment, Audit Manager
     automatically runs resource assessments. These assessments collect data for the AWS accounts
     that you define as in scope for your audit. The data that's collected is automatically

@@ -10,11 +10,16 @@ Adicione uma breve descrição do serviço aqui.
 
 ## Links Úteis
 
-- [Polly](https://docs.aws.amazon.com/polly/latest/dg/what-is.html)
+- [What Is](https://docs.aws.amazon.com/polly/latest/dg/what-is.html)
+- [Getting Started](https://docs.aws.amazon.com/polly/latest/dg/getting-started.html)
+- [Security](https://docs.aws.amazon.com/polly/latest/dg/security.html)
+- [Monitoring](https://docs.aws.amazon.com/polly/latest/dg/monitoring.html)
+- [Api](https://docs.aws.amazon.com/polly/latest/dg/api.html)
 
 ## Tópicos Principais
 
-What Is Amazon Polly?
+### What Is Amazon Polly?
+
 Amazon Polly is a cloud service that converts text into lifelike speech. You can use Amazon Polly to
         develop applications that increase engagement and accessibility. Amazon Polly supports multiple
         languages and includes a variety of lifelike voices. With Amazon Polly, you can build
@@ -22,16 +27,19 @@ Amazon Polly is a cloud service that converts text into lifelike speech. You can
         customers. Also, you only pay for the text you synthesize. You can also cache and replay
         Amazon Pollyâs generated speech at no additional cost.
     
+
 Amazon Polly offers many voice options, including generative, long-form, neural, and standard
         text-to-speech (TTS) options. These voices deliver ground-breaking improvements in speech
         quality using new machine learning technology to offer the most natural and human-like
         text-to-speech voices possible. Neural TTS technology also supports a Newscaster speaking
         style, tailored to news narration use cases.
     
+
 Common use cases for Amazon Polly include, but are not limited to: mobile applications such
         as newsreaders, games, eLearning platforms, accessibility applications for visually impaired
         people, and the rapidly growing segment of Internet of Things (IoT).
     
+
 Amazon Polly is certified for use with regulated workloads for HIPAA (the Health Insurance
         Portability and Accountability Act of 1996), and Payment Card Industry Data Security
         Standard (PCI DSS).

@@ -10,7 +10,11 @@ Adicione uma breve descrição do serviço aqui.
 
 ## Links Úteis
 
-- [Detective](https://docs.aws.amazon.com/detective/latest/adminguide/what-is-detective.html)
+- [What Is Detective](https://docs.aws.amazon.com/detective/latest/adminguide/what-is-detective.html)
+- [Getting Started](https://docs.aws.amazon.com/detective/latest/adminguide/getting-started.html)
+- [Security](https://docs.aws.amazon.com/detective/latest/adminguide/security.html)
+- [Monitoring](https://docs.aws.amazon.com/detective/latest/adminguide/monitoring.html)
+- [Api](https://docs.aws.amazon.com/detective/latest/adminguide/api.html)
 
 ## Tópicos Principais
 

@@ -10,7 +10,10 @@ Adicione uma breve descrição do serviço aqui.
 
 ## Links Úteis
 
-- [Management Console](https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
+- [Getting Started](https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
+- [Security](https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/security.html)
+- [Monitoring](https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/monitoring.html)
+- [Api](https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/api.html)
 
 ## Tópicos Principais
 

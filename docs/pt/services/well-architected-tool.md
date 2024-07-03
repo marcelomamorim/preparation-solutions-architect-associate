@@ -10,7 +10,11 @@ Adicione uma breve descrição do serviço aqui.
 
 ## Links Úteis
 
-- [Well Architected Tool](https://docs.aws.amazon.com/wellarchitected/latest/userguide/what-is-waf.html)
+- [What Is Waf](https://docs.aws.amazon.com/wellarchitected/latest/userguide/what-is-waf.html)
+- [Getting Started](https://docs.aws.amazon.com/wellarchitected/latest/userguide/getting-started.html)
+- [Security](https://docs.aws.amazon.com/wellarchitected/latest/userguide/security.html)
+- [Monitoring](https://docs.aws.amazon.com/wellarchitected/latest/userguide/monitoring.html)
+- [Api](https://docs.aws.amazon.com/wellarchitected/latest/userguide/api.html)
 
 ## Tópicos Principais
 

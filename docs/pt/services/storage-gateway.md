@@ -10,7 +10,11 @@ Adicione uma breve descrição do serviço aqui.
 
 ## Links Úteis
 
-- [Storage Gateway](https://docs.aws.amazon.com/storagegateway/latest/userguide/WhatIsStorageGateway.html)
+- [Whatisstoragegateway](https://docs.aws.amazon.com/storagegateway/latest/userguide/WhatIsStorageGateway.html)
+- [Getting Started](https://docs.aws.amazon.com/storagegateway/latest/userguide/getting-started.html)
+- [Security](https://docs.aws.amazon.com/storagegateway/latest/userguide/security.html)
+- [Monitoring](https://docs.aws.amazon.com/storagegateway/latest/userguide/monitoring.html)
+- [Api](https://docs.aws.amazon.com/storagegateway/latest/userguide/api.html)
 
 ## Tópicos Principais
 

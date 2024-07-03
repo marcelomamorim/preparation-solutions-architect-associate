@@ -10,7 +10,11 @@ Adicione uma breve descrição do serviço aqui.
 
 ## Links Úteis
 
-- [Directory Service](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/directory_service_ad.html)
+- [Directory_Service_Ad](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/directory_service_ad.html)
+- [Getting Started](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/getting-started.html)
+- [Security](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/security.html)
+- [Monitoring](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/monitoring.html)
+- [Api](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/api.html)
 
 ## Tópicos Principais
 

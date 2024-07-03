@@ -10,7 +10,11 @@ Adicione uma breve descrição do serviço aqui.
 
 ## Links Úteis
 
-- [Site To Site Vpn](https://docs.aws.amazon.com/vpn/latest/s2svpn/Welcome.html)
+- [Welcome](https://docs.aws.amazon.com/vpn/latest/s2svpn/Welcome.html)
+- [Gettingstarted](https://docs.aws.amazon.com/vpn/latest/s2svpn/GettingStarted.html)
+- [Security](https://docs.aws.amazon.com/vpn/latest/s2svpn/Security.html)
+- [Monitoring](https://docs.aws.amazon.com/vpn/latest/s2svpn/Monitoring.html)
+- [Api](https://docs.aws.amazon.com/vpn/latest/s2svpn/API.html)
 
 ## Tópicos Principais
 

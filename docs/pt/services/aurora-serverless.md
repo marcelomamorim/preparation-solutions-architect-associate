@@ -11,10 +11,15 @@ Adicione uma breve descrição do serviço aqui.
 ## Links Úteis
 
 - [Aurora Serverless](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless.html)
+- [Aurora Serverless Getting Started](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-getting-started.html)
+- [Aurora Serverless Security](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-security.html)
+- [Aurora Serverless Monitoring](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-monitoring.html)
+- [Aurora Serverless Api](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-api.html)
 
 ## Tópicos Principais
 
-Using Amazon Aurora Serverless v1
+### Using Amazon Aurora Serverless v1
+
 
     Amazon Aurora Serverless v1 (Amazon Aurora Serverless version 1) is an on-demand autoscaling configuration for
     Amazon Aurora. An Aurora Serverless v1 DB cluster is a DB cluster that scales compute capacity up
@@ -25,14 +30,17 @@ Using Amazon Aurora Serverless v1
     it's not in use.
   
 
+
     To learn more about pricing, see Serverless Pricing
     under MySQL-Compatible Edition or PostgreSQL-Compatible Edition on the
     Amazon Aurora pricing page.
   
 
+
     Aurora Serverless v1 clusters have the same kind of high-capacity, distributed, and highly available storage
     volume that is used by provisioned DB clusters.
   
+
 
     For an Aurora Serverless v2 cluster, you can choose whether to encrypt the cluster volume.
   
