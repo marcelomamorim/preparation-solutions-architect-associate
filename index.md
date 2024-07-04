@@ -17,15 +17,14 @@ Bem-vindo ao guia de estudo para o exame AWS Solutions Architect Associate. Este
 
 | Semana                                                                                         | Domínio                                                                                              |
 |------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| [Semana 1: Introdução e Domínio 1 - Design de Arquiteturas Resilientes (Parte 1)](docs/pt/agenda/semana1.md)   | [Domínio 1: Design de Arquiteturas Resilientes](docs/pt/dominio/design-arquiteturas-resilientes.md)  |
-| [Semana 2: Domínio 1 - Design de Arquiteturas Resilientes (Parte 2)](docs/pt/agenda/semana2.md)                | [Domínio 1: Design de Arquiteturas Resilientes](docs/pt/dominio/design-arquiteturas-resilientes.md)  |
-| [Semana 3: Domínio 1 - Design de Arquiteturas Resilientes (Parte 3)](docs/pt/agenda/semana3.md)                | [Domínio 1: Design de Arquiteturas Resilientes](docs/pt/dominio/design-arquiteturas-resilientes.md)  |
-| [Semana 4: Domínio 2 - Design de Arquiteturas de Alto Desempenho (Parte 1)](docs/pt/agenda/semana4.md)         | [Domínio 2: Design de Arquiteturas de Alto Desempenho](docs/pt/dominio/design-arquiteturas-alto-desempenho.md) |
-| [Semana 5: Domínio 2 - Design de Arquiteturas de Alto Desempenho (Parte 2)](docs/pt/agenda/semana5.md)         | [Domínio 2: Design de Arquiteturas de Alto Desempenho](docs/pt/dominio/design-arquiteturas-alto-desempenho.md) |
-| [Semana 6: Domínio 3 - Design de Aplicações Seguras e Arquiteturas](docs/pt/agenda/semana6.md)                 | [Domínio 3: Design de Aplicações Seguras](docs/pt/dominio/design-aplicacoes-seguras.md)              |
-| [Semana 7: Domínio 4 - Design de Arquiteturas Otimizadas por Custo (Parte 1)](docs/pt/agenda/semana7.md)       | [Domínio 4: Design de Arquiteturas Otimizadas por Custo](docs/pt/dominio/design-arquiteturas-otimizadas-custo.md) |
-| [Semana 8: Domínio 4 - Design de Arquiteturas Otimizadas por Custo (Parte 2)](docs/pt/agenda/semana8.md)       | [Domínio 4: Design de Arquiteturas Otimizadas por Custo](docs/pt/dominio/design-arquiteturas-otimizadas-custo.md) |
-| [Serviços não listados acima, mas presentes no Guia do Exame](docs/pt/agenda/servicos_nao_listados.md)         |                                                                                                      |
+| [Semana 1: Introdução e Domínio 1 - Design de Arquiteturas Seguras (Parte 1)](docs/pt/agenda/semana1.md)   | [Domínio 1: Design de Arquiteturas Seguras](docs/pt/dominio/design-arquiteturas-seguras.md)  |
+| [Semana 2: Domínio 1 - Design de Arquiteturas Seguras (Parte 2)](docs/pt/agenda/semana2.md)                | [Domínio 1: Design de Arquiteturas Seguras](docs/pt/dominio/design-arquiteturas-seguras.md)  |
+| [Semana 3: Domínio 1 - Design de Arquiteturas Seguras (Parte 3)](docs/pt/agenda/semana3.md)                | [Domínio 1: Design de Arquiteturas Seguras](docs/pt/dominio/design-arquiteturas-seguras.md)  |
+| [Semana 4: Domínio 2 - Design de Arquiteturas Resilientes (Parte 1)](docs/pt/agenda/semana4.md)         | [Domínio 2: Design de Arquiteturas Resilientes](docs/pt/dominio/design-arquiteturas-resilientes.md) |
+| [Semana 5: Domínio 2 - Design de Arquiteturas Resilientes (Parte 2)](docs/pt/agenda/semana5.md)         | [Domínio 2: Design de Arquiteturas Resilientes](docs/pt/dominio/design-arquiteturas-resilientes.md) |
+| [Semana 6: Domínio 3 - Design de Arquiteturas de Alto Desempenho](docs/pt/agenda/semana6.md)                 | [Domínio 3: Design de Arquiteturas de Alto Desempenho](docs/pt/dominio/design-arquiteturas-alto-desempenho.md)              |
+| [Semana 7: Domínio 4 - Design de Arquiteturas Otimizadas por Custo](docs/pt/agenda/semana7.md)       | [Domínio 4: Design de Arquiteturas Otimizadas por Custo](docs/pt/dominio/design-arquiteturas-otimizadas-custo.md) |
+| [Semana 8: Revisão e Exercícios](docs/pt/agenda/semana8.md)       |                                                                                                      |
 
 ### 📊 Estatísticas dos Domínios do Exame
 
@@ -39,9 +38,3 @@ Bem-vindo ao guia de estudo para o exame AWS Solutions Architect Associate. Este
 ## 🎉 Mensagem de Boas-Vindas
 
 Estamos entusiasmados em tê-lo aqui e esperamos que este guia seja um recurso valioso em sua jornada de preparação para o exame AWS Solutions Architect Associate. Desejamos-lhe todo o sucesso em sua aprendizagem e no exame!
-
----
-
-
-
-
