@@ -1,8 +1,8 @@
-# 📅 Semana 7: Domínio 4 - Design de Arquiteturas Otimizadas por Custo
+## 📅 Semana 7: Domínio 4 - Design de Arquiteturas Otimizadas por Custo (Parte 1)
 
-## Task Statement 4.1: Design cost-optimized storage solutions.
+### Task Statement 4.1: Design cost-optimized storage solutions
 
-### Conhecimento de:
+#### Conhecimento de
 
 - Opções de acesso (por exemplo, um bucket S3 com armazenamento de objeto Requester Pays)
 
@@ -26,15 +26,15 @@
 
 - Tipos de armazenamento com características associadas (por exemplo, objeto, arquivo, bloco)
 
-- **Serviços correlacionados**: Amazon S3, AWS Budgets, AWS Cost Explorer, AWS Cost and Usage Report, Amazon FSx, Amazon EFS, AWS DataSync, AWS Transfer Family, AWS Storage Gateway
+- **Serviços correlacionados**: [Amazon S3](https://docs.aws.amazon.com/s3/index.html), [AWS Budgets](https://docs.aws.amazon.com/cost-management/index.html), [AWS Cost Explorer](https://docs.aws.amazon.com/cost-explorer/index.html), [AWS Cost and Usage Report](https://docs.aws.amazon.com/cur/index.html), [Amazon FSx](https://docs.aws.amazon.com/fsx/index.html), [Amazon EFS](https://docs.aws.amazon.com/efs/index.html), [AWS DataSync](https://docs.aws.amazon.com/datasync/index.html), [AWS Transfer Family](https://docs.aws.amazon.com/transfer/index.html), [AWS Storage Gateway](https://docs.aws.amazon.com/storagegateway/index.html)
 
-## Task Statement 4.2: Design cost-optimized compute solutions.
+### Task Statement 4.2: Design cost-optimized compute solutions
 
-### Conhecimento de:
+#### Conhecimento de
 
 - Funcionalidades de serviços de gerenciamento de custos da AWS (por exemplo, tags de alocação de custos, faturamento multi-conta)
 
-- Ferramentas de gerenciamento de custos da AWS com casos de uso apropriados (por exemplo, Cost Explorer, AWS Budgets, AWS Cost and Usage Report)
+- Ferramentas de gerenciamento de custos da AWS com casos de uso apropriados (por exemplo, AWS Cost Explorer, AWS Budgets, AWS Cost and Usage Report)
 
 - Infraestrutura global da AWS (por exemplo, Zonas de Disponibilidade, Regiões AWS)
 
@@ -50,53 +50,9 @@
 
 - Estratégias de escalonamento (por exemplo, auto scaling, hibernação)
 
-- **Serviços correlacionados**: Amazon EC2, AWS Lambda, AWS Fargate, AWS Outposts, AWS Snowball Edge
-
-## Task Statement 4.3: Design cost-optimized database solutions.
-
-### Conhecimento de:
-
-- Funcionalidades de serviços de gerenciamento de custos da AWS (por exemplo, tags de alocação de custos, faturamento multi-conta)
-
-- Ferramentas de gerenciamento de custos da AWS com casos de uso apropriados (por exemplo, Cost Explorer, AWS Budgets, AWS Cost and Usage Report)
-
-- Estratégias de caching
-
-- Políticas de retenção de dados
-
-- Planejamento de capacidade de banco de dados (por exemplo, unidades de capacidade)
-
-- Conexões e proxies de banco de dados
-
-- Motores de banco de dados com casos de uso apropriados (por exemplo, migrações heterogêneas, migrações homogêneas)
-
-- Replicação de banco de dados (por exemplo, réplicas de leitura)
-
-- Tipos e serviços de banco de dados (por exemplo, relacionais comparados com não-relacionais, Aurora, DynamoDB)
-
-- **Serviços correlacionados**: Amazon RDS, Amazon DynamoDB, Amazon Aurora, Amazon ElastiCache, AWS Cost Explorer, AWS Budgets
-
-## Task Statement 4.4: Design cost-optimized network architectures.
-
-### Conhecimento de:
-
-- Funcionalidades de serviços de gerenciamento de custos da AWS (por exemplo, tags de alocação de custos, faturamento multi-conta)
-
-- Ferramentas de gerenciamento de custos da AWS com casos de uso apropriados (por exemplo, Cost Explorer, AWS Budgets, AWS Cost and Usage Report)
-
-- Conceitos de balanceamento de carga (por exemplo, Application Load Balancer)
-
-- Gateways NAT (por exemplo, custos de instância NAT comparados com custos de gateway NAT)
-
-- Conectividade de rede (por exemplo, linhas privadas, linhas dedicadas, VPNs)
-
-- Roteamento, topologia e peering de rede (por exemplo, AWS Transit Gateway, peering VPC)
-
-- Serviços de rede com casos de uso apropriados (por exemplo, DNS)
-
-- **Serviços correlacionados**: AWS Direct Connect, AWS Transit Gateway, AWS VPN, AWS PrivateLink, AWS CloudFront, Elastic Load Balancing
+- **Serviços correlacionados**: [Amazon EC2](https://docs.aws.amazon.com/ec2/index.html), [AWS Lambda](https://docs.aws.amazon.com/lambda/index.html), [AWS Fargate](https://docs.aws.amazon.com/fargate/index.html), [AWS Outposts](https://docs.aws.amazon.com/outposts/index.html), [AWS Snowball Edge](https://docs.aws.amazon.com/snowball/index.html)
 
 
 ---
 
-🔙 [Voltar ao Índice](../index.md)
+🔙 [Voltar ao Índice](../../../index.md)

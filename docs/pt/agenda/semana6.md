@@ -1,54 +1,37 @@
-# 📅 Semana 6: Domínio 3 - Design de Aplicações Seguras e Arquiteturas
+## 📅 Semana 6: Domínio 3 - Design de Aplicações Seguras e Arquiteturas
 
-## Task Statement 1.1: Design secure access to AWS resources.
+### Task Statement 3.1: Determine high-performing and/or scalable storage solutions
 
-### Conhecimento de:
+#### Conhecimento de
 
-- Controles de acesso e gerenciamento entre múltiplas contas
+- Soluções de armazenamento híbrido para atender aos requisitos de negócios
 
-- Serviços de identidade e acesso federado da AWS (por exemplo, AWS IAM, AWS IAM Identity Center [AWS Single Sign-On])
+- Serviços de armazenamento com casos de uso apropriados (por exemplo, Amazon S3, Amazon EFS, Amazon EBS)
 
-- Infraestrutura global da AWS (por exemplo, Zonas de Disponibilidade, Regiões AWS)
+- Tipos de armazenamento com características associadas (por exemplo, objeto, arquivo, bloco)
 
-- Melhores práticas de segurança da AWS (por exemplo, o princípio do menor privilégio)
+- **Serviços correlacionados**: [Amazon S3](https://docs.aws.amazon.com/s3/index.html), [Amazon EFS](https://docs.aws.amazon.com/efs/index.html), [Amazon EBS](https://docs.aws.amazon.com/ebs/index.html)
 
-- Modelo de responsabilidade compartilhada da AWS
+### Task Statement 3.2: Design high-performing and elastic compute solutions
 
-- **Serviços correlacionados**: AWS IAM, AWS IAM Identity Center (AWS Single Sign-On), Amazon Cognito, AWS Control Tower, AWS KMS
+#### Conhecimento de
 
-## Task Statement 1.2: Design secure workloads and applications.
+- Serviços de computação da AWS com casos de uso apropriados (por exemplo, AWS Batch, Amazon EMR, AWS Fargate)
 
-### Conhecimento de:
+- Conceitos de computação distribuída suportados pela infraestrutura global da AWS e serviços de borda
 
-- Segurança de configuração e credenciais de aplicativos
+- Conceitos de filas e mensagens (por exemplo, public/subscribe)
 
-- Endpoints de serviços da AWS
+- Capacidades de escalabilidade com casos de uso apropriados (por exemplo, Amazon EC2 Auto Scaling, AWS Auto Scaling)
 
-- Controle de portas, protocolos e tráfego de rede na AWS
+- Tecnologias e padrões serverless (por exemplo, AWS Lambda, AWS Fargate)
 
-- Acesso seguro a aplicativos
+- Orquestração de containers (por exemplo, Amazon ECS, Amazon EKS)
 
-- Serviços de segurança com casos de uso apropriados (por exemplo, Amazon Cognito, Amazon GuardDuty, Amazon Macie)
+- **Serviços correlacionados**: [AWS Batch](https://docs.aws.amazon.com/batch/index.html), [Amazon EMR](https://docs.aws.amazon.com/emr/index.html), [AWS Fargate](https://docs.aws.amazon.com/fargate/index.html), [Amazon SQS](https://docs.aws.amazon.com/sqs/index.html), [Amazon SNS](https://docs.aws.amazon.com/sns/index.html), [AWS Lambda](https://docs.aws.amazon.com/lambda/index.html), [Amazon ECS](https://docs.aws.amazon.com/ecs/index.html), [Amazon EKS](https://docs.aws.amazon.com/eks/index.html)
 
-- Vetores de ameaça externos à AWS (por exemplo, DDoS, SQL injection)
-
-- **Serviços correlacionados**: Amazon GuardDuty, Amazon Macie, AWS Shield, AWS WAF, AWS Secrets Manager, AWS Direct Connect
-
-## Task Statement 1.3: Determine appropriate data security controls.
-
-### Conhecimento de:
-
-- Acesso a dados e governança
-
-- Recuperação de dados
-
-- Retenção e classificação de dados
-
-- Criptografia e gerenciamento de chaves apropriadas
-
-- **Serviços correlacionados**: AWS KMS, AWS Certificate Manager, Amazon S3, AWS Backup
 
 
 ---
 
-🔙 [Voltar ao Índice](../index.md)
+🔙 [Voltar ao Índice](../../../index.md)

@@ -1,16 +1,16 @@
-# 📅 Semana 4: Domínio 2 - Design de Arquiteturas de Alto Desempenho (Parte 1)
+## 📅 Semana 4: Domínio 2 - Design de Arquiteturas de Alto Desempenho (Parte 1)
 
-## Task Statement 2.1: Design scalable and loosely coupled architectures.
+### Task Statement 2.1: Design scalable and loosely coupled architectures
 
-### Conhecimento de:
+#### Conhecimento de
 
 - Criação e gestão de APIs (por exemplo, Amazon API Gateway, REST API)
 
-- Serviços gerenciados da AWS com casos de uso apropriados (por exemplo, AWS Transfer Family, Amazon SQS, Secrets Manager)
+- Serviços gerenciados da AWS com casos de uso apropriados (por exemplo, AWS Transfer Family, Amazon SQS, AWS Secrets Manager)
 
 - Estratégias de caching
 
-- Princípios de design para microsserviços (por exemplo, cargas de trabalho sem estado comparadas com cargas de trabalho com estado)
+- Princípios de design para microsserviços (por exemplo, workloads sem estado em comparação com workloads com estado)
 
 - Arquiteturas orientadas a eventos
 
@@ -36,9 +36,10 @@
 
 - Orquestração de fluxos de trabalho (por exemplo, AWS Step Functions)
 
-- **Serviços correlacionados**: Amazon API Gateway, AWS Transfer Family, Amazon SQS, AWS Secrets Manager, AWS Fargate, AWS Lambda, Amazon ECS, Amazon EKS, AWS Step Functions
+- **Serviços correlacionados**: [Amazon API Gateway](https://docs.aws.amazon.com/apigateway/index.html), [AWS Transfer Family](https://docs.aws.amazon.com/transfer/index.html), [Amazon
+
 
 
 ---
 
-🔙 [Voltar ao Índice](../index.md)
+🔙 [Voltar ao Índice](../../../index.md)

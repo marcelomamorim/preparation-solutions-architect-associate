@@ -12,8 +12,8 @@
 | [Semana 4: Domínio 2 - Design de Arquiteturas de Alto Desempenho (Parte 1)](#semana-4)         | [Conteúdo da Semana 4](docs/pt/agenda/semana4.md)                                                    |
 | [Semana 5: Domínio 2 - Design de Arquiteturas de Alto Desempenho (Parte 2)](#semana-5)         | [Conteúdo da Semana 5](docs/pt/agenda/semana5.md)                                                    |
 | [Semana 6: Domínio 3 - Design de Aplicações Seguras e Arquiteturas](#semana-6)                 | [Conteúdo da Semana 6](docs/pt/agenda/semana6.md)                                                    |
-| [Semana 7: Domínio 4 - Design de Arquiteturas Otimizadas por Custo](#semana-7)                 | [Conteúdo da Semana 7](docs/pt/agenda/semana7.md)                                                    |
-| [Semana 8: Revisão Geral e Recursos Adicionais](#semana-8)                                     | [Conteúdo da Semana 8](docs/pt/agenda/semana8.md)                                                    |
+| [Semana 7: Domínio 4 - Design de Arquiteturas Otimizadas por Custo (Parte 1)](#semana-7)       | [Conteúdo da Semana 7](docs/pt/agenda/semana7.md)                                                    |
+| [Semana 8: Domínio 4 - Design de Arquiteturas Otimizadas por Custo (Parte 2)](#semana-8)       | [Conteúdo da Semana 8](docs/pt/agenda/semana8.md)                                                    |
 | [Serviços não listados acima, mas presentes no Guia do Exame](#servicos-nao-listados)          |                                                                                                      |
 
 ### 📖 Domínios do Exame
@@ -41,49 +41,79 @@
 
 - **Conhecimento Avaliado**: Compreender como dividir a aplicação em várias camadas para aumentar a resiliência e a segurança.
 
-- **Serviços correlacionados**: Amazon EC2, Amazon RDS, Amazon S3, Elastic Load Balancing, Amazon VPC
+- **Serviços correlacionados**: [Amazon EC2](https://docs.aws.amazon.com/ec2/index.html), [Amazon RDS](https://docs.aws.amazon.com/rds/index.html), [Amazon S3](https://docs.aws.amazon.com/s3/index.html), [Elastic Load Balancing](https://docs.aws.amazon.com/elasticloadbalancing/index.html), [Amazon VPC](https://docs.aws.amazon.com/vpc/index.html)
 
 ---
 
 ## 📅 Semana 2: Domínio 1 - Design de Arquiteturas Resilientes (Parte 2)
 
-#### 1.2 Projetar arquiteturas altamente disponíveis e/ou tolerantes a falhas
+### Task Statement 1.2: Design secure workloads and applications
 
-- **Conhecimento Avaliado**: Entender como implementar soluções que garantem alta disponibilidade e resiliência a falhas.
+#### Conhecimento de
 
-- **Serviços correlacionados**: Amazon EC2 Auto Scaling, Amazon Route 53, Amazon S3, Amazon RDS, Elastic Load Balancing
+- Segurança de configuração e credenciais de aplicativos
 
-#### 1.3 Projetar mecanismos de desacoplamento usando serviços AWS
+- Endpoints de serviços da AWS
 
-- **Conhecimento Avaliado**: Utilizar serviços de mensagens e orquestração para desacoplar componentes da aplicação.
+- Controle de portas, protocolos e tráfego de rede na AWS
 
-- **Serviços correlacionados**: Amazon SQS, Amazon SNS, Amazon EventBridge, AWS Step Functions
+- Acesso seguro a aplicativos
+
+- Serviços de segurança com casos de uso apropriados (por exemplo, Amazon Cognito, Amazon GuardDuty, Amazon Macie)
+
+- Vetores de ameaça externos à AWS (por exemplo, DDoS, SQL injection)
+
+- **Serviços correlacionados**: [Amazon GuardDuty](https://docs.aws.amazon.com/guardduty/index.html), [Amazon Macie](https://docs.aws.amazon.com/macie/index.html), [AWS Shield](https://docs.aws.amazon.com/shield/index.html), [AWS WAF](https://docs.aws.amazon.com/waf/index.html), [AWS Secrets Manager](https://docs.aws.amazon.com/secretsmanager/index.html), [AWS Direct Connect](https://docs.aws.amazon.com/directconnect/index.html)
+
+### Task Statement 1.3: Determine appropriate data security controls
+
+#### Conhecimento de
+
+- Acesso a dados e governança
+
+- Recuperação de dados
+
+- Retenção e classificação de dados
+
+- Criptografia e gerenciamento de chaves apropriadas
+
+- **Serviços correlacionados**: [AWS KMS](https://docs.aws.amazon.com/kms/index.html), [AWS Certificate Manager](https://docs.aws.amazon.com/acm/index.html), [Amazon S3](https://docs.aws.amazon.com/s3/index.html), [AWS Backup](https://docs.aws.amazon.com/backup/index.html)
 
 ---
 
 ## 📅 Semana 3: Domínio 1 - Design de Arquiteturas Resilientes (Parte 3)
 
-#### 1.4 Escolher armazenamento resiliente apropriado
+### Task Statement 1.1: Design secure access to AWS resources
 
-- **Conhecimento Avaliado**: Selecionar as opções de armazenamento da AWS que melhor suportam a resiliência e a durabilidade dos dados.
+#### Conhecimento de
 
-- **Serviços correlacionados**: Amazon S3, Amazon EBS, Amazon EFS
+- Controles de acesso e gerenciamento entre múltiplas contas
+
+- Serviços de identidade e acesso federado da AWS (por exemplo, AWS IAM, AWS IAM Identity Center [AWS Single Sign-On])
+
+- Infraestrutura global da AWS (por exemplo, Zonas de Disponibilidade, Regiões AWS)
+
+- Melhores práticas de segurança da AWS (por exemplo, o princípio do menor privilégio)
+
+- Modelo de responsabilidade compartilhada da AWS
+
+- **Serviços correlacionados**: [AWS IAM](https://docs.aws.amazon.com/iam/index.html), [AWS IAM Identity Center (AWS Single Sign-On)](https://docs.aws.amazon.com/singlesignon/index.html), [Amazon Cognito](https://docs.aws.amazon.com/cognito/index.html), [AWS Control Tower](https://docs.aws.amazon.com/controltower/index.html), [AWS KMS](https://docs.aws.amazon.com/kms/index.html)
 
 ---
 
 ## 📅 Semana 4: Domínio 2 - Design de Arquiteturas de Alto Desempenho (Parte 1)
 
-### Task Statement 2.1: Design scalable and loosely coupled architectures.
+### Task Statement 2.1: Design scalable and loosely coupled architectures
 
-#### Conhecimento de:
+#### Conhecimento de
 
 - Criação e gestão de APIs (por exemplo, Amazon API Gateway, REST API)
 
-- Serviços gerenciados da AWS com casos de uso apropriados (por exemplo, AWS Transfer Family, Amazon SQS, Secrets Manager)
+- Serviços gerenciados da AWS com casos de uso apropriados (por exemplo, AWS Transfer Family, Amazon SQS, AWS Secrets Manager)
 
 - Estratégias de caching
 
-- Princípios de design para microsserviços (por exemplo, cargas de trabalho sem estado comparadas com cargas de trabalho com estado)
+- Princípios de design para microsserviços (por exemplo, workloads sem estado em comparação com workloads com estado)
 
 - Arquiteturas orientadas a eventos
 
@@ -109,15 +139,15 @@
 
 - Orquestração de fluxos de trabalho (por exemplo, AWS Step Functions)
 
-- **Serviços correlacionados**: Amazon API Gateway, AWS Transfer Family, Amazon SQS, AWS Secrets Manager, AWS Fargate, AWS Lambda, Amazon ECS, Amazon EKS, AWS Step Functions
+- **Serviços correlacionados**: [Amazon API Gateway](https://docs.aws.amazon.com/apigateway/index.html), [AWS Transfer Family](https://docs.aws.amazon.com/transfer/index.html), [Amazon SQS](https://docs.aws.amazon.com/sqs/index.html), [AWS Secrets Manager](https://docs.aws.amazon.com/secretsmanager/index.html), [AWS Fargate](https://docs.aws.amazon.com/fargate/index.html), [AWS Lambda](https://docs.aws.amazon.com/lambda/index.html), [Amazon ECS](https://docs.aws.amazon.com/ecs/index.html), [Amazon EKS](https://docs.aws.amazon.com/eks/index.html), [AWS Step Functions](https://docs.aws.amazon.com/step-functions/index.html)
 
 ---
 
 ## 📅 Semana 5: Domínio 2 - Design de Arquiteturas de Alto Desempenho (Parte 2)
 
-### Task Statement 2.2: Design highly available and/or fault-tolerant architectures.
+### Task Statement 2.2: Design highly available and/or fault-tolerant architectures
 
-#### Conhecimento de:
+#### Conhecimento de
 
 - Infraestrutura global da AWS (por exemplo, Zonas de Disponibilidade, Regiões AWS, Amazon Route 53)
 
@@ -137,73 +167,55 @@
 
 - Conceitos de proxy (por exemplo, Amazon RDS Proxy)
 
-- Quotas de serviço e limitação (por exemplo, como configurar as quotas de serviço para uma carga de trabalho em um ambiente de standby)
+- Quotas de serviço e limitação (por exemplo, como configurar as quotas de serviço para uma workload em um ambiente de standby)
 
 - Opções de armazenamento e características (por exemplo, durabilidade, replicação)
 
 - Visibilidade da carga de trabalho (por exemplo, AWS X-Ray)
 
-- **Serviços correlacionados**: Amazon Route 53, Amazon Comprehend, Amazon Polly, Amazon RDS Proxy, AWS X-Ray, AWS CloudTrail, Amazon S3, Amazon RDS, Elastic Load Balancing
+- **Serviços correlacionados**: [Amazon Route 53](https://docs.aws.amazon.com/route53/index.html), [Amazon Comprehend](https://docs.aws.amazon.com/comprehend/index.html), [Amazon Polly](https://docs.aws.amazon.com/polly/index.html), [Amazon RDS Proxy](https://docs.aws.amazon.com/rdsproxy/index.html), [AWS X-Ray](https://docs.aws.amazon.com/xray/index.html), [AWS CloudTrail](https://docs.aws.amazon.com/cloudtrail/index.html), [Amazon S3](https://docs.aws.amazon.com/s3/index.html), [Amazon RDS](https://docs.aws.amazon.com/rds/index.html), [Elastic Load Balancing](https://docs.aws.amazon.com/elasticloadbalancing/index.html)
 
 ---
 
 ## 📅 Semana 6: Domínio 3 - Design de Aplicações Seguras e Arquiteturas
 
-### Task Statement 1.1: Design secure access to AWS resources.
+### Task Statement 3.1: Determine high-performing and/or scalable storage solutions
 
-#### Conhecimento de:
+#### Conhecimento de
 
-- Controles de acesso e gerenciamento entre múltiplas contas
+- Soluções de armazenamento híbrido para atender aos requisitos de negócios
 
-- Serviços de identidade e acesso federado da AWS (por exemplo, AWS IAM, AWS IAM Identity Center [AWS Single Sign-On])
+- Serviços de armazenamento com casos de uso apropriados (por exemplo, Amazon S3, Amazon EFS, Amazon EBS)
 
-- Infraestrutura global da AWS (por exemplo, Zonas de Disponibilidade, Regiões AWS)
+- Tipos de armazenamento com características associadas (por exemplo, objeto, arquivo, bloco)
 
-- Melhores práticas de segurança da AWS (por exemplo, o princípio do menor privilégio)
+- **Serviços correlacionados**: [Amazon S3](https://docs.aws.amazon.com/s3/index.html), [Amazon EFS](https://docs.aws.amazon.com/efs/index.html), [Amazon EBS](https://docs.aws.amazon.com/ebs/index.html)
 
-- Modelo de responsabilidade compartilhada da AWS
+### Task Statement 3.2: Design high-performing and elastic compute solutions
 
-- **Serviços correlacionados**: AWS IAM, AWS IAM Identity Center (AWS Single Sign-On), Amazon Cognito, AWS Control Tower, AWS KMS
+#### Conhecimento de
 
-### Task Statement 1.2: Design secure workloads and applications.
+- Serviços de computação da AWS com casos de uso apropriados (por exemplo, AWS Batch, Amazon EMR, AWS Fargate)
 
-#### Conhecimento de:
+- Conceitos de computação distribuída suportados pela infraestrutura global da AWS e serviços de borda
 
-- Segurança de configuração e credenciais de aplicativos
+- Conceitos de filas e mensagens (por exemplo, public/subscribe)
 
-- Endpoints de serviços da AWS
+- Capacidades de escalabilidade com casos de uso apropriados (por exemplo, Amazon EC2 Auto Scaling, AWS Auto Scaling)
 
-- Controle de portas, protocolos e tráfego de rede na AWS
+- Tecnologias e padrões serverless (por exemplo, AWS Lambda, AWS Fargate)
 
-- Acesso seguro a aplicativos
+- Orquestração de containers (por exemplo, Amazon ECS, Amazon EKS)
 
-- Serviços de segurança com casos de uso apropriados (por exemplo, Amazon Cognito, Amazon GuardDuty, Amazon Macie)
-
-- Vetores de ameaça externos à AWS (por exemplo, DDoS, SQL injection)
-
-- **Serviços correlacionados**: Amazon GuardDuty, Amazon Macie, AWS Shield, AWS WAF, AWS Secrets Manager, AWS Direct Connect
-
-### Task Statement 1.3: Determine appropriate data security controls.
-
-#### Conhecimento de:
-
-- Acesso a dados e governança
-
-- Recuperação de dados
-
-- Retenção e classificação de dados
-
-- Criptografia e gerenciamento de chaves apropriadas
-
-- **Serviços correlacionados**: AWS KMS, AWS Certificate Manager, Amazon S3, AWS Backup
+- **Serviços correlacionados**: [AWS Batch](https://docs.aws.amazon.com/batch/index.html), [Amazon EMR](https://docs.aws.amazon.com/emr/index.html), [AWS Fargate](https://docs.aws.amazon.com/fargate/index.html), [Amazon SQS](https://docs.aws.amazon.com/sqs/index.html), [Amazon SNS](https://docs.aws.amazon.com/sns/index.html), [AWS Lambda](https://docs.aws.amazon.com/lambda/index.html), [Amazon ECS](https://docs.aws.amazon.com/ecs/index.html), [Amazon EKS](https://docs.aws.amazon.com/eks/index.html)
 
 ---
 
-## 📅 Semana 7: Domínio 4 - Design de Arquiteturas Otimizadas por Custo
+## 📅 Semana 7: Domínio 4 - Design de Arquiteturas Otimizadas por Custo (Parte 1)
 
-### Task Statement 4.1: Design cost-optimized storage solutions.
+### Task Statement 4.1: Design cost-optimized storage solutions
 
-#### Conhecimento de:
+#### Conhecimento de
 
 - Opções de acesso (por exemplo, um bucket S3 com armazenamento de objeto Requester Pays)
 
@@ -227,15 +239,15 @@
 
 - Tipos de armazenamento com características associadas (por exemplo, objeto, arquivo, bloco)
 
-- **Serviços correlacionados**: Amazon S3, AWS Budgets, AWS Cost Explorer, AWS Cost and Usage Report, Amazon FSx, Amazon EFS, AWS DataSync, AWS Transfer Family, AWS Storage Gateway
+- **Serviços correlacionados**: [Amazon S3](https://docs.aws.amazon.com/s3/index.html), [AWS Budgets](https://docs.aws.amazon.com/cost-management/index.html), [AWS Cost Explorer](https://docs.aws.amazon.com/cost-explorer/index.html), [AWS Cost and Usage Report](https://docs.aws.amazon.com/cur/index.html), [Amazon FSx](https://docs.aws.amazon.com/fsx/index.html), [Amazon EFS](https://docs.aws.amazon.com/efs/index.html), [AWS DataSync](https://docs.aws.amazon.com/datasync/index.html), [AWS Transfer Family](https://docs.aws.amazon.com/transfer/index.html), [AWS Storage Gateway](https://docs.aws.amazon.com/storagegateway/index.html)
 
-### Task Statement 4.2: Design cost-optimized compute solutions.
+### Task Statement 4.2: Design cost-optimized compute solutions
 
-#### Conhecimento de:
+#### Conhecimento de
 
 - Funcionalidades de serviços de gerenciamento de custos da AWS (por exemplo, tags de alocação de custos, faturamento multi-conta)
 
-- Ferramentas de gerenciamento de custos da AWS com casos de uso apropriados (por exemplo, Cost Explorer, AWS Budgets, AWS Cost and Usage Report)
+- Ferramentas de gerenciamento de custos da AWS com casos de uso apropriados (por exemplo, AWS Cost Explorer, AWS Budgets, AWS Cost and Usage Report)
 
 - Infraestrutura global da AWS (por exemplo, Zonas de Disponibilidade, Regiões AWS)
 
@@ -251,15 +263,19 @@
 
 - Estratégias de escalonamento (por exemplo, auto scaling, hibernação)
 
-- **Serviços correlacionados**: Amazon EC2, AWS Lambda, AWS Fargate, AWS Outposts, AWS Snowball Edge
+- **Serviços correlacionados**: [Amazon EC2](https://docs.aws.amazon.com/ec2/index.html), [AWS Lambda](https://docs.aws.amazon.com/lambda/index.html), [AWS Fargate](https://docs.aws.amazon.com/fargate/index.html), [AWS Outposts](https://docs.aws.amazon.com/outposts/index.html), [AWS Snowball Edge](https://docs.aws.amazon.com/snowball/index.html)
 
-### Task Statement 4.3: Design cost-optimized database solutions.
+---
 
-#### Conhecimento de:
+## 📅 Semana 8: Domínio 4 - Design de Arquiteturas Otimizadas por Custo (Parte 2)
+
+### Task Statement 4.3: Design cost-optimized database solutions
+
+#### Conhecimento de
 
 - Funcionalidades de serviços de gerenciamento de custos da AWS (por exemplo, tags de alocação de custos, faturamento multi-conta)
 
-- Ferramentas de gerenciamento de custos da AWS com casos de uso apropriados (por exemplo, Cost Explorer, AWS Budgets, AWS Cost and Usage Report)
+- Ferramentas de gerenciamento de custos da AWS com casos de uso apropriados (por exemplo, AWS Cost Explorer, AWS Budgets, AWS Cost and Usage Report)
 
 - Estratégias de caching
 
@@ -275,15 +291,15 @@
 
 - Tipos e serviços de banco de dados (por exemplo, relacionais comparados com não-relacionais, Aurora, DynamoDB)
 
-- **Serviços correlacionados**: Amazon RDS, Amazon DynamoDB, Amazon Aurora, Amazon ElastiCache, AWS Cost Explorer, AWS Budgets
+- **Serviços correlacionados**: [Amazon RDS](https://docs.aws.amazon.com/rds/index.html), [Amazon DynamoDB](https://docs.aws.amazon.com/dynamodb/index.html), [Amazon Aurora](https://docs.aws.amazon.com/aurora/index.html), [Amazon ElastiCache](https://docs.aws.amazon.com/elasticache/index.html), [AWS Cost Explorer](https://docs.aws.amazon.com/cost-explorer/index.html), [AWS Budgets](https://docs.aws.amazon.com/cost-management/index.html)
 
-### Task Statement 4.4: Design cost-optimized network architectures.
+### Task Statement 4.4: Design cost-optimized network architectures
 
-#### Conhecimento de:
+#### Conhecimento de
 
 - Funcionalidades de serviços de gerenciamento de custos da AWS (por exemplo, tags de alocação de custos, faturamento multi-conta)
 
-- Ferramentas de gerenciamento de custos da AWS com casos de uso apropriados (por exemplo, Cost Explorer, AWS Budgets, AWS Cost and Usage Report)
+- Ferramentas de gerenciamento de custos da AWS com casos de uso apropriados (por exemplo, AWS Cost Explorer, AWS Budgets, AWS Cost and Usage Report)
 
 - Conceitos de balanceamento de carga (por exemplo, Application Load Balancer)
 
@@ -295,11 +311,11 @@
 
 - Serviços de rede com casos de uso apropriados (por exemplo, DNS)
 
-- **Serviços correlacionados**: AWS Direct Connect, AWS Transit Gateway, AWS VPN, AWS PrivateLink, AWS CloudFront, Elastic Load Balancing
+- **Serviços correlacionados**: [AWS Direct Connect](https://docs.aws.amazon.com/directconnect/index.html), [AWS Transit Gateway](https://docs.aws.amazon.com/transitgateway/index.html), [AWS VPN](https://docs.aws.amazon.com/vpn/index.html), [AWS PrivateLink](https://docs.aws.amazon.com/privatelink/index.html), [Amazon CloudFront](https://docs.aws.amazon.com/cloudfront/index.html), [Elastic Load Balancing](https://docs.aws.amazon.com/elasticloadbalancing/index.html)
 
 ---
 
-## 📅 Semana 8: Revisão Geral e Recursos Adicionais
+## 📅 Semana 9: Revisão Geral e Recursos Adicionais
 
 - 🔄 Revisão dos principais pontos de cada domínio: Revisão abrangente dos tópicos abordados nas semanas anteriores.
 
@@ -313,12 +329,20 @@
 
 ## Serviços não listados acima, mas presentes no Guia do Exame
 
-- Amazon Elastic Transcoder
-- Amazon Kinesis Video Streams
-- AWS Application Discovery Service
-- AWS Application Migration Service
-- AWS DataSync
-- AWS Migration Hub
-- AWS Snow Family
-- AWS Transfer Family
-- AWS Client VPN
+- [Amazon Elastic Transcoder](https://docs.aws.amazon.com/elastictranscoder/index.html)
+
+- [Amazon Kinesis Video Streams](https://docs.aws.amazon.com/kinesisvideostreams/index.html)
+
+- [AWS Application Discovery Service](https://docs.aws.amazon.com/application-discovery/index.html)
+
+- [AWS Application Migration Service](https://docs.aws.amazon.com/migrationhub/index.html)
+
+- [AWS DataSync](https://docs.aws.amazon.com/datasync/index.html)
+
+- [AWS Migration Hub](https://docs.aws.amazon.com/migrationhub/index.html)
+
+- [AWS Snow Family](https://docs.aws.amazon.com/snow/index.html)
+
+- [AWS Transfer Family](https://docs.aws.amazon.com/transfer/index.html)
+
+- [AWS Client VPN](https://docs.aws.amazon.com/vpn/index.html)
