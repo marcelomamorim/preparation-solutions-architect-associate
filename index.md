@@ -29,7 +29,7 @@ Bem-vindo ao guia de estudo para o exame AWS Solutions Architect Associate. Este
 
 ### 📊 Estatísticas dos Domínios do Exame
 
-![Estatísticas dos Domínios do Exame](assets/images/Distribuição%20dos%20Domínios%20do%20Exame%20AWS%20Solutions%20Architect%20Associate.png)
+![Estatísticas dos Domínios do Exame](assets/images/distribuicao_dominios.png)
 
 - **Domínio 1**: Design de Arquiteturas Seguras (30% do conteúdo avaliado)
 - **Domínio 2**: Design de Arquiteturas Resilientes (26% do conteúdo avaliado)
