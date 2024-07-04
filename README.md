@@ -1,199 +1,210 @@
-# AWS Solutions Architect Associate Exam Guide
+# 🌟 Guia de Estudo para o Exame AWS Solutions Architect Associate
 
-Welcome to the AWS Solutions Architect Associate Exam Guide. This documentation is designed to help you prepare effectively for the AWS Solutions Architect Associate Certification. It includes comprehensive resources, structured content, and useful links to ensure you have everything you need to succeed.
+## 📚 Índice
 
-## Table of Contents
+### 📅 Cronograma de 8 Semanas
 
-- [Introduction](#introduction)
-- [Domain 1: Design Resilient Architectures (30%)](#domain-1-design-resilient-architectures-30)
-- [Domain 2: Design High-Performing Architectures (28%)](#domain-2-design-high-performing-architectures-28)
-- [Domain 3: Design Secure Applications and Architectures (24%)](#domain-3-design-secure-applications-and-architectures-24)
-- [Domain 4: Design Cost-Optimized Architectures (18%)](#domain-4-design-cost-optimized-architectures-18)
-- [Additional Resources](#additional-resources)
-- [Conclusion](#conclusion)
+- [Semana 1: Introdução e Domínio 1 - Design de Arquiteturas Resilientes (Parte 1)](#semana-1) | [Conteúdo da Semana 1](docs/pt/agenda/semana1.md)
+- [Semana 2: Domínio 1 - Design de Arquiteturas Resilientes (Parte 2)](#semana-2) | [Conteúdo da Semana 2](docs/pt/agenda/semana2.md)
+- [Semana 3: Domínio 1 - Design de Arquiteturas Resilientes (Parte 3)](#semana-3) | [Conteúdo da Semana 3](docs/pt/agenda/semana3.md)
+- [Semana 4: Domínio 2 - Design de Arquiteturas de Alto Desempenho (Parte 1)](#semana-4) | [Conteúdo da Semana 4](docs/pt/agenda/semana4.md)
+- [Semana 5: Domínio 2 - Design de Arquiteturas de Alto Desempenho (Parte 2)](#semana-5) | [Conteúdo da Semana 5](docs/pt/agenda/semana5.md)
+- [Semana 6: Domínio 3 - Design de Aplicações Seguras e Arquiteturas](#semana-6) | [Conteúdo da Semana 6](docs/pt/agenda/semana6.md)
+- [Semana 7: Domínio 4 - Design de Arquiteturas Otimizadas por Custo](#semana-7) | [Conteúdo da Semana 7](docs/pt/agenda/semana7.md)
+- [Semana 8: Revisão Geral e Recursos Adicionais](#semana-8) | [Conteúdo da Semana 8](docs/pt/agenda/semana8.md)
+- [Serviços não listados acima, mas presentes no Guia do Exame](#servicos-nao-listados)
 
-## Introduction
+### 📖 Domínios do Exame
 
-Welcome to the AWS Solutions Architect Associate Exam Guide. This site provides comprehensive resources and structured content to help you prepare for the AWS Solutions Architect Associate Certification. You can navigate through the course materials in both English and Portuguese by selecting the desired language below.
+- [Domínio 1: Design de Arquiteturas Resilientes](docs/pt/dominio/design-arquiteturas-resilientes.md)
+- [Domínio 2: Design de Arquiteturas de Alto Desempenho](docs/pt/dominio/design-arquiteturas-alto-desempenho.md)
+- [Domínio 3: Design de Aplicações Seguras](docs/pt/dominio/design-aplicacoes-seguras.md)
+- [Domínio 4: Design de Arquiteturas Otimizadas por Custo](docs/pt/dominio/design-arquiteturas-otimizadas-custo.md)
 
-### [Introduction](/docs/en/introduction.md)
+---
 
-- Overview of the AWS Solutions Architect Associate Certification
-- Importance of the certification
-- Exam format and details
+## 📅 Semana 1: Introdução e Domínio 1 - Design de Arquiteturas Resilientes (Parte 1)
 
-## Domain 1: Design Resilient Architectures (30%)
+### Introdução ao Exame
+- 📜 Visão geral da certificação: Explicação sobre a certificação AWS Solutions Architect Associate, incluindo os benefícios e requisitos.
+- 🏆 Importância da certificação: Por que obter esta certificação pode ser valioso para sua carreira.
+- 📋 Detalhes do exame: Informações sobre a estrutura do exame, tipos de perguntas e critérios de aprovação.
 
-### [1.1 Design a Multi-Tier Architecture Solution](/docs/en/design-resilient-architectures.md#11-design-a-multi-tier-architecture-solution)
-- Key concepts
-- Example architectures
+### Domínio 1: Design de Arquiteturas Resilientes
+#### 1.1 Projetar uma solução de arquitetura em várias camadas
+- **Conhecimento Avaliado**: Compreender como dividir a aplicação em várias camadas para aumentar a resiliência e a segurança.
+- **Serviços correlacionados**: Amazon EC2, Amazon RDS, Amazon S3, Elastic Load Balancing, Amazon VPC
 
-### [1.2 Design Highly Available and/or Fault-Tolerant Architectures](/docs/en/design-resilient-architectures.md#12-design-highly-available-andor-fault-tolerant-architectures)
-- High availability concepts
-- Fault tolerance
-- Disaster recovery
+---
 
-### [1.3 Design Decoupling Mechanisms Using AWS Services](/docs/en/design-resilient-architectures.md#13-design-decoupling-mechanisms-using-aws-services)
-- SQS
-- SNS
-- EventBridge
+## 📅 Semana 2: Domínio 1 - Design de Arquiteturas Resilientes (Parte 2)
 
-### [1.4 Choose Appropriate Resilient Storage](/docs/en/design-resilient-architectures.md#14-choose-appropriate-resilient-storage)
+#### 1.2 Projetar arquiteturas altamente disponíveis e/ou tolerantes a falhas
+- **Conhecimento Avaliado**: Entender como implementar soluções que garantem alta disponibilidade e resiliência a falhas.
+- **Serviços correlacionados**: Amazon EC2 Auto Scaling, Amazon Route 53, Amazon S3, Amazon RDS, Elastic Load Balancing
 
-## Domain 2: Design High-Performing Architectures (28%)
+#### 1.3 Projetar mecanismos de desacoplamento usando serviços AWS
+- **Conhecimento Avaliado**: Utilizar serviços de mensagens e orquestração para desacoplar componentes da aplicação.
+- **Serviços correlacionados**: Amazon SQS, Amazon SNS, Amazon EventBridge, AWS Step Functions
 
-### [2.1 Identify Elastic and Scalable Compute Solutions for a Workload](/docs/en/design-high-performing-architectures.md#21-identify-elastic-and-scalable-compute-solutions-for-a-workload)
-- EC2
-- ECS/EKS
-- Lambda
+---
 
-### [2.2 Select High-Performing and Scalable Storage Solutions for a Workload](/docs/en/design-high-performing-architectures.md#22-select-high-performing-and-scalable-storage-solutions-for-a-workload)
-- S3
-- EBS
-- EFS
+## 📅 Semana 3: Domínio 1 - Design de Arquiteturas Resilientes (Parte 3)
 
-### [2.3 Select High-Performing Networking Solutions for a Workload](/docs/en/design-high-performing-architectures.md#23-select-high-performing-networking-solutions-for-a-workload)
-- VPC
-- CloudFront
-- Global Accelerator
+#### 1.4 Escolher armazenamento resiliente apropriado
+- **Conhecimento Avaliado**: Selecionar as opções de armazenamento da AWS que melhor suportam a resiliência e a durabilidade dos dados.
+- **Serviços correlacionados**: Amazon S3, Amazon EBS, Amazon EFS
 
-### [2.4 Choose High-Performing Database Solutions for a Workload](/docs/en/design-high-performing-architectures.md#24-choose-high-performing-database-solutions-for-a-workload)
-- RDS
-- DynamoDB
-- Aurora
+---
 
-## Domain 3: Design Secure Applications and Architectures (24%)
+## 📅 Semana 4: Domínio 2 - Design de Arquiteturas de Alto Desempenho (Parte 1)
 
-### [3.1 Design Secure Access to AWS Resources](/docs/en/design-secure-applications-and-architectures.md#31-design-secure-access-to-aws-resources)
-- IAM
-- Resource policies
+### Task Statement 2.1: Design scalable and loosely coupled architectures.
+#### Conhecimento de:
+- Criação e gestão de APIs (por exemplo, Amazon API Gateway, REST API)
+- Serviços gerenciados da AWS com casos de uso apropriados (por exemplo, AWS Transfer Family, Amazon SQS, Secrets Manager)
+- Estratégias de caching
+- Princípios de design para microsserviços (por exemplo, cargas de trabalho sem estado comparadas com cargas de trabalho com estado)
+- Arquiteturas orientadas a eventos
+- Escalonamento horizontal e vertical
+- Uso apropriado de aceleradores de borda (por exemplo, CDN)
+- Migração de aplicações para contêineres
+- Conceitos de balanceamento de carga (por exemplo, Application Load Balancer)
+- Arquiteturas de várias camadas
+- Conceitos de enfileiramento e mensagens (por exemplo, publish/subscribe)
+- Tecnologias e padrões serverless (por exemplo, AWS Fargate, AWS Lambda)
+- Tipos de armazenamento com características associadas (por exemplo, objeto, arquivo, bloco)
+- Orquestração de contêineres (por exemplo, Amazon ECS, Amazon EKS)
+- Quando usar réplicas de leitura
+- Orquestração de fluxos de trabalho (por exemplo, AWS Step Functions)
+- **Serviços correlacionados**: Amazon API Gateway, AWS Transfer Family, Amazon SQS, AWS Secrets Manager, AWS Fargate, AWS Lambda, Amazon ECS, Amazon EKS, AWS Step Functions
 
-### [3.2 Design Secure Application Tiers](/docs/en/design-secure-applications-and-architectures.md#32-design-secure-application-tiers)
-- Security groups
-- NACLs
+---
 
-### [3.3 Select Appropriate Data Security Options](/docs/en/design-secure-applications-and-architectures.md#33-select-appropriate-data-security-options)
-- Encryption
-- KMS
+## 📅 Semana 5: Domínio 2 - Design de Arquiteturas de Alto Desempenho (Parte 2)
 
-## Domain 4: Design Cost-Optimized Architectures (18%)
+### Task Statement 2.2: Design highly available and/or fault-tolerant architectures.
+#### Conhecimento de:
+- Infraestrutura global da AWS (por exemplo, Zonas de Disponibilidade, Regiões AWS, Amazon Route 53)
+- Serviços gerenciados da AWS com casos de uso apropriados (por exemplo, Amazon Comprehend, Amazon Polly)
+- Conceitos básicos de redes (por exemplo, tabelas de rotas)
+- Estratégias de recuperação de desastres (por exemplo, backup e restauração, piloto leve, standby quente, failover ativo-ativo, RPO, RTO)
+- Padrões de design distribuído
+- Estratégias de failover
+- Infraestrutura imutável
+- Conceitos de balanceamento de carga (por exemplo, Application Load Balancer)
+- Conceitos de proxy (por exemplo, Amazon RDS Proxy)
+- Quotas de serviço e limitação (por exemplo, como configurar as quotas de serviço para uma carga de trabalho em um ambiente de standby)
+- Opções de armazenamento e características (por exemplo, durabilidade, replicação)
+- Visibilidade da carga de trabalho (por exemplo, AWS X-Ray)
+- **Serviços correlacionados**: Amazon Route 53, Amazon Comprehend, Amazon Polly, Amazon RDS Proxy, AWS X-Ray, AWS CloudTrail, Amazon S3, Amazon RDS, Elastic Load Balancing
 
-### [4.1 Identify Cost-Effective Storage Solutions](/docs/en/design-cost-optimized-architectures.md#41-identify-cost-effective-storage-solutions)
-- S3 storage classes
-- EFS Infrequent Access
+---
 
-### [4.2 Identify Cost-Effective Compute and Database Services](/docs/en/design-cost-optimized-architectures.md#42-identify-cost-effective-compute-and-database-services)
-- Spot instances
-- Reserved instances
-- Savings plans
+## 📅 Semana 6: Domínio 3 - Design de Aplicações Seguras e Arquiteturas
 
-### [4.3 Design Cost-Optimized Network Architectures](/docs/en/design-cost-optimized-architectures.md#43-design-cost-optimized-network-architectures)
-- Data transfer costs
-- CloudFront
+### Task Statement 1.1: Design secure access to AWS resources.
+#### Conhecimento de:
+- Controles de acesso e gerenciamento entre múltiplas contas
+- Serviços de identidade e acesso federado da AWS (por exemplo, AWS IAM, AWS IAM Identity Center [AWS Single Sign-On])
+- Infraestrutura global da AWS (por exemplo, Zonas de Disponibilidade, Regiões AWS)
+- Melhores práticas de segurança da AWS (por exemplo, o princípio do menor privilégio)
+- Modelo de responsabilidade compartilhada da AWS
+- **Serviços correlacionados**: AWS IAM, AWS IAM Identity Center (AWS Single Sign-On), Amazon Cognito, AWS Control Tower, AWS KMS
 
-## Additional Resources
+### Task Statement 1.2: Design secure workloads and applications.
+#### Conhecimento de:
+- Segurança de configuração e credenciais de aplicativos
+- Endpoints de serviços da AWS
+- Controle de portas, protocolos e tráfego de rede na AWS
+- Acesso seguro a aplicativos
+- Serviços de segurança com casos de uso apropriados (por exemplo, Amazon Cognito, Amazon GuardDuty, Amazon Macie)
+- Vetores de ameaça externos à AWS (por exemplo, DDoS, SQL injection)
+- **Serviços correlacionados**: Amazon GuardDuty, Amazon Macie, AWS Shield, AWS WAF, AWS Secrets Manager, AWS Direct Connect
 
-### [Additional Resources](/docs/en/additional-resources.md)
+### Task Statement 1.3: Determine appropriate data security controls.
+#### Conhecimento de:
+- Acesso a dados e governança
+- Recuperação de dados
+- Retenção e classificação de dados
+- Criptografia e gerenciamento de chaves apropriadas
+- **Serviços correlacionados**: AWS KMS, AWS Certificate Manager, Amazon S3, AWS Backup
 
-- Study materials
-- Practice exams
-- AWS whitepapers
-- Helpful links
+---
 
-## Conclusion
+## 📅 Semana 7: Domínio 4 - Design de Arquiteturas Otimizadas por Custo
 
-### [Conclusion](/docs/en/conclusion.md)
+### Task Statement 4.1: Design cost-optimized storage solutions.
+#### Conhecimento de:
+- Opções de acesso (por exemplo, um bucket S3 com armazenamento de objeto Requester Pays)
+- Funcionalidades de serviços de gerenciamento de custos da AWS (por exemplo, tags de alocação de custos, faturamento multi-conta)
+- Ferramentas de gerenciamento de custos da AWS com casos de uso apropriados (por exemplo, AWS Cost Explorer, AWS Budgets, AWS Cost and Usage Report)
+- Serviços de armazenamento da AWS com casos de uso apropriados (por exemplo, Amazon FSx, Amazon EFS, Amazon S3, Amazon EBS)
+- Estratégias de backup
+- Opções de armazenamento em bloco (por exemplo, tipos de volume HDD, tipos de volume SSD)
+- Ciclos de vida de dados
+- Opções de armazenamento híbrido (por exemplo, DataSync, Transfer Family, Storage Gateway)
+- Padrões de acesso a armazenamento
+- Tiering de armazenamento (por exemplo, tiering a frio para armazenamento de objeto)
+- Tipos de armazenamento com características associadas (por exemplo, objeto, arquivo, bloco)
+- **Serviços correlacionados**: Amazon S3, AWS Budgets, AWS Cost Explorer, AWS Cost and Usage Report, Amazon FSx, Amazon EFS, AWS DataSync, AWS Transfer Family, AWS Storage Gateway
 
-- Final tips
-- How to schedule your exam
-- Recap of key points
+### Task Statement 4.2: Design cost-optimized compute solutions.
+#### Conhecimento de:
+- Funcionalidades de serviços de gerenciamento de custos da AWS (por exemplo, tags de alocação de custos, faturamento multi-conta)
+- Ferramentas de gerenciamento de custos da AWS com casos de uso apropriados (por exemplo, Cost Explorer, AWS Budgets, AWS Cost and Usage Report)
+- Infraestrutura global da AWS (por exemplo, Zonas de Disponibilidade, Regiões AWS)
+- Opções de compra da AWS (por exemplo, Spot Instances, Reserved Instances, Savings Plans)
+- Estratégias de computação distribuída (por exemplo, processamento de borda)
+- Opções de computação híbrida (por exemplo, AWS Outposts, AWS Snowball Edge)
+- Tipos, famílias e tamanhos de instâncias (por exemplo, otimizadas para memória, otimizadas para computação, virtualização)
+- Otimização da utilização de computação (por exemplo, contêineres, computação serverless, microsserviços)
+- Estratégias de escalonamento (por exemplo, auto scaling, hibernação)
+- **Serviços correlacionados**: Amazon EC2, AWS Lambda, AWS Fargate, AWS Outposts, AWS Snowball Edge
 
-## Português
+### Task Statement 4.3: Design cost-optimized database solutions.
+#### Conhecimento de:
+- Funcionalidades de serviços de gerenciamento de custos da AWS (por exemplo, tags de alocação de custos, faturamento multi-conta)
+- Ferramentas de gerenciamento de custos da AWS com casos de uso apropriados (por exemplo, Cost Explorer, AWS Budgets, AWS Cost and Usage Report)
+- Estratégias de caching
+- Políticas de retenção de dados
+- Planejamento de capacidade de banco de dados (por exemplo, unidades de capacidade)
+- Conexões e proxies de banco de dados
+- Motores de banco de dados com casos de uso apropriados (por exemplo, migrações heterogêneas, migrações homogêneas)
+- Replicação de banco de dados (por exemplo, réplicas de leitura)
+- Tipos e serviços de banco de dados (por exemplo, relacionais comparados com não-relacionais, Aurora, DynamoDB)
+- **Serviços correlacionados**: Amazon RDS, Amazon DynamoDB, Amazon Aurora, Amazon ElastiCache, AWS Cost Explorer, AWS Budgets
 
-### [Introdução](/docs/pt/introducao.md)
+### Task Statement 4.4: Design cost-optimized network architectures.
+#### Conhecimento de:
+- Funcionalidades de serviços de gerenciamento de custos da AWS (por exemplo, tags de alocação de custos, faturamento multi-conta)
+- Ferramentas de gerenciamento de custos da AWS com casos de uso apropriados (por exemplo, Cost Explorer, AWS Budgets, AWS Cost and Usage Report)
+- Conceitos de balanceamento de carga (por exemplo, Application Load Balancer)
+- Gateways NAT (por exemplo, custos de instância NAT comparados com custos de gateway NAT)
+- Conectividade de rede (por exemplo, linhas privadas, linhas dedicadas, VPNs)
+- Roteamento, topologia e peering de rede (por exemplo, AWS Transit Gateway, peering VPC)
+- Serviços de rede com casos de uso apropriados (por exemplo, DNS)
+- **Serviços correlacionados**: AWS Direct Connect, AWS Transit Gateway, AWS VPN, AWS PrivateLink, AWS CloudFront, Elastic Load Balancing
 
-- Visão geral da Certificação AWS Solutions Architect Associate
-- Importância da certificação
-- Formato e detalhes do exame
+---
 
-### Domínio 1: Design de Arquiteturas Resilientes (30%)
+## 📅 Semana 8: Revisão Geral e Recursos Adicionais
 
-#### [1.1 Design de Soluções de Arquitetura Multi-Camada](/docs/pt/design-arquiteturas-resilientes.md#11-design-de-solucoes-de-arquitetura-multi-camada)
-- Conceitos principais
-- Exemplos de arquiteturas
+- 🔄 Revisão dos principais pontos de cada domínio: Revisão abrangente dos tópicos abordados nas semanas anteriores.
+- 📚 Materiais de estudo adicionais: Recomendações de leitura e recursos adicionais para aprofundar o conhecimento.
+- 📝 Exames práticos: Simulados para praticar e testar o conhecimento adquirido.
+- 📄 Whitepapers da AWS: Documentos técnicos que fornecem insights e melhores práticas da AWS.
 
-#### [1.2 Design de Arquiteturas Altamente Disponíveis e/ou Tolerantes a Falhas](/docs/pt/design-arquiteturas-resilientes.md#12-design-de-arquiteturas-altamente-disponiveis-eou-tolerantes-a-falhas)
-- Conceitos de alta disponibilidade
-- Tolerância a falhas
-- Recuperação de desastres
+---
 
-#### [1.3 Design de Mecanismos de Desacoplamento Usando Serviços AWS](/docs/pt/design-arquiteturas-resilientes.md#13-design-de-mecanismos-de-desacoplamento-usando-servicos-aws)
-- SQS
-- SNS
-- EventBridge
+## Serviços não listados acima, mas presentes no Guia do Exame
 
-#### [1.4 Escolha de Armazenamento Resiliente Adequado](/docs/pt/design-arquiteturas-resilientes.md#14-escolha-de-armazenamento-resiliente-adequado)
-
-### Domínio 2: Design de Arquiteturas de Alto Desempenho (28%)
-
-#### [2.1 Identificação de Soluções de Computação Elásticas e Escaláveis para uma Carga de Trabalho](/docs/pt/design-arquiteturas-alto-desempenho.md#21-identificacao-de-solucoes-de-computacao-elasticas-e-escalaveis-para-uma-carga-de-trabalho)
-- EC2
-- ECS/EKS
-- Lambda
-
-#### [2.2 Seleção de Soluções de Armazenamento de Alto Desempenho e Escaláveis para uma Carga de Trabalho](/docs/pt/design-arquiteturas-alto-desempenho.md#22-selecao-de-solucoes-de-armazenamento-de-alto-desempenho-e-escalaveis-para-uma-carga-de-trabalho)
-- S3
-- EBS
-- EFS
-
-#### [2.3 Seleção de Soluções de Rede de Alto Desempenho para uma Carga de Trabalho](/docs/pt/design-arquiteturas-alto-desempenho.md#23-selecao-de-solucoes-de-rede-de-alto-desempenho-para-uma-carga-de-trabalho)
-- VPC
-- CloudFront
-- Global Accelerator
-
-#### [2.4 Escolha de Soluções de Banco de Dados de Alto Desempenho para uma Carga de Trabalho](/docs/pt/design-arquiteturas-alto-desempenho.md#24-escolha-de-solucoes-de-banco-de-dados-de-alto-desempenho-para-uma-carga-de-trabalho)
-- RDS
-- DynamoDB
-- Aurora
-
-### Domínio 3: Design de Aplicações Seguras (24%)
-
-#### [3.1 Design de Acesso Seguro aos Recursos AWS](/docs/pt/design-aplicacoes-seguras.md#31-design-de-acesso-seguro-aos-recursos-aws)
-- IAM
-- Políticas de recursos
-
-#### [3.2 Design de Camadas de Aplicação Seguras](/docs/pt/design-aplicacoes-seguras.md#32-design-de-camadas-de-aplicacao-seguras)
-- Grupos de segurança
-- NACLs
-
-#### [3.3 Seleção de Opções de Segurança de Dados Adequadas](/docs/pt/design-aplicacoes-seguras.md#33-selecao-de-opcoes-de-seguranca-de-dados-adequadas)
-- Criptografia
-- KMS
-
-### Domínio 4: Design de Arquiteturas Otimizadas (18%)
-
-#### [4.1 Identificação de Soluções de Armazenamento Custo-Eficientes](/docs/pt/design-arquiteturas-otimizadas.md#41-identificacao-de-solucoes-de-armazenamento-custo-eficientes)
-- Classes de armazenamento S3
-- Acesso Infrequente EFS
-
-#### [4.2 Identificação de Serviços de Computação e Banco de Dados Custo-Eficientes](/docs/pt/design-arquiteturas-otimizadas.md#42-identificacao-de-servicos-de-computacao-e-banco-de-dados-custo-eficientes)
-- Instâncias Spot
-- Instâncias Reservadas
-- Planos de Economia
-
-#### [4.3 Design de Arquiteturas de Rede Custo-Eficientes](/docs/pt/design-arquiteturas-otimizadas.md#43-design-de-arquiteturas-de-rede-custo-eficientes)
-- Custos de transferência de dados
-- CloudFront
-
-### [Recursos Adicionais](/docs/pt/recursos-adicionais.md)
-
-- Materiais de estudo
-- Exames práticos
-- Whitepapers da AWS
-- Links úteis
-
-### [Conclusão](/docs/pt/conclusao.md)
-
-- Dicas finais
-- Como agendar seu exame
-- Recapitulação dos pontos principais
+- Amazon Elastic Transcoder
+- Amazon Kinesis Video Streams
+- AWS Application Discovery Service
+- AWS Application Migration Service
+- AWS DataSync
+- AWS Migration Hub
+- AWS Snow Family
+- AWS Transfer Family
+- AWS Client VPN

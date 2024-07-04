@@ -132,3 +132,4 @@ dist
 .pnp.*
 
 /myenv
+.DS_Store
