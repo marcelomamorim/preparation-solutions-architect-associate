@@ -39,11 +39,6 @@
 - 🗂️ Determinar quando federar um serviço de diretório com funções do IAM  
   **Serviços correlacionados**: [AWS IAM](https://aws.amazon.com/iam/), [AWS Directory Service](https://aws.amazon.com/directoryservice/)
 
-
-### Material de estudos
-
-<iframe src="./pdfs/Semana2.pdf" frameborder="0" width="600" height="400"></iframe>
-
 ---
 
 Este guia abrange as principais áreas e habilidades necessárias para o Domínio 1 do exame AWS Solutions Architect Associate. Certifique-se de revisar cada área e prática para garantir uma compreensão abrangente e aplicação das melhores práticas de segurança da AWS.

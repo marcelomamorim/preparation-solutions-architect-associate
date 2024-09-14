@@ -17,14 +17,14 @@ Bem-vindo ao guia de estudo para o exame AWS Solutions Architect Associate. Este
 
 | Semana                                                                                         | Domínio                                                                                              | Slides |
 |------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|--------|
-| [Parte 1: Introdução e Domínio 1 - Design de Arquiteturas Seguras (Parte 1)](docs/pt/etapas/semana1.md)   | [Domínio 1: Design de Arquiteturas Seguras](docs/pt/dominio/design-arquiteturas-seguras.md)  | [Parte 1](docs/pt/etapas/semana1.md) |
-| [Parte 2: Domínio 1 - Design de Arquiteturas Seguras (Parte 2)](docs/pt/etapas/semana2.md)                | [Domínio 1: Design de Arquiteturas Seguras](docs/pt/dominio/design-arquiteturas-seguras.md)  | [Parte 2](docs/pt/etapas/semana2.md) |
-| [Parte 3: Domínio 1 - Design de Arquiteturas Seguras (Parte 3)](docs/pt/etapas/semana3.md)                | [Domínio 1: Design de Arquiteturas Seguras](docs/pt/dominio/design-arquiteturas-seguras.md)  | [Parte 3](docs/pt/etapas/semana3.md) |
-| [Parte 4: Domínio 2 - Design de Arquiteturas Resilientes (Parte 1)](docs/pt/etapas/semana4.md)         | [Domínio 2: Design de Arquiteturas Resilientes](docs/pt/dominio/design-arquiteturas-resilientes.md) | [Parte 4](docs/pt/etapas/semana4.md) |
-| [Parte 5: Domínio 2 - Design de Arquiteturas Resilientes (Parte 2)](docs/pt/etapas/semana5.md)         | [Domínio 2: Design de Arquiteturas Resilientes](docs/pt/dominio/design-arquiteturas-resilientes.md) | [Parte 5](docs/pt/etapas/semana5.md) |
-| [Parte 6: Domínio 3 - Design de Arquiteturas de Alto Desempenho](docs/pt/etapas/semana6.md)                 | [Domínio 3: Design de Arquiteturas de Alto Desempenho](docs/pt/dominio/design-arquiteturas-alto-desempenho.md)              | [Parte 6](docs/pt/etapas/semana6.md) |
-| [Parte 7: Domínio 4 - Design de Arquiteturas Otimizadas por Custo](docs/pt/etapas/semana7.md)       | [Domínio 4: Design de Arquiteturas Otimizadas por Custo](docs/pt/dominio/design-arquiteturas-otimizadas-custo.md) | [Parte 6](docs/pt/etapas/semana7.md) |
-| [Parte 8: Revisão e Exercícios](docs/pt/etapas/semana8.md)       |                                                                                                      | [Parte 6](docs/pt/etapas/semana8.md) |
+| [Parte 1: Introdução e Domínio 1 - Design de Arquiteturas Seguras (Parte 1)](docs/pt/etapas/semana1.md)   | [Domínio 1: Design de Arquiteturas Seguras](docs/pt/dominio/design-arquiteturas-seguras.md)  | [Parte 1](docs/pt/slides/semana1.md) |
+| [Parte 2: Domínio 1 - Design de Arquiteturas Seguras (Parte 2)](docs/pt/etapas/semana2.md)                | [Domínio 1: Design de Arquiteturas Seguras](docs/pt/dominio/design-arquiteturas-seguras.md)  | [Parte 2](docs/pt/slides/semana2.md) |
+| [Parte 3: Domínio 1 - Design de Arquiteturas Seguras (Parte 3)](docs/pt/etapas/semana3.md)                | [Domínio 1: Design de Arquiteturas Seguras](docs/pt/dominio/design-arquiteturas-seguras.md)  | [Parte 3](docs/pt/slides/semana3.md) |
+| [Parte 4: Domínio 2 - Design de Arquiteturas Resilientes (Parte 1)](docs/pt/etapas/semana4.md)         | [Domínio 2: Design de Arquiteturas Resilientes](docs/pt/dominio/design-arquiteturas-resilientes.md) | [Parte 4](docs/pt/slides/semana4.md) |
+| [Parte 5: Domínio 2 - Design de Arquiteturas Resilientes (Parte 2)](docs/pt/etapas/semana5.md)         | [Domínio 2: Design de Arquiteturas Resilientes](docs/pt/dominio/design-arquiteturas-resilientes.md) | [Parte 5](docs/pt/slides/semana5.md) |
+| [Parte 6: Domínio 3 - Design de Arquiteturas de Alto Desempenho](docs/pt/etapas/semana6.md)                 | [Domínio 3: Design de Arquiteturas de Alto Desempenho](docs/pt/dominio/design-arquiteturas-alto-desempenho.md)              | [Parte 6](docs/pt/slides/semana6.md) |
+| [Parte 7: Domínio 4 - Design de Arquiteturas Otimizadas por Custo](docs/pt/etapas/semana7.md)       | [Domínio 4: Design de Arquiteturas Otimizadas por Custo](docs/pt/dominio/design-arquiteturas-otimizadas-custo.md) | [Parte 7](docs/pt/slides/semana7.md) |
+| [Parte 8: Revisão e Exercícios](docs/pt/etapas/semana8.md)       |                                                                                                      | [Parte 8](docs/pt/slides/semana8.md) |
 
 ### 📊 Estatísticas dos Domínios do Exame
 

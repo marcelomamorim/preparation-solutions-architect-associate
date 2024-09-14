@@ -188,10 +188,6 @@
 - 🔄 Transformar dados entre formatos (por exemplo, .csv para .parquet)  
   **Serviços correlacionados**: [AWS Glue](https://aws.amazon.com/glue/)
 
-### Material de estudos
-
-<iframe src="./pdfs/Semana7.pdf" frameborder="0" width="600" height="400"></iframe>
-
 ---
 
 Este guia abrange as principais áreas e habilidades necessárias para o Domínio 3 do exame AWS Solutions Architect Associate. Certifique-se de revisar cada área e prática para garantir uma compreensão abrangente e aplicação das melhores práticas de desempenho da AWS.

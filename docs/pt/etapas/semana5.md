@@ -66,10 +66,6 @@
 - 🛠️ Usar serviços da AWS com propósito específico para workloads  
   **Serviços correlacionados**: [Amazon Redshift](https://aws.amazon.com/redshift/), [Amazon DynamoDB](https://aws.amazon.com/dynamodb/), [AWS Glue](https://aws.amazon.com/glue/)
 
-### Material de estudos
-
-<iframe src="./pdfs/Semana6.pdf" frameborder="0" width="600" height="400"></iframe>
-
 ---
 
 Este guia abrange as principais áreas e habilidades necessárias para o Domínio 2 do exame AWS Solutions Architect Associate. Certifique-se de revisar cada área e prática para garantir uma compreensão abrangente e aplicação das melhores práticas de resiliência da AWS.

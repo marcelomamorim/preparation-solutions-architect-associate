@@ -36,11 +36,6 @@
 - 🔒 Proteger conexões de rede externas para e da Nuvem AWS (por exemplo, [VPN](https://aws.amazon.com/vpn/), [AWS Direct Connect](https://aws.amazon.com/directconnect/))  
   **Serviços correlacionados**: [AWS Site-to-Site VPN](https://aws.amazon.com/vpn/), [AWS Direct Connect](https://aws.amazon.com/directconnect/)
 
-
-### Material de estudos
-
-<iframe src="./pdfs/Semana3.pdf" frameborder="0" width="600" height="400"></iframe>
-
 ---
 
 Este guia abrange as principais áreas e habilidades necessárias para o Domínio 1 do exame AWS Solutions Architect Associate. Certifique-se de revisar cada área e prática para garantir uma compreensão abrangente e aplicação das melhores práticas de segurança da AWS.
