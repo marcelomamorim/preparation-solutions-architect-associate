@@ -2,7 +2,7 @@
 
 ## 🛡️ Tarefa 1.1: Projetar acesso seguro aos recursos da AWS
 
-<iframe src="./pdfs/Semana2.pdf" frameborder="0" width="800" height="800"></iframe>
+<iframe src="./pdfs/Semana2.pdf#zoom=100" frameborder="0" width="800" height="800"></iframe>
 
 ---
 

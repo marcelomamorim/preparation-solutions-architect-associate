@@ -4,7 +4,7 @@
 
 ### Material de estudos
 
-<iframe src="./pdfs/Semana3.pdf" frameborder="0" width="800" height="800"></iframe>
+<iframe src="./pdfs/Semana3.pdf#zoom=100" frameborder="0" width="800" height="800"></iframe>
 
 ---
 

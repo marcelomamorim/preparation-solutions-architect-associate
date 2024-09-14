@@ -2,7 +2,7 @@
 
 ## 🎯 Tarefa 3.1: Determinar soluções de armazenamento de alto desempenho e/ou escaláveis
 
-<iframe src="./pdfs/Semana7.pdf" frameborder="0" width="800" height="800"></iframe>
+<iframe src="./pdfs/Semana7.pdf#zoom=100" frameborder="0" width="800" height="800"></iframe>
 
 ---
 

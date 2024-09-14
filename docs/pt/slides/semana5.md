@@ -2,7 +2,7 @@
 
 ## 🔒 Tarefa 2.2: Projetar arquiteturas altamente disponíveis e/ou tolerantes a falhas
 
-<iframe src="./pdfs/Semana6.pdf" frameborder="0" width="800" height="800"></iframe>
+<iframe src="./pdfs/Semana6.pdf#zoom=100" frameborder="0" width="800" height="800"></iframe>
 
 ---
 
