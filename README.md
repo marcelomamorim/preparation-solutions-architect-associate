@@ -1,46 +1,99 @@
-# 🌟 Guia de Estudo para o Exame AWS Solutions Architect Associate
+# AWS Solutions Architect Associate Exam Preparation Guide
 
-## 📜 Introdução
+- [English](#english)
+- [Português](#português)
 
-Bem-vindo ao guia de estudo para o exame AWS Solutions Architect Associate. Este guia foi desenvolvido para ajudá-lo a se preparar de forma eficaz e abrangente para o exame, fornecendo uma estrutura clara e recursos úteis para cada etapa do processo de aprendizado.
+---
 
+## English
 
-## 🎯 Benefícios do Exame
+### AWS Solutions Architect Associate Exam Preparation Guide
 
-- **Validação de Competências**: O exame valida suas habilidades e conhecimentos em arquitetar e implantar soluções seguras e robustas na AWS.
-- **Reconhecimento Profissional**: Obter a certificação pode aumentar sua visibilidade e credibilidade no campo de computação em nuvem.
-- **Oportunidades de Carreira**: A certificação pode abrir portas para novas oportunidades de emprego e avanço na carreira.
-- **Aprendizado Profundo**: O processo de preparação para o exame aprofunda seu entendimento sobre os serviços AWS e melhores práticas de arquitetura.
+Welcome to the **AWS Solutions Architect Associate Exam Preparation Guide** project! This project is dedicated to providing resources, guides, and practice exercises to help you prepare for the AWS Solutions Architect Associate (SAA-C03) exam. Whether you're just starting out or looking for advanced tips, our goal is to create a comprehensive, community-driven resource for exam preparation.
 
+### Table of Contents
 
-## 📚 Índice
+- [About the Exam](#about-the-exam)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [How to Contribute](#how-to-contribute)
+- [Resources](#resources)
 
+### About the Exam
 
-### 📅 Cronograma de 8 Semanas
+The AWS Solutions Architect Associate Exam (SAA-C03) is designed to test your skills in designing and implementing scalable, high-availability systems on AWS. The exam covers a range of services, architectures, and best practices.
 
-| Semana                                                                                         | Domínio                                                                                              |
-|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| [Semana 1: Introdução e Domínio 1 - Design de Arquiteturas Seguras (Parte 1)](docs/pt/agenda/semana1.md)   | [Domínio 1: Design de Arquiteturas Seguras](docs/pt/dominio/design-arquiteturas-seguras.md)  |
-| [Semana 2: Domínio 1 - Design de Arquiteturas Seguras (Parte 2)](docs/pt/agenda/semana2.md)                | [Domínio 1: Design de Arquiteturas Seguras](docs/pt/dominio/design-arquiteturas-seguras.md)  |
-| [Semana 3: Domínio 1 - Design de Arquiteturas Seguras (Parte 3)](docs/pt/agenda/semana3.md)                | [Domínio 1: Design de Arquiteturas Seguras](docs/pt/dominio/design-arquiteturas-seguras.md)  |
-| [Semana 4: Domínio 2 - Design de Arquiteturas Resilientes (Parte 1)](docs/pt/agenda/semana4.md)         | [Domínio 2: Design de Arquiteturas Resilientes](docs/pt/dominio/design-arquiteturas-resilientes.md) |
-| [Semana 5: Domínio 2 - Design de Arquiteturas Resilientes (Parte 2)](docs/pt/agenda/semana5.md)         | [Domínio 2: Design de Arquiteturas Resilientes](docs/pt/dominio/design-arquiteturas-resilientes.md) |
-| [Semana 6: Domínio 3 - Design de Arquiteturas de Alto Desempenho](docs/pt/agenda/semana6.md)                 | [Domínio 3: Design de Arquiteturas de Alto Desempenho](docs/pt/dominio/design-arquiteturas-alto-desempenho.md)              |
-| [Semana 7: Domínio 4 - Design de Arquiteturas Otimizadas por Custo (Parte 1)](docs/pt/agenda/semana7.md)       | [Domínio 4: Design de Arquiteturas Otimizadas por Custo](docs/pt/dominio/design-arquiteturas-otimizadas-custo.md) |
-| [Semana 8: Domínio 4 - Design de Arquiteturas Otimizadas por Custo (Parte 2)](docs/pt/agenda/semana8.md)       | [Domínio 4: Design de Arquiteturas Otimizadas por Custo](docs/pt/dominio/design-arquiteturas-otimizadas-custo.md) |
-| [Serviços não listados acima, mas presentes no Guia do Exame](docs/pt/agenda/servicos_nao_listados.md)         |                                                                                                      |
+For more details on the exam, visit the [AWS Official Exam Guide](https://aws.amazon.com/certification/certified-solutions-architect-associate/).
 
+### Features
 
-### 📊 Estatísticas dos Domínios do Exame
+- **Study Guides**: Comprehensive overviews of key AWS services and concepts.
+- **Practice Questions**: Realistic, scenario-based questions to test your understanding.
+- **Hands-On Labs**: Step-by-step labs to gain practical experience with AWS services.
 
-![Estatísticas dos Domínios do Exame](assets/images/distribuicao_dominios.png)
+### Getting Started
 
-- **Domínio 1**: Design de Arquiteturas Seguras (30% do conteúdo avaliado)
-- **Domínio 2**: Design de Arquiteturas Resilientes (26% do conteúdo avaliado)
-- **Domínio 3**: Design de Arquiteturas de Alto Desempenho (24% do conteúdo avaliado)
-- **Domínio 4**: Design de Arquiteturas Otimizadas por Custo (20% do conteúdo avaliado)
+1. **Page**
+   > https://marcelomamorim.github.io/preparation-solutions-architect-associate/
 
+2. **Explore the Content**
+   - Go to the `guides` folder for study guides and summaries.
+   - Check out the `practice` folder for questions and answers.
+   - Try out the hands-on labs in the `labs` folder.
 
-## 🎉 Mensagem de Boas-Vindas
+### How to Contribute
 
-Estamos entusiasmados em tê-lo aqui e esperamos que este guia seja um recurso valioso em sua jornada de preparação para o exame AWS Solutions Architect Associate. Desejamos-lhe todo o sucesso em sua aprendizagem e no exame!
+We welcome contributions from anyone, whether you’re a beginner or an AWS expert! See our [CONTRIBUTING.md](CONTRIBUTING.md) for more details on how to contribute.
+
+### Resources
+
+- **AWS Documentation**: The [AWS Documentation](https://docs.aws.amazon.com/) is your primary source for in-depth information on AWS services.
+- **AWS Exam Guide**: Review the [AWS Solutions Architect Associate Exam Guide](https://aws.amazon.com/certification/certified-solutions-architect-associate/) for official exam details.
+
+---
+
+## Português
+
+### Guia de Preparação para o Exame AWS Solutions Architect Associate
+
+Bem-vindo ao projeto **Guia de Preparação para o Exame AWS Solutions Architect Associate**! Este projeto é dedicado a fornecer recursos, guias e exercícios práticos para ajudá-lo a se preparar para o exame AWS Solutions Architect Associate (SAA-C03). Seja você um iniciante ou alguém procurando dicas avançadas, nosso objetivo é criar um recurso abrangente, impulsionado pela comunidade, para a preparação do exame.
+
+### Índice
+
+- [Sobre o Exame](#sobre-o-exame)
+- [Funcionalidades](#funcionalidades)
+- [Como Começar](#como-começar)
+- [Como Contribuir](#como-contribuir)
+- [Recursos](#recursos)
+
+### Sobre o Exame
+
+O Exame AWS Solutions Architect Associate (SAA-C03) é projetado para testar suas habilidades em projetar e implementar sistemas escaláveis e de alta disponibilidade na AWS. O exame abrange uma variedade de serviços, arquiteturas e práticas recomendadas.
+
+Para mais detalhes sobre o exame, visite o [Guia Oficial do Exame AWS](https://aws.amazon.com/certification/certified-solutions-architect-associate/).
+
+### Funcionalidades
+
+- **Guias de Estudo**: Overviews compreensivas dos principais serviços e conceitos da AWS.
+- **Questões de Prática**: Questões realistas, baseadas em cenários, para testar sua compreensão.
+- **Laboratórios Práticos**: Laboratórios passo a passo para ganhar experiência prática com os serviços da AWS.
+
+### Como Começar
+
+1. **Página**
+   > https://marcelomamorim.github.io/preparation-solutions-architect-associate/
+
+2. **Explore o Conteúdo**
+   - Acesse a pasta `guides` para guias de estudo e resumos.
+   - Consulte a pasta `practice` para perguntas e respostas.
+   - Experimente os laboratórios práticos na pasta `labs`.
+
+### Como Contribuir
+
+Convidamos contribuições de qualquer pessoa, seja você um iniciante ou um especialista em AWS! Veja nosso [CONTRIBUTING.md](CONTRIBUTING.md) para mais detalhes sobre como contribuir.
+
+### Recursos
+
+- **Documentação AWS**: A [Documentação AWS](https://docs.aws.amazon.com/) é sua principal fonte para informações detalhadas sobre os serviços da AWS.
+- **Guia do Exame AWS**: Revise o [Guia do Exame AWS Solutions Architect Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/) para obter detalhes oficiais sobre o exame.
+
