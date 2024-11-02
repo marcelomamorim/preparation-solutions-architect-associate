@@ -1,8 +1,10 @@
 # 📋 Guia do Exame: Domínio 2 - Design de Arquiteturas Resilientes
 
-## 🔒 Tarefa 2.2: Projetar arquiteturas altamente disponíveis e/ou tolerantes a falhas
+## 🎯 Tarefa 2.1: Projetar arquiteturas escaláveis e fracamente acopladas
 
-<iframe src="./pdfs/Semana6.pdf" frameborder="0" width="800" height="510"></iframe>
+### Material de estudos
+
+<iframe src="./pdfs/Semana5.pdf" frameborder="0" width="800" height="510"></iframe>
 
 ---
 
@@ -11,4 +13,3 @@ Este guia abrange as principais áreas e habilidades necessárias para o Domíni
 ---
 
 🔙 [Voltar ao Índice](../../../index.md)
-
