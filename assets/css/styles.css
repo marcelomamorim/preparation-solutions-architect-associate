@@ -1,58 +1,127 @@
 ---
 ---
 
+/* Import Theme and Fonts */
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400;700&display=swap');
 
+/* Base Styles */
 body {
     font-family: 'Open Sans', sans-serif;
-    line-height: 1.6;
+    line-height: 1.8;
     color: #333;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
+    font-size: 16px;
+    background: linear-gradient(to bottom, #ffffff, #e6f2ff);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     margin-top: 1.5em;
     margin-bottom: 0.5em;
-    color: #004080;
-  }
-  
-  p {
-    margin-bottom: 1.2em;
-  }
+    color: #003366;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+}
 
-  a {
-    color: #0073e6;
+p {
+    margin-bottom: 1.5em;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Links */
+a {
+    color: #0056b3;
     text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  button {
-    background-color: #004080;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #003d80;
+    border-bottom: 2px solid #003d80;
+}
+
+/* Buttons */
+button {
+    background-color: #0056b3;
     color: white;
     border: none;
-    padding: 10px 20px;
-    cursor: pointer;
+    border-radius: 5px;
+    padding: 12px 24px;
     font-size: 1em;
     margin-top: 1em;
-  }
-  
-  button:hover {
-    background-color: #003366;
-  }
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
 
-  pre {
+button:hover {
+    background-color: #003d80;
+    transform: translateY(-2px);
+}
+
+/* Code Blocks */
+pre {
     background-color: #f4f4f4;
-    padding: 1em;
-    border-left: 5px solid #004080;
+    padding: 1.2em;
+    border-left: 5px solid #0056b3;
+    border-radius: 5px;
     overflow-x: auto;
-  }
-  
-  code {
+    font-size: 0.95em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+code {
     font-family: 'Courier New', Courier, monospace;
-    color: #d63384;
-  }
-  
+    color: #e83e8c;
+    background-color: #f9f9f9;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+}
+
+/* Layout Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header and Footer */
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+footer {
+    background-color: #003d80;
+    color: white;
+    padding: 10px;
+    font-size: 0.9em;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}
