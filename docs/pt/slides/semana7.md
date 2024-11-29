@@ -1,13 +1,30 @@
-# 🚀 Guia do Exame: Domínio 3 - Design de Arquiteturas de Alto Desempenho
+# 🌟 Guia do Exame: Domínio 4 - Design de Arquiteturas Otimizadas por Custo
 
-## 🎯 Tarefa 3.1: Determinar soluções de armazenamento de alto desempenho e/ou escaláveis
+## 🎯 Visão Geral
+> Aprenda a projetar soluções econômicas e otimizadas por custo na AWS.
 
-<iframe src="./pdfs/Semana7.pdf" frameborder="0" width="800" height="510"></iframe>
+## 📚 Objetivos de Aprendizado
+- Otimizar custos de armazenamento
+- Implementar soluções econômicas
+- Gerenciar recursos de forma eficiente
 
----
+## 📑 Material de Estudos
 
-Este guia abrange as principais áreas e habilidades necessárias para o Domínio 3 do exame AWS Solutions Architect Associate. Certifique-se de revisar cada área e prática para garantir uma compreensão abrangente e aplicação das melhores práticas de desempenho da AWS.
+<div class="pdf-container">
+    <iframe 
+        src="./pdfs/Semana7.pdf" 
+        frameborder="0" 
+        width="100%" 
+        height="600px"
+        style="box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 8px;">
+    </iframe>
+</div>
 
----
+## 💡 Pontos Importantes
+> Foque na otimização de custos sem comprometer a performance e disponibilidade.
 
-🔙 [Voltar ao Índice](../../../index.md)
+<div class="navigation-footer">
+    <a href="./semana6.md">🔙 Módulo Anterior</a> |
+    <a href="../../../index.md">🏠 Início</a> |
+    <a href="./semana8.md">Próximo ➡️</a>
+</div>
