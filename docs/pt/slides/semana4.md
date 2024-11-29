@@ -1,30 +1,13 @@
-# 📋 Guia do Exame: Domínio 2 - Design de Arquiteturas Resilientes
+# 📋 Guia do Exame: Domínio 1 - Design de Arquiteturas Seguras
 
-## 🎯 Visão Geral
-> Neste módulo, você aprenderá sobre os princípios fundamentais para projetar arquiteturas escaláveis e resilientes na AWS.
+## 🔒 Tarefa 1.3: Determinar controles apropriados de segurança de dados
 
-## 📚 Objetivos de Aprendizado
-- Compreender arquiteturas escaláveis e fracamente acopladas
-- Implementar soluções resilientes
-- Aplicar melhores práticas de design arquitetural
+<iframe src="./pdfs/Semana4.pdf" frameborder="0" width="800" height="510"></iframe>
 
-## 📑 Material de Estudos
+---
 
-<div class="pdf-container">
-    <iframe 
-        src="./pdfs/Semana4.pdf" 
-        frameborder="0" 
-        width="100%" 
-        height="600px"
-        style="box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 8px;">
-    </iframe>
-</div>
+Este guia abrange as principais áreas e habilidades necessárias para o Domínio 1 do exame AWS Solutions Architect Associate. Certifique-se de revisar cada área e prática para garantir uma compreensão abrangente e aplicação das melhores práticas de segurança da AWS.
 
-## 💡 Pontos Importantes
-> Certifique-se de compreender profundamente cada conceito e sua aplicação prática.
+---
 
-<div class="navigation-footer">
-    <a href="../slides/semana3.md">🔙 Módulo Anterior</a> |
-    <a href="../../../index.md">🏠 Início</a> |
-    <a href="./semana5.md">Próximo ➡️</a>
-</div>
+🔙 [Voltar ao Índice](../../../index.md)

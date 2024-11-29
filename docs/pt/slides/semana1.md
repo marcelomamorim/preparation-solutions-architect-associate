@@ -1,15 +1,11 @@
-# 📋 Guia do Exame: Introdução
+# 📋 Guia do Exame: Intro
 
-<div align="center">
-  <iframe src="./pdfs/Semana1.pdf" frameborder="0" width="800" height="510"></iframe>
-</div>
+<iframe src="./pdfs/Semana1.pdf" frameborder="0" width="800" height="510"></iframe>
 
 ---
 
-Este guia abrange as principais áreas e habilidades necessárias para o exame AWS Solutions Architect Associate.
+Este guia abrange as principais áreas e habilidades necessárias o exame AWS Solutions Architect Associate.
 
 ---
 
-<div align="center">
-  🔙 <a href="../../../index.md">Voltar ao Índice</a>
-</div>
+🔙 [Voltar ao Índice](../../../index.md)
