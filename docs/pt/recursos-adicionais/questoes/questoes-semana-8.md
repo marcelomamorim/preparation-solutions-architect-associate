@@ -1,28 +1,28 @@
-# Questoes de Pratica - Parte 8: Rede, Migracao e Revisao Geral
+# Questões de Prática - Parte 8: Rede, Migração e Revisão Geral
 
-> Teste seus conhecimentos sobre rede, otimizacao de custos de rede, migracao e conceitos transversais.
+> Teste seus conhecimentos sobre rede, otimização de custos de rede, migração e conceitos transversais.
 
 ---
 
 ### Questao 1
 
-Uma empresa precisa conectar seu data center on-premises a uma VPC da AWS com conexao dedicada de alta largura de banda e latencia consistente. Qual servico deve ser usado?
+Uma empresa precisa conectar seu data center on-premises a uma VPC da AWS com conexão dedicada de alta largura de banda e latência consistente. Qual serviço deve ser usado?
 
 **A)** AWS Site-to-Site VPN
 
 **B)** AWS Direct Connect
 
-**C)** AWS Transit Gateway
+**C)** AWS Transit Gatéway
 
 **D)** VPC Peering
 
-> **Resposta: B** - AWS Direct Connect estabelece uma conexao de rede dedicada entre o data center e a AWS, oferecendo largura de banda consistente (1 Gbps ou 10 Gbps) e latencia mais previsivel que uma VPN via internet. Para redundancia, combine com VPN como backup.
+> **Resposta: B** - AWS Direct Connect estabelece uma conexão de rede dedicada entre o data center e a AWS, oferecendo largura de banda consistente (1 Gbps ou 10 Gbps) e latência mais previsível que uma VPN via internet. Para redundância, combine com VPN como backup.
 
 ---
 
 ### Questao 2
 
-Uma empresa quer reduzir os custos de transferencia de dados ao servir conteudo estatico (imagens, CSS, JavaScript) para usuarios globais. Qual servico e mais adequado?
+Uma empresa quer reduzir os custos de transferencia de dados ao servir conteúdo estático (imagens, CSS, JavaScript) para usuários globais. Qual serviço e mais adequado?
 
 **A)** Amazon S3 com Transfer Acceleration
 
@@ -30,31 +30,31 @@ Uma empresa quer reduzir os custos de transferencia de dados ao servir conteudo 
 
 **C)** AWS Global Accelerator
 
-**D)** Elastic Load Balancer em multiplas regioes
+**D)** Elastic Load Balancer em múltiplas regiões
 
-> **Resposta: B** - CloudFront cacheia conteudo em edge locations proximas aos usuarios, reduzindo a latencia e os custos de transferencia de dados do S3. O custo de egress do CloudFront e menor que o egress direto do S3. Global Accelerator e melhor para aplicacoes dinamicas.
+> **Resposta: B** - CloudFront cacheia conteúdo em edge locations próximas aos usuários, reduzindo a latência e os custos de transferencia de dados do S3. O custo de egress do CloudFront e menor que o egress direto do S3. Global Accelerator e melhor para aplicações dinamicas.
 
 ---
 
 ### Questao 3
 
-Uma aplicacao em uma VPC precisa acessar o DynamoDB sem que o trafego passe pela internet. Qual tipo de VPC Endpoint deve ser criado?
+Uma aplicação em uma VPC precisa acessar o DynamoDB sem que o tráfego passe pela internet. Qual tipo de VPC Endpoint deve ser criado?
 
 **A)** VPC Interface Endpoint
 
-**B)** VPC Gateway Endpoint
+**B)** VPC Gatéway Endpoint
 
-**C)** NAT Gateway
+**C)** NAT Gatéway
 
-**D)** Internet Gateway
+**D)** Internet Gatéway
 
-> **Resposta: B** - DynamoDB e S3 usam Gateway Endpoints (gratuitos). A maioria dos outros servicos AWS usa Interface Endpoints (com custo por hora e por GB). Gateway Endpoints adicionam uma entrada na tabela de roteamento da sub-rede.
+> **Resposta: B** - DynamoDB e S3 usam Gatéway Endpoints (gratuitos). A maioria dos outros serviços AWS usa Interface Endpoints (com custo por hora e por GB). Gatéway Endpoints adicionam uma entrada na tabela de roteamento da sub-rede.
 
 ---
 
 ### Questao 4
 
-Uma empresa precisa migrar 50 TB de dados do data center on-premises para o Amazon S3. A conexao de internet tem largura de banda limitada de 100 Mbps. Qual servico oferece a forma mais rapida de migrar esses dados?
+Uma empresa precisa migrar 50 TB de dados do data center on-premises para o Amazon S3. A conexão de internet tem largura de banda limitada de 100 Mbps. Qual serviço oferece a forma mais rápida de migrar esses dados?
 
 **A)** Transferir via internet usando S3 multipart upload
 
@@ -64,7 +64,7 @@ Uma empresa precisa migrar 50 TB de dados do data center on-premises para o Amaz
 
 **D)** Configurar Direct Connect
 
-> **Resposta: C** - AWS Snowball Edge e um dispositivo fisico que pode armazenar ate 80 TB. A AWS envia o dispositivo, voce carrega os dados localmente e devolve para a AWS, que transfere para o S3. Com 100 Mbps, 50 TB levaria ~46 dias via internet. Snowball pode completar em ~1 semana incluindo envio.
+> **Resposta: C** - AWS Snowball Edge e um dispositivo físico que pode armazenar até 80 TB. A AWS envia o dispositivo, você carrega os dados localmente e devolve para a AWS, que transfere para o S3. Com 100 Mbps, 50 TB levaria ~46 dias via internet. Snowball pode completar em ~1 semana incluindo envio.
 
 ---
 
@@ -74,14 +74,14 @@ Uma empresa usa CloudFormation para gerenciar toda sua infraestrutura. Apos uma 
 
 **A)** Deletar o stack e criar um novo manualmente
 
-**B)** Usar o rollback automatico do CloudFormation
+**B)** Usar o rollback automático do CloudFormation
 
 **C)** Editar os recursos manualmente no console
 
 **D)** Criar um novo stack com um nome diferente
 
-> **Resposta: B** - CloudFormation tem rollback automatico: se uma atualizacao de stack falhar, ele reverte automaticamente para o estado anterior. Voce tambem pode usar Change Sets para visualizar mudancas antes de aplica-las, reduzindo o risco de falhas.
+> **Resposta: B** - CloudFormation tem rollback automático: se uma atualizacao de stack falhar, ele reverte automáticamente para o estado anterior. Você também pode usar Change Sets para visualizar mudancas antes de aplica-las, reduzindo o risco de falhas.
 
 ---
 
-Voltar ao [Indice](../../../../index.md)
+Voltar ao [Índice](../../../../index.md)

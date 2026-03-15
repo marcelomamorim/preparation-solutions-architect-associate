@@ -1,14 +1,14 @@
-# Questoes de Pratica - Parte 7: Banco de Dados e Otimizacao de Custos
+# Questões de Prática - Parte 7: Banco de Dados e Otimização de Custos
 
-> Teste seus conhecimentos sobre bancos de dados AWS, otimizacao de custos de computacao e armazenamento.
+> Teste seus conhecimentos sobre bancos de dados AWS, otimização de custos de computacao e armazenamento.
 
 ---
 
 ### Questao 1
 
-Uma startup precisa de um banco de dados para sua aplicacao web. O trafego e imprevisivel e pode variar de zero a milhares de requisicoes por segundo. A equipe quer minimizar custos quando nao ha trafego. Qual solucao e mais adequada?
+Uma startup precisa de um banco de dados para sua aplicação web. O tráfego e imprevisível e pode variar de zero a milhares de requisicoes por segundo. A equipe quer minimizar custos quando não ha tráfego. Qual solução e mais adequada?
 
-**A)** Amazon RDS MySQL com instancia Multi-AZ
+**A)** Amazon RDS MySQL com instância Multi-AZ
 
 **B)** Amazon Aurora Serverless v2
 
@@ -16,7 +16,7 @@ Uma startup precisa de um banco de dados para sua aplicacao web. O trafego e imp
 
 **D)** Amazon EC2 com MySQL instalado
 
-> **Resposta: B** - Aurora Serverless v2 escala automaticamente a capacidade de computacao baseada na demanda, podendo escalar ate quase zero quando nao ha trafego. E ideal para workloads imprevisiveis. DynamoDB On-Demand tambem seria uma opcao valida para NoSQL.
+> **Resposta: B** - Aurora Serverless v2 escala automáticamente a capacidade de computacao baseada na demanda, podendo escalar até quase zero quando não ha tráfego. E ideal para workloads imprevisiveis. DynamoDB On-Demand também seria uma opcao válida para NoSQL.
 
 ---
 
@@ -30,15 +30,15 @@ Uma empresa tem workloads de processamento em lote que podem ser interrompidas s
 
 **C)** Spot Instances
 
-**D)** Dedicated Hosts
+**D)** Dedicatéd Hosts
 
-> **Resposta: C** - Spot Instances oferecem ate 90% de desconto comparado a On-Demand. Como os workloads podem ser interrompidos e reiniciados, Spot e ideal. Use Spot Fleet ou EC2 Auto Scaling com diversificacao de tipos de instancia para maior disponibilidade.
+> **Resposta: C** - Spot Instances oferecem até 90% de desconto comparado a On-Demand. Como os workloads podem ser interrompidos e reiniciados, Spot e ideal. Use Spot Fleet ou EC2 Auto Scaling com diversificação de tipos de instância para maior disponibilidade.
 
 ---
 
 ### Questao 3
 
-Uma empresa executa uma aplicacao com trafego previsivel e constante, 24/7, durante todo o ano. A empresa quer reduzir os custos de computacao EC2. Qual abordagem oferece a melhor economia?
+Uma empresa executa uma aplicação com tráfego previsível e constante, 24/7, durante todo o ano. A empresa quer reduzir os custos de computacao EC2. Qual abordagem oferece a melhor economia?
 
 **A)** Usar apenas On-Demand Instances
 
@@ -46,15 +46,15 @@ Uma empresa executa uma aplicacao com trafego previsivel e constante, 24/7, dura
 
 **C)** Usar apenas Spot Instances
 
-**D)** Usar instancias T3 com creditos ilimitados
+**D)** Usar instâncias T3 com creditos ilimitados
 
-> **Resposta: B** - Compute Savings Plans com compromisso de 3 anos e pagamento antecipado total oferecem o maior desconto (ate 72%). Para workloads previsiveis 24/7, o compromisso de longo prazo e a melhor estrategia. Spot nao e adequado para cargas criticas constantes.
+> **Resposta: B** - Compute Savings Plans com compromisso de 3 anos e pagamento antecipado total oferecem o maior desconto (até 72%). Para workloads previsiveis 24/7, o compromisso de longo prazo e a melhor estratégia. Spot não e adequado para cargas críticas constantes.
 
 ---
 
 ### Questao 4
 
-Uma aplicacao usa DynamoDB com trafego variavel. Durante o dia, recebe milhares de requisicoes por segundo. A noite, o trafego cai para quase zero. Qual modo de capacidade e mais economico?
+Uma aplicação usa DynamoDB com tráfego variável. Durante o dia, recebe milhares de requisicoes por segundo. A noite, o tráfego cai para quase zero. Qual modo de capacidade e mais econômico?
 
 **A)** Capacidade provisionada com valores altos fixos
 
@@ -64,13 +64,13 @@ Uma aplicacao usa DynamoDB com trafego variavel. Durante o dia, recebe milhares 
 
 **D)** Capacidade provisionada com Reserved Capacity
 
-> **Resposta: B** - Capacidade provisionada com Auto Scaling ajusta a capacidade automaticamente baseada no trafego, mantendo custos baixos a noite e escalando durante o dia. On-Demand e mais simples mas pode ser mais caro para padroes previsiveis. Reserved e para trafego muito estavel.
+> **Resposta: B** - Capacidade provisionada com Auto Scaling ajusta a capacidade automáticamente baseada no tráfego, mantendo custos baixos a noite e escalando durante o dia. On-Demand e mais simples mas pode ser mais caro para padrões previsiveis. Reserved e para tráfego muito estável.
 
 ---
 
 ### Questao 5
 
-Uma empresa quer identificar instancias EC2 que estao superdimensionadas (usando menos de 10% da CPU consistentemente) e receber recomendacoes de right-sizing. Qual servico fornece essas recomendacoes?
+Uma empresa quer identificar instâncias EC2 que estao superdimensionadas (usando menos de 10% da CPU consistentemente) e receber recomendações de right-sizing. Qual serviço fornece essas recomendações?
 
 **A)** Amazon CloudWatch
 
@@ -80,8 +80,8 @@ Uma empresa quer identificar instancias EC2 que estao superdimensionadas (usando
 
 **D)** AWS Cost Explorer
 
-> **Resposta: C** - AWS Compute Optimizer analisa metricas de utilizacao (CPU, memoria, rede) e recomenda tipos de instancia ideais para cada workload. Trusted Advisor tambem identifica instancias ociosas, mas Compute Optimizer oferece recomendacoes mais detalhadas com estimativas de economia.
+> **Resposta: C** - AWS Compute Optimizer analisa métricas de utilização (CPU, memoria, rede) e recomenda tipos de instância ideais para cada workload. Trusted Advisor também identifica instâncias ociosas, mas Compute Optimizer oferece recomendações mais detalhadas com estimativas de economia.
 
 ---
 
-Voltar ao [Indice](../../../../index.md)
+Voltar ao [Índice](../../../../index.md)

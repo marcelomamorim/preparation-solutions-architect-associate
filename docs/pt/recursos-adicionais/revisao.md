@@ -1,13 +1,13 @@
-# Checklist de Revisao Final - AWS Solutions Architect Associate
+# Checklist de Revisão Final - AWS Solutions Architect Associaté
 
-> Use este checklist antes do exame para garantir que voce cobriu todos os topicos importantes. Marque cada item conforme for revisando.
+> Use este checklist antes do exame para garantir que você cobriu todos os topicos importantes. Marque cada item conforme for revisando.
 
 ---
 
-## Dominio 1: Design de Arquiteturas Seguras (30%)
+## Domínio 1: Design de Arquiteturas Seguras (30%)
 
 ### IAM e Gerenciamento de Acesso
-- [ ] Usuarios, grupos, funcoes e politicas do IAM
+- [ ] Usuarios, grupos, funções e politicas do IAM
 - [ ] Politicas gerenciadas vs. inline vs. de recurso
 - [ ] Principio do menor privilegio
 - [ ] AWS Organizations e SCPs (Service Control Policies)
@@ -15,29 +15,29 @@
 - [ ] AWS STS e AssumeRole para acesso entre contas
 - [ ] MFA e politicas de senha
 
-### Seguranca de Rede
-- [ ] VPC: sub-redes publicas e privadas
-- [ ] Security Groups (stateful) vs. NACLs (stateless)
-- [ ] NAT Gateway vs. NAT Instance
-- [ ] VPC Endpoints (Gateway para S3/DynamoDB, Interface para outros)
+### Segurança de Rede
+- [ ] VPC: sub-redes públicas e privadas
+- [ ] Security Groups (statéful) vs. NACLs (statéless)
+- [ ] NAT Gatéway vs. NAT Instance
+- [ ] VPC Endpoints (Gatéway para S3/DynamoDB, Interface para outros)
 - [ ] AWS Network Firewall
 - [ ] AWS WAF e AWS Shield (Standard vs. Advanced)
 
-### Criptografia e Protecao de Dados
+### Criptografia e Proteção de Dados
 - [ ] AWS KMS: CMKs gerenciadas pela AWS vs. pelo cliente
 - [ ] Criptografia em repouso: SSE-S3, SSE-KMS, SSE-C
-- [ ] Criptografia em transito: TLS/SSL com ACM
+- [ ] Criptografia em trânsito: TLS/SSL com ACM
 - [ ] AWS Secrets Manager vs. Systems Manager Parameter Store
-- [ ] Amazon Macie para dados sensiveis no S3
+- [ ] Amazon Macie para dados sensíveis no S3
 - [ ] AWS CloudTrail para auditoria
 
 ### Modelo de Responsabilidade Compartilhada
-- [ ] AWS: seguranca DA nuvem (infraestrutura, rede, hipervisor)
-- [ ] Cliente: seguranca NA nuvem (dados, apps, configuracao)
+- [ ] AWS: segurança DA nuvem (infraestrutura, rede, hipervisor)
+- [ ] Cliente: segurança NA nuvem (dados, apps, configuração)
 
 ---
 
-## Dominio 2: Design de Arquiteturas Resilientes (26%)
+## Domínio 2: Design de Arquiteturas Resilientes (26%)
 
 ### Desacoplamento e Escalabilidade
 - [ ] Amazon SQS: Standard vs. FIFO, Dead Letter Queues
@@ -50,48 +50,48 @@
 ### Alta Disponibilidade
 - [ ] Multi-AZ para RDS, ElastiCache, EFS
 - [ ] ELB: ALB (camada 7) vs. NLB (camada 4) vs. GLB
-- [ ] Amazon Route 53: politicas de roteamento (Simple, Weighted, Latency, Failover, Geolocation, Multivalue)
-- [ ] Health checks e failover automatico
+- [ ] Amazon Route 53: politicas de roteamento (Simple, Weighted, Laténcy, Failover, Geolocation, Multivalue)
+- [ ] Health checks e failover automático
 
-### Recuperacao de Desastres
+### Recuperação de Desastrês
 - [ ] RPO (Recovery Point Objective) e RTO (Recovery Time Objective)
-- [ ] Estrategias de DR: Backup & Restore, Pilot Light, Warm Standby, Active-Active
+- [ ] Estratégias de DR: Backup & Restore, Pilot Light, Warm Standby, Active-Active
 - [ ] AWS Backup para gerenciamento centralizado
-- [ ] Replicacao cross-region para S3 e RDS
+- [ ] Replicação cross-region para S3 e RDS
 
 ### Containers e Serverless
 - [ ] Amazon ECS vs. Amazon EKS
-- [ ] AWS Fargate (serverless para containers)
-- [ ] AWS Lambda: limites (15 min, 10 GB memoria, 1000 concorrencia padrao)
+- [ ] AWS Fargaté (serverless para containers)
+- [ ] AWS Lambda: limites (15 min, 10 GB memoria, 1000 concorrência padrão)
 
 ---
 
-## Dominio 3: Design de Arquiteturas de Alto Desempenho (24%)
+## Domínio 3: Design de Arquiteturas de Alto Desempenho (24%)
 
 ### Armazenamento
 - [ ] Amazon S3: classes de armazenamento e lifecycle policies
 - [ ] Amazon EBS: gp3/gp2 (SSD geral), io2 (alto IOPS), st1/sc1 (HDD)
-- [ ] Amazon EFS: elastico, compartilhado, NFS
+- [ ] Amazon EFS: elástico, compartilhado, NFS
 - [ ] Amazon FSx: Windows File Server, Lustre
 - [ ] S3 Transfer Acceleration e multipart upload
 
 ### Computacao
-- [ ] Familias de instancias EC2: M (geral), C (computacao), R (memoria), T (burst)
+- [ ] Familias de instâncias EC2: M (geral), C (computacao), R (memoria), T (burst)
 - [ ] Spot Instances, Reserved Instances, Savings Plans
 - [ ] Lambda@Edge e CloudFront Functions
 - [ ] AWS Batch para processamento em lote
 
 ### Banco de Dados
 - [ ] Amazon RDS: motores suportados, Multi-AZ, replicas de leitura
-- [ ] Amazon Aurora: ate 15 replicas, 5x mais rapido que MySQL
+- [ ] Amazon Aurora: até 15 replicas, 5x mais rápido que MySQL
 - [ ] Amazon DynamoDB: chave-valor, DAX para cache, Global Tables
 - [ ] Amazon ElastiCache: Redis vs. Memcached
 - [ ] Amazon Redshift: data warehouse columnar
 
 ### Rede
 - [ ] Amazon CloudFront: CDN, edge locations, Origin Access Control
-- [ ] AWS Global Accelerator: IP anycast, failover entre regioes
-- [ ] AWS Direct Connect: conexao dedicada, menor latencia
+- [ ] AWS Global Accelerator: IP anycast, failover entre regiões
+- [ ] AWS Direct Connect: conexão dedicada, menor latência
 - [ ] AWS VPN: Site-to-Site e Client VPN
 
 ### Dados e Analytics
@@ -102,27 +102,27 @@
 
 ---
 
-## Dominio 4: Design de Arquiteturas Otimizadas por Custo (20%)
+## Domínio 4: Design de Arquiteturas Otimizadas por Custo (20%)
 
-### Otimizacao de Computacao
+### Otimização de Computacao
 - [ ] Right-sizing com AWS Compute Optimizer
 - [ ] Modelos de compra EC2: On-Demand, RI, Savings Plans, Spot
 - [ ] Lambda para workloads que escalam a zero
-- [ ] Fargate vs. EC2 para containers
+- [ ] Fargaté vs. EC2 para containers
 
-### Otimizacao de Armazenamento
-- [ ] S3 Intelligent-Tiering para padroes de acesso desconhecidos
-- [ ] S3 Lifecycle Policies para transicoes automaticas
-- [ ] EBS: gp3 e mais economico que gp2 para mesmo desempenho
+### Otimização de Armazenamento
+- [ ] S3 Intelligent-Tiering para padrões de acesso desconhecidos
+- [ ] S3 Lifecycle Policies para transicoes automáticas
+- [ ] EBS: gp3 e mais econômico que gp2 para mesmo desempenho
 - [ ] Requester Pays para buckets S3
 
-### Otimizacao de Banco de Dados
+### Otimização de Banco de Dados
 - [ ] Aurora Serverless para workloads imprevisiveis
 - [ ] DynamoDB: On-Demand vs. Provisioned
 - [ ] Migrar de bancos comerciais para open source com DMS
 - [ ] Reserved Instances para RDS
 
-### Otimizacao de Rede
+### Otimização de Rede
 - [ ] VPC Endpoints eliminam custos de NAT
 - [ ] CloudFront reduz custos de egress
 - [ ] Dados de entrada (ingress) sao gratuitos
@@ -132,7 +132,7 @@
 - [ ] AWS Cost Explorer
 - [ ] AWS Budgets (alertas)
 - [ ] AWS Trusted Advisor
-- [ ] Tags de alocacao de custos
+- [ ] Tags de alocação de custos
 
 ---
 
@@ -141,9 +141,9 @@
 - [ ] AWS Well-Architected Framework (6 pilares)
 - [ ] Infraestrutura global: Regioes, AZs, Edge Locations
 - [ ] Infraestrutura como Codigo: CloudFormation
-- [ ] Monitoramento: CloudWatch (metricas, logs, alarmes)
-- [ ] Automacao: Systems Manager, EventBridge
+- [ ] Monitoramento: CloudWatch (métricas, logs, alarmes)
+- [ ] Automação: Systems Manager, EventBridge
 
 ---
 
-Voltar ao [Indice](../../../index.md)
+Voltar ao [Índice](../../../index.md)

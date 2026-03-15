@@ -1,60 +1,60 @@
 # Semana 2 - Cargas de Trabalho e Aplicacoes Seguras
 
-> **Dominio 1 - Tarefa 1.2** | Tempo estimado: 5-7 horas de estudo
+> **Domínio 1 - Tarefa 1.2** | Tempo estimado: 5-7 horas de estudo
 
 ## Objetivos de Aprendizado
 
-Ao final desta semana, voce devera ser capaz de:
-- Projetar arquiteturas de VPC com componentes de seguranca
-- Diferenciar Security Groups (stateful) de NACLs (stateless)
+Ao final desta semana, você deverá ser capaz de:
+- Projetar arquiteturas de VPC com componentes de segurança
+- Diferenciar Security Groups (statéful) de NACLs (statéless)
 - Entender quando usar VPC Endpoints, VPN e Direct Connect
-- Integrar servicos de seguranca como WAF, Shield, GuardDuty e Macie
-- Proteger aplicacoes contra ameacas externas (DDoS, SQL injection)
+- Integrar serviços de segurança como WAF, Shield, GuardDuty e Macie
+- Proteger aplicações contra ameacas externas (DDoS, SQL injection)
 
 ---
 
-## Conhecimentos Necessarios
+## Conhecimentos Necessários
 
-- **Seguranca de configuracao e credenciais**
-  Servicos: [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/), [AWS IAM](https://aws.amazon.com/iam/)
+- **Segurança de configuração e credenciais**
+  Serviços: [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/), [AWS IAM](https://aws.amazon.com/iam/)
 
-- **Endpoints de servico da AWS**
-  Servicos: [Amazon VPC](https://aws.amazon.com/vpc/), [AWS Direct Connect](https://aws.amazon.com/directconnect/)
+- **Endpoints de serviço da AWS**
+  Serviços: [Amazon VPC](https://aws.amazon.com/vpc/), [AWS Direct Connect](https://aws.amazon.com/directconnect/)
 
-- **Controle de portas, protocolos e trafego de rede**
-  Servicos: [Amazon VPC](https://aws.amazon.com/vpc/), [AWS Network Firewall](https://aws.amazon.com/network-firewall/)
+- **Controle de portas, protocolos e tráfego de rede**
+  Serviços: [Amazon VPC](https://aws.amazon.com/vpc/), [AWS Network Firewall](https://aws.amazon.com/network-firewall/)
 
-- **Acesso seguro a aplicacao**
-  Servicos: [Amazon Cognito](https://aws.amazon.com/cognito/), [AWS IAM](https://aws.amazon.com/iam/)
+- **Acesso seguro a aplicação**
+  Serviços: [Amazon Cognito](https://aws.amazon.com/cognito/), [AWS IAM](https://aws.amazon.com/iam/)
 
-- **Servicos de seguranca** (Cognito, GuardDuty, Macie)
-  Servicos: [Amazon Cognito](https://aws.amazon.com/cognito/), [Amazon GuardDuty](https://aws.amazon.com/guardduty/), [Amazon Macie](https://aws.amazon.com/macie/)
+- **Serviços de segurança** (Cognito, GuardDuty, Macie)
+  Serviços: [Amazon Cognito](https://aws.amazon.com/cognito/), [Amazon GuardDuty](https://aws.amazon.com/guardduty/), [Amazon Macie](https://aws.amazon.com/macie/)
 
 - **Vetores de ameaca externos** (DDoS, SQL injection)
-  Servicos: [AWS Shield](https://aws.amazon.com/shield/), [AWS WAF](https://aws.amazon.com/waf/)
+  Serviços: [AWS Shield](https://aws.amazon.com/shield/), [AWS WAF](https://aws.amazon.com/waf/)
 
-## Habilidades Necessarias
+## Habilidades Necessárias
 
-- Projetar arquiteturas de VPC com Security Groups, NACLs, tabelas de rotas, NAT Gateways
-- Determinar estrategias de segmentacao de rede (sub-redes publicas e privadas)
-- Integrar Shield, WAF, IAM Identity Center e Secrets Manager para proteger aplicacoes
-- Proteger conexoes externas com [VPN](https://aws.amazon.com/vpn/) e [Direct Connect](https://aws.amazon.com/directconnect/)
+- Projetar arquiteturas de VPC com Security Groups, NACLs, tabelas de rotas, NAT Gatéways
+- Determinar estratégias de segmentacao de rede (sub-redes públicas e privadas)
+- Integrar Shield, WAF, IAM Identity Center e Secrets Manager para proteger aplicações
+- Proteger conexões externas com [VPN](https://aws.amazon.com/vpn/) e [Direct Connect](https://aws.amazon.com/directconnect/)
 
 ---
 
 ## Dicas de Estudo para esta Semana
 
-1. **Desenhe uma VPC completa** no papel: sub-redes publicas/privadas, Internet Gateway, NAT Gateway, tabelas de roteamento
-2. **Memorize**: Security Groups sao stateful (retorno automatico), NACLs sao stateless (regras de entrada E saida)
-3. **VPC Endpoints**: Gateway (S3, DynamoDB - gratuito) vs. Interface (outros servicos - custo por hora)
-4. **Pratique no console**: Crie uma VPC com sub-redes publicas e privadas usando o VPC Wizard
-5. **Entenda a camada de protecao**: WAF (camada 7, SQL injection/XSS) vs. Shield (camada 3/4, DDoS)
+1. **Desenhe uma VPC completa** no papel: sub-redes públicas/privadas, Internet Gatéway, NAT Gatéway, tabelas de roteamento
+2. **Memorize**: Security Groups sao statéful (retorno automático), NACLs sao statéless (regras de entrada E saida)
+3. **VPC Endpoints**: Gatéway (S3, DynamoDB - gratuito) vs. Interface (outros serviços - custo por hora)
+4. **Pratique no console**: Crie uma VPC com sub-redes públicas e privadas usando o VPC Wizard
+5. **Entenda a camada de proteção**: WAF (camada 7, SQL injection/XSS) vs. Shield (camada 3/4, DDoS)
 
 ## Recursos desta Semana
 
-- [Questoes de pratica - Parte 2](../recursos-adicionais/questoes/questoes-semana-2.md)
-- [Dominio 1 completo](../dominio/design-aplicacoes-seguras.md)
+- [Questões de prática - Parte 2](../recursos-adicionais/questoes/questoes-semana-2.md)
+- [Domínio 1 completo](../dominio/design-aplicacoes-seguras.md)
 
 ---
 
-Voltar ao [Indice](../../../index.md)
+Voltar ao [Índice](../../../index.md)

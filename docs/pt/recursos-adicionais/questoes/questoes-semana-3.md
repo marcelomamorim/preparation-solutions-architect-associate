@@ -1,6 +1,6 @@
-# Questoes de Pratica - Parte 3: Seguranca de Dados e Criptografia
+# Questões de Prática - Parte 3: Segurança de Dados e Criptografia
 
-> Teste seus conhecimentos sobre criptografia, KMS, protecao de dados e conformidade.
+> Teste seus conhecimentos sobre criptografia, KMS, proteção de dados e conformidade.
 
 ---
 
@@ -16,13 +16,13 @@ Uma empresa precisa criptografar dados armazenados no Amazon S3 e manter control
 
 **D)** Criptografia do lado do cliente
 
-> **Resposta: B** - SSE-KMS oferece controle sobre as chaves de criptografia e registra cada uso da chave no CloudTrail para auditoria. SSE-S3 e mais simples mas nao oferece auditoria granular. SSE-C requer que o cliente gerencie as chaves fora da AWS.
+> **Resposta: B** - SSE-KMS oferece controle sobre as chaves de criptografia e registra cada uso da chave no CloudTrail para auditoria. SSE-S3 e mais simples mas não oferece auditoria granular. SSE-C requer que o cliente gerencie as chaves fora da AWS.
 
 ---
 
 ### Questao 2
 
-Uma aplicacao precisa armazenar credenciais de banco de dados de forma segura e rotaciona-las automaticamente a cada 30 dias. Qual servico e mais adequado?
+Uma aplicação precisa armazenar credenciais de banco de dados de forma segura e rotaciona-las automáticamente a cada 30 dias. Qual serviço e mais adequado?
 
 **A)** AWS Systems Manager Parameter Store (SecureString)
 
@@ -32,7 +32,7 @@ Uma aplicacao precisa armazenar credenciais de banco de dados de forma segura e 
 
 **D)** Amazon S3 com criptografia
 
-> **Resposta: B** - AWS Secrets Manager foi projetado especificamente para armazenar e rotacionar segredos como credenciais de banco de dados. Oferece rotacao automatica nativa com Lambda. Parameter Store pode armazenar segredos, mas nao tem rotacao nativa integrada.
+> **Resposta: B** - AWS Secrets Manager foi projetado específicamente para armazenar e rotacionar segredos como credenciais de banco de dados. Oferece rotação automática nativa com Lambda. Parameter Store pode armazenar segredos, mas não tem rotação nativa integrada.
 
 ---
 
@@ -48,13 +48,13 @@ Uma empresa precisa garantir que todos os objetos enviados para um bucket S3 sej
 
 **D)** Usar S3 Transfer Acceleration
 
-> **Resposta: B** - Uma bucket policy que nega PutObject requests sem o header de criptografia garante que todos os objetos sejam criptografados. Alternativamente, o S3 agora suporta criptografia padrao (default encryption) com SSE-S3, que criptografa automaticamente todos os novos objetos.
+> **Resposta: B** - Uma bucket policy que nega PutObject requests sem o header de criptografia garante que todos os objetos sejam criptografados. Alternativamente, o S3 agora suporta criptografia padrão (default encryption) com SSE-S3, que criptografa automáticamente todos os novos objetos.
 
 ---
 
 ### Questao 4
 
-Qual servico da AWS detecta automaticamente dados sensiveis (como PII e numeros de cartao de credito) armazenados em buckets S3?
+Qual serviço da AWS detecta automáticamente dados sensíveis (como PII e números de cartao de credito) armazenados em buckets S3?
 
 **A)** Amazon GuardDuty
 
@@ -64,24 +64,24 @@ Qual servico da AWS detecta automaticamente dados sensiveis (como PII e numeros 
 
 **D)** AWS Config
 
-> **Resposta: C** - Amazon Macie usa machine learning para descobrir e proteger dados sensiveis no S3. Ele identifica automaticamente PII, dados financeiros e outros dados sensiveis, gerando alertas e relatorios.
+> **Resposta: C** - Amazon Macie usa machine learning para descobrir e proteger dados sensíveis no S3. Ele identifica automáticamente PII, dados financeiros e outros dados sensíveis, gerando alertas e relatórios.
 
 ---
 
 ### Questao 5
 
-Uma empresa precisa garantir que certificados TLS/SSL para seus dominios sejam renovados automaticamente e integrados com CloudFront e ALB. Qual servico deve ser usado?
+Uma empresa precisa garantir que certificados TLS/SSL para seus domínios sejam renovados automáticamente e integrados com CloudFront e ALB. Qual serviço deve ser usado?
 
 **A)** AWS KMS
 
-**B)** AWS Certificate Manager (ACM)
+**B)** AWS Certificaté Manager (ACM)
 
 **C)** AWS Secrets Manager
 
 **D)** AWS CloudHSM
 
-> **Resposta: B** - O AWS Certificate Manager provisiona e gerencia certificados TLS/SSL gratuitamente para uso com servicos AWS integrados (CloudFront, ALB, API Gateway). Os certificados sao renovados automaticamente antes de expirar.
+> **Resposta: B** - O AWS Certificaté Manager provisiona e gerencia certificados TLS/SSL gratuitamente para uso com serviços AWS integrados (CloudFront, ALB, API Gatéway). Os certificados sao renovados automáticamente antes de expirar.
 
 ---
 
-Voltar ao [Indice](../../../../index.md)
+Voltar ao [Índice](../../../../index.md)

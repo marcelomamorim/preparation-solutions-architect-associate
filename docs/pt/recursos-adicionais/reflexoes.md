@@ -1,58 +1,58 @@
-# Reflexoes e Boas Praticas de Arquitetura AWS
+# Reflexões e Boas Práticas de Arquitetura AWS
 
-> Insights e padroes de arquitetura do mundo real que vao alem do conteudo do exame. Entender esses conceitos ajuda a responder questoes de cenario com mais confianca.
+> Insights e padrões de arquitetura do mundo real que vao além do conteúdo do exame. Entender esses conceitos ajuda a responder questões de cenário com mais confianca.
 
 ---
 
 ## Os 6 Pilares do AWS Well-Architected Framework
 
-O Well-Architected Framework e a base filosofica de muitas questoes do exame. Entenda cada pilar:
+O Well-Architected Framework e a base filosofica de muitas questões do exame. Entenda cada pilar:
 
 ### 1. Excelencia Operacional
 - Automatize tudo que puder (CloudFormation, Systems Manager)
-- Faca mudancas pequenas e frequentes, nao grandes e arriscadas
+- Faca mudancas pequenas e frequentes, não grandes e arriscadas
 - Antecipe falhas e pratique a resposta a incidentes
-- **Servicos-chave**: CloudFormation, CloudWatch, Systems Manager, Config
+- **Serviços-chave**: CloudFormation, CloudWatch, Systems Manager, Config
 
-### 2. Seguranca
-- Aplique seguranca em todas as camadas (defense in depth)
+### 2. Segurança
+- Aplique segurança em todas as camadas (defense in depth)
 - Rastreie tudo com logs e auditoria (CloudTrail, VPC Flow Logs)
-- Automatize as melhores praticas de seguranca
-- Proteja dados em repouso e em transito
-- **Servicos-chave**: IAM, KMS, WAF, Shield, GuardDuty, Security Hub
+- Automatize as melhores práticas de segurança
+- Proteja dados em repouso e em trânsito
+- **Serviços-chave**: IAM, KMS, WAF, Shield, GuardDuty, Security Hub
 
 ### 3. Confiabilidade
-- Teste procedimentos de recuperacao regularmente
+- Teste procedimentos de recuperação regularmente
 - Escale horizontalmente para aumentar a disponibilidade
 - Pare de adivinhar capacidade (use Auto Scaling)
-- Gerencie mudancas com automacao
-- **Servicos-chave**: Route 53, ELB, Auto Scaling, CloudWatch, Backup
+- Gerencie mudancas com automação
+- **Serviços-chave**: Route 53, ELB, Auto Scaling, CloudWatch, Backup
 
-### 4. Eficiencia de Performance
+### 4. Eficiência de Performance
 - Use tecnologias serverless e gerenciadas
-- Experimente mais facilmente na nuvem
+- Experimente mais fácilmente na nuvem
 - Considere "mechanical sympathy" (use a tecnologia certa para o problema)
-- **Servicos-chave**: Lambda, ECS, CloudFront, ElastiCache, Aurora
+- **Serviços-chave**: Lambda, ECS, CloudFront, ElastiCache, Aurora
 
-### 5. Otimizacao de Custos
+### 5. Otimização de Custos
 - Adote um modelo de consumo (pague apenas pelo que usa)
-- Meca a eficiencia geral
+- Meca a eficiência geral
 - Pare de gastar dinheiro com trabalho pesado indiferenciado
-- Analise e atribua custos
-- **Servicos-chave**: Cost Explorer, Budgets, Trusted Advisor, Compute Optimizer
+- Análise e atribua custos
+- **Serviços-chave**: Cost Explorer, Budgets, Trusted Advisor, Compute Optimizer
 
 ### 6. Sustentabilidade
 - Entenda seu impacto ambiental
 - Estabeleca metas de sustentabilidade
-- Maximize a utilizacao de recursos
-- Use servicos gerenciados para reduzir o impacto
-- **Servicos-chave**: EC2 Auto Scaling, Graviton, Lambda, S3 Intelligent-Tiering
+- Maximize a utilização de recursos
+- Use serviços gerenciados para reduzir o impacto
+- **Serviços-chave**: EC2 Auto Scaling, Graviton, Lambda, S3 Intelligent-Tiering
 
 ---
 
-## Padroes de Arquitetura Comuns no Exame
+## Padrões de Arquitetura Comuns no Exame
 
-### Padrao 1: Aplicacao Web de 3 Camadas
+### Padrão 1: Aplicação Web de 3 Camadas
 ```
 Internet → CloudFront → ALB → EC2 (Auto Scaling) → RDS (Multi-AZ)
                                     ↓
@@ -61,25 +61,25 @@ Internet → CloudFront → ALB → EC2 (Auto Scaling) → RDS (Multi-AZ)
 - **Quando usar**: Aplicacoes web tradicionais com necessidade de sessoes, cache e banco relacional
 - **Pontos-chave**: ALB para roteamento HTTP, Auto Scaling para elasticidade, RDS Multi-AZ para alta disponibilidade
 
-### Padrao 2: Arquitetura Serverless
+### Padrão 2: Arquitetura Serverless
 ```
-API Gateway → Lambda → DynamoDB
+API Gatéway → Lambda → DynamoDB
                 ↓
-              S3 (arquivos estaticos)
+              S3 (arquivos estáticos)
 ```
-- **Quando usar**: APIs e microservicos com trafego variavel, quando se quer zero gerenciamento de servidores
-- **Pontos-chave**: Lambda escala automaticamente, DynamoDB On-Demand para trafego imprevisivel
+- **Quando usar**: APIs e microserviços com tráfego variável, quando se quer zero gerenciamento de servidores
+- **Pontos-chave**: Lambda escala automáticamente, DynamoDB On-Demand para tráfego imprevisível
 
-### Padrao 3: Processamento Assincrono
+### Padrão 3: Processamento Assincrono
 ```
 Produtor → SQS (fila) → Consumidor (EC2/Lambda)
               ↓
          Dead Letter Queue (DLQ)
 ```
-- **Quando usar**: Desacoplar componentes, absorver picos de trafego, processar tarefas em background
+- **Quando usar**: Desacoplar componentes, absorver picos de tráfego, processar tarefas em background
 - **Pontos-chave**: SQS FIFO para ordem garantida, DLQ para mensagens com falha
 
-### Padrao 4: Data Lake
+### Padrão 4: Data Lake
 ```
 Fontes de Dados → Kinesis/DataSync → S3 (Raw)
                                        ↓
@@ -89,30 +89,30 @@ Fontes de Dados → Kinesis/DataSync → S3 (Raw)
                                        ↓
                                    Athena / QuickSight
 ```
-- **Quando usar**: Analise de grandes volumes de dados de multiplas fontes
+- **Quando usar**: Análise de grandes volumes de dados de múltiplas fontes
 - **Pontos-chave**: S3 como armazenamento central, Glue para catalogo e ETL, Athena para queries SQL
 
-### Padrao 5: Arquitetura Hibrida
+### Padrão 5: Arquitetura Hibrida
 ```
 On-Premises ←→ Direct Connect ←→ AWS VPC
                                     ↓
-                              Transit Gateway
+                              Transit Gatéway
                                     ↓
                             Multiplas VPCs
 ```
 - **Quando usar**: Migracoes graduais, requisitos de conformidade, workloads que precisam ficar on-premises
-- **Pontos-chave**: Direct Connect para latencia consistente, VPN como backup, Transit Gateway para simplificar
+- **Pontos-chave**: Direct Connect para latência consistente, VPN como backup, Transit Gatéway para simplificar
 
 ---
 
 ## Erros Comuns a Evitar
 
-1. **Nao usar Multi-AZ quando a questao pede alta disponibilidade**: Sempre distribua em pelo menos 2 AZs
-2. **Confundir Security Groups com NACLs**: SGs sao stateful (nivel de instancia), NACLs sao stateless (nivel de sub-rede)
-3. **Escolher a opcao mais complexa**: Na AWS, prefira servicos gerenciados e serverless quando possivel
+1. **Não usar Multi-AZ quando a questao pede alta disponibilidade**: Sempre distribua em pelo menos 2 AZs
+2. **Confundir Security Groups com NACLs**: SGs sao statéful (nivel de instância), NACLs sao statéless (nivel de sub-rede)
+3. **Escolher a opcao mais complexa**: Na AWS, prefira serviços gerenciados e serverless quando possível
 4. **Ignorar custos de transferencia de dados**: Dados entre AZs e entre Regioes tem custo
-5. **Nao considerar limites de servico**: Lambda tem 15 min de timeout, SQS tem 14 dias de retencao maxima
-6. **Confundir Kinesis Data Streams com Firehose**: Streams e para processamento custom, Firehose e para entrega automatica
+5. **Não considerar limites de serviço**: Lambda tem 15 min de timeout, SQS tem 14 dias de retenção máxima
+6. **Confundir Kinesis Data Streams com Firehose**: Streams e para processamento custom, Firehose e para entrega automática
 
 ---
 
@@ -122,8 +122,8 @@ On-Premises ←→ Direct Connect ←→ AWS VPC
 |-------------|---------|
 | Regioes e AZs | Cidades e bairros |
 | Security Groups | Porteiro do predio (checa quem entra, lembra quem saiu) |
-| NACLs | Guarita do condominio (checa entrada E saida) |
-| SQS | Fila do banco (primeiro a chegar, primeiro a ser atendido) |
+| NACLs | Guarita do condomínio (checa entrada E saida) |
+| SQS | Fila do banco (primeiro a chegar, primeiro a ser aténdido) |
 | SNS | Lista de transmissao do WhatsApp (uma mensagem para muitos) |
 | CloudFront | Filial de uma loja (produto mais perto do cliente) |
 | Auto Scaling | Contratacao temporaria (mais funcionarios no Natal) |
@@ -131,4 +131,4 @@ On-Premises ←→ Direct Connect ←→ AWS VPC
 
 ---
 
-Voltar ao [Indice](../../../index.md)
+Voltar ao [Índice](../../../index.md)

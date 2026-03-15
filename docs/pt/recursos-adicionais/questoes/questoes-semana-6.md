@@ -1,12 +1,12 @@
-# Questoes de Pratica - Parte 6: Armazenamento e Computacao de Alto Desempenho
+# Questões de Prática - Parte 6: Armazenamento e Computacao de Alto Desempenho
 
-> Teste seus conhecimentos sobre S3, EBS, EFS, EC2, Lambda e estrategias de escalabilidade.
+> Teste seus conhecimentos sobre S3, EBS, EFS, EC2, Lambda e estratégias de escalabilidade.
 
 ---
 
 ### Questao 1
 
-Uma aplicacao de analise de dados precisa processar arquivos grandes armazenados no S3. Os arquivos sao acessados frequentemente durante os primeiros 30 dias e raramente depois. Qual estrategia de armazenamento otimiza custos?
+Uma aplicação de análise de dados precisa processar arquivos grandes armazenados no S3. Os arquivos sao acessados frequentemente durante os primeiros 30 dias e raramente depois. Qual estratégia de armazenamento otimiza custos?
 
 **A)** Armazenar tudo no S3 Standard permanentemente
 
@@ -16,13 +16,13 @@ Uma aplicacao de analise de dados precisa processar arquivos grandes armazenados
 
 **D)** Armazenar em EBS gp3
 
-> **Resposta: B** - S3 Lifecycle Policies automatizam a transicao entre classes de armazenamento. S3 Standard para acesso frequente nos primeiros 30 dias, Standard-IA para acesso menos frequente, e Glacier para arquivamento de longo prazo. Isso otimiza custos automaticamente.
+> **Resposta: B** - S3 Lifecycle Policies automatizam a transicao entre classes de armazenamento. S3 Standard para acesso frequente nos primeiros 30 dias, Standard-IA para acesso menos frequente, e Glacier para arquivamento de longo prazo. Isso otimiza custos automáticamente.
 
 ---
 
 ### Questao 2
 
-Uma aplicacao de processamento de imagens precisa de armazenamento compartilhado acessivel por multiplas instancias EC2 em diferentes AZs simultaneamente. Qual servico de armazenamento e mais adequado?
+Uma aplicação de processamento de imagens precisa de armazenamento compartilhado acessível por múltiplas instâncias EC2 em diferentes AZs simultaneamente. Qual serviço de armazenamento e mais adequado?
 
 **A)** Amazon EBS (Elastic Block Store)
 
@@ -32,29 +32,29 @@ Uma aplicacao de processamento de imagens precisa de armazenamento compartilhado
 
 **D)** Instance Store
 
-> **Resposta: C** - Amazon EFS e um sistema de arquivos NFS elastico que pode ser montado simultaneamente em multiplas instancias EC2 em diferentes AZs. EBS e anexado a uma unica instancia (exceto io2 com Multi-Attach). S3 e armazenamento de objetos, nao sistema de arquivos.
+> **Resposta: C** - Amazon EFS e um sistema de arquivos NFS elástico que pode ser montado simultaneamente em múltiplas instâncias EC2 em diferentes AZs. EBS e anexado a uma única instância (exceto io2 com Multi-Attach). S3 e armazenamento de objetos, não sistema de arquivos.
 
 ---
 
 ### Questao 3
 
-Uma funcao Lambda e invocada por um API Gateway e precisa acessar um banco de dados RDS PostgreSQL. Durante picos de trafego, o banco de dados fica sobrecarregado com muitas conexoes. Qual solucao resolve esse problema?
+Uma função Lambda e invocada por um API Gatéway e precisa acessar um banco de dados RDS PostgreSQL. Durante picos de tráfego, o banco de dados fica sobrecarregado com muitas conexões. Qual solução resolve esse problema?
 
-**A)** Aumentar o tamanho da instancia RDS
+**A)** Aumentar o tamanho da instância RDS
 
 **B)** Usar Amazon RDS Proxy entre Lambda e RDS
 
 **C)** Migrar para DynamoDB
 
-**D)** Aumentar a memoria da funcao Lambda
+**D)** Aumentar a memoria da função Lambda
 
-> **Resposta: B** - Amazon RDS Proxy gerencia um pool de conexoes compartilhadas com o banco de dados. Lambda cria muitas conexoes efemeras que sobrecarregam o RDS. O RDS Proxy reutiliza conexoes existentes, reduzindo a carga no banco e melhorando o tempo de failover.
+> **Resposta: B** - Amazon RDS Proxy gerencia um pool de conexões compartilhadas com o banco de dados. Lambda cria muitas conexões efemeras que sobrecarregam o RDS. O RDS Proxy reutiliza conexões existentes, reduzindo a carga no banco e melhorando o tempo de failover.
 
 ---
 
 ### Questao 4
 
-Uma empresa precisa de um volume EBS com o melhor custo-beneficio para uso geral, que suporte ate 16.000 IOPS e 1.000 MB/s de throughput. Qual tipo de volume e mais adequado?
+Uma empresa precisa de um volume EBS com o melhor custo-benefício para uso geral, que suporte até 16.000 IOPS e 1.000 MB/s de throughput. Qual tipo de volume e mais adequado?
 
 **A)** gp2 (General Purpose SSD)
 
@@ -64,13 +64,13 @@ Uma empresa precisa de um volume EBS com o melhor custo-beneficio para uso geral
 
 **D)** st1 (Throughput Optimized HDD)
 
-> **Resposta: B** - gp3 oferece 3.000 IOPS e 125 MB/s de baseline (inclusos no preco) e permite provisionar ate 16.000 IOPS e 1.000 MB/s independentemente do tamanho do volume. E mais economico que gp2, que vincula IOPS ao tamanho do volume.
+> **Resposta: B** - gp3 oferece 3.000 IOPS e 125 MB/s de baseline (inclusos no preço) e permite provisionar até 16.000 IOPS e 1.000 MB/s independentemente do tamanho do volume. E mais econômico que gp2, que vincula IOPS ao tamanho do volume.
 
 ---
 
 ### Questao 5
 
-Uma aplicacao serverless processa eventos de um stream do Kinesis. A funcao Lambda precisa processar cada registro exatamente uma vez e na ordem correta. Qual configuracao e necessaria?
+Uma aplicação serverless processa eventos de um stream do Kinesis. A função Lambda precisa processar cada registro exatamente uma vez e na ordem correta. Qual configuração e necessária?
 
 **A)** Usar SQS Standard como intermediario
 
@@ -84,4 +84,4 @@ Uma aplicacao serverless processa eventos de um stream do Kinesis. A funcao Lamb
 
 ---
 
-Voltar ao [Indice](../../../../index.md)
+Voltar ao [Índice](../../../../index.md)
