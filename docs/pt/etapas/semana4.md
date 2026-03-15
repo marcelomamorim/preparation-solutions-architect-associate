@@ -1,84 +1,55 @@
-# 📋 Guia do Exame: Domínio 2 - Design de Arquiteturas Resilientes
+# Semana 4 - Arquiteturas Escalaveis e Desacopladas
 
-## 🎯 Tarefa 2.1: Projetar arquiteturas escaláveis e fracamente acopladas
+> **Dominio 2 - Tarefa 2.1** | Tempo estimado: 6-8 horas de estudo
 
-### Conhecimentos Necessários
+## Objetivos de Aprendizado
 
-- 🌐 Criação e gerenciamento de APIs (por exemplo, [Amazon API Gateway](https://aws.amazon.com/api-gateway/), REST API)  
-  **Serviços correlacionados**: [Amazon API Gateway](https://aws.amazon.com/api-gateway/)
-
-- ⚙️ Serviços gerenciados da AWS com casos de uso apropriados (por exemplo, [AWS Transfer Family](https://aws.amazon.com/aws-transfer-family/), [Amazon Simple Queue Service (Amazon SQS)](https://aws.amazon.com/sqs/), [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/))  
-  **Serviços correlacionados**: [AWS Transfer Family](https://aws.amazon.com/aws-transfer-family/), [Amazon SQS](https://aws.amazon.com/sqs/), [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/)
-
-- 💾 Estratégias de cache  
-  **Serviços correlacionados**: [Amazon ElastiCache](https://aws.amazon.com/elasticache/)
-
-- 🛠️ Princípios de design para microsserviços (por exemplo, workloads sem estado em comparação com workloads com estado)  
-  **Serviços correlacionados**: [AWS Lambda](https://aws.amazon.com/lambda/), [AWS Fargate](https://aws.amazon.com/fargate/), [Amazon ECS](https://aws.amazon.com/ecs/), [Amazon EKS](https://aws.amazon.com/eks/)
-
-- 🔄 Arquiteturas orientadas a eventos  
-  **Serviços correlacionados**: [Amazon EventBridge](https://aws.amazon.com/eventbridge/), [Amazon SNS](https://aws.amazon.com/sns/)
-
-- 🔄 Escalabilidade horizontal e vertical  
-  **Serviços correlacionados**: [Amazon EC2 Auto Scaling](https://aws.amazon.com/autoscaling/), [AWS Lambda](https://aws.amazon.com/lambda/)
-
-- 🚀 Uso apropriado de aceleradores de borda (por exemplo, Content Delivery Network [CDN])  
-  **Serviços correlacionados**: [Amazon CloudFront](https://aws.amazon.com/cloudfront/), [AWS Global Accelerator](https://aws.amazon.com/global-accelerator/)
-
-- 📦 Migração de aplicações para containers  
-  **Serviços correlacionados**: [Amazon ECS](https://aws.amazon.com/ecs/), [Amazon EKS](https://aws.amazon.com/eks/), [AWS Fargate](https://aws.amazon.com/fargate/)
-
-- ⚖️ Conceitos de balanceamento de carga (por exemplo, [Application Load Balancer](https://aws.amazon.com/elasticloadbalancing/))  
-  **Serviços correlacionados**: [Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/)
-
-- 🏗️ Arquiteturas em múltiplos níveis  
-  **Serviços correlacionados**: [Amazon EC2](https://aws.amazon.com/ec2/), [Amazon RDS](https://aws.amazon.com/rds/)
-
-- 📬 Conceitos de filas e mensagens (por exemplo, public/subscribe)  
-  **Serviços correlacionados**: [Amazon SQS](https://aws.amazon.com/sqs/), [Amazon SNS](https://aws.amazon.com/sns/)
-
-- 🚀 Tecnologias e padrões serverless (por exemplo, [AWS Fargate](https://aws.amazon.com/fargate/), [AWS Lambda](https://aws.amazon.com/lambda/))  
-  **Serviços correlacionados**: [AWS Fargate](https://aws.amazon.com/fargate/), [AWS Lambda](https://aws.amazon.com/lambda/)
-
-- 💾 Tipos de armazenamento com características associadas (por exemplo, objeto, arquivo, bloco)  
-  **Serviços correlacionados**: [Amazon S3](https://aws.amazon.com/s3/), [Amazon EFS](https://aws.amazon.com/efs/), [Amazon EBS](https://aws.amazon.com/ebs/)
-
-- ⚙️ Orquestração de containers (por exemplo, [Amazon Elastic Container Service (Amazon ECS)](https://aws.amazon.com/ecs/), [Amazon Elastic Kubernetes Service (Amazon EKS)](https://aws.amazon.com/eks/))  
-  **Serviços correlacionados**: [Amazon ECS](https://aws.amazon.com/ecs/), [Amazon EKS](https://aws.amazon.com/eks/)
-
-- 🔄 Quando usar réplicas de leitura  
-  **Serviços correlacionados**: [Amazon RDS](https://aws.amazon.com/rds/)
-
-- 🛠️ Orquestração de workflows (por exemplo, [AWS Step Functions](https://aws.amazon.com/step-functions/))  
-  **Serviços correlacionados**: [AWS Step Functions](https://aws.amazon.com/step-functions/)
-
-### Habilidades Necessárias
-
-- 🛠️ Projetar arquiteturas orientadas a eventos, microsserviços e/ou em múltiplos níveis com base em requisitos  
-  **Serviços correlacionados**: [Amazon EventBridge](https://aws.amazon.com/eventbridge/), [AWS Lambda](https://aws.amazon.com/lambda/)
-
-- 🔄 Determinar estratégias de escalabilidade para componentes usados em um design de arquitetura  
-  **Serviços correlacionados**: [Amazon EC2 Auto Scaling](https://aws.amazon.com/autoscaling/), [AWS Lambda](https://aws.amazon.com/lambda/)
-
-- 🛠️ Determinar os serviços AWS necessários para alcançar desacoplamento com base nos requisitos  
-  **Serviços correlacionados**: [Amazon SQS](https://aws.amazon.com/sqs/), [Amazon SNS](https://aws.amazon.com/sns/), [AWS Step Functions](https://aws.amazon.com/step-functions/)
-
-- 📦 Determinar quando usar containers  
-  **Serviços correlacionados**: [Amazon ECS](https://aws.amazon.com/ecs/), [Amazon EKS](https://aws.amazon.com/eks/)
-
-- 🚀 Determinar quando usar tecnologias e padrões serverless  
-  **Serviços correlacionados**: [AWS Lambda](https://aws.amazon.com/lambda/), [AWS Fargate](https://aws.amazon.com/fargate/)
-
-- 📊 Recomendar tecnologias adequadas de computação, armazenamento, rede e banco de dados com base nos requisitos  
-  **Serviços correlacionados**: [Amazon EC2](https://aws.amazon.com/ec2/), [Amazon S3](https://aws.amazon.com/s3/), [Amazon RDS](https://aws.amazon.com/rds/)
-
-- 🛠️ Usar serviços da AWS para workloads com propósito específico  
-  **Serviços correlacionados**: [Amazon Redshift](https://aws.amazon.com/redshift/), [Amazon DynamoDB](https://aws.amazon.com/dynamodb/), [AWS Glue](https://aws.amazon.com/glue/)
+Ao final desta semana, voce devera ser capaz de:
+- Projetar arquiteturas fracamente acopladas com SQS, SNS e EventBridge
+- Entender escalabilidade horizontal vs. vertical e Auto Scaling
+- Diferenciar ALB, NLB e GLB e quando usar cada um
+- Projetar arquiteturas de microsservicos com containers e serverless
+- Implementar padroes de arquitetura orientada a eventos
 
 ---
 
-Este guia abrange as principais áreas e habilidades necessárias para o Domínio 2 do exame AWS Solutions Architect Associate. Certifique-se de revisar cada área e prática para garantir uma compreensão abrangente e aplicação das melhores práticas de resiliência da AWS.
+## Conhecimentos Necessarios
+
+- **APIs**: [Amazon API Gateway](https://aws.amazon.com/api-gateway/) - REST e WebSocket
+- **Servicos gerenciados**: [Amazon SQS](https://aws.amazon.com/sqs/), [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/)
+- **Estrategias de cache**: [Amazon ElastiCache](https://aws.amazon.com/elasticache/) - Redis e Memcached
+- **Microsservicos**: Workloads stateless vs. stateful. [Lambda](https://aws.amazon.com/lambda/), [Fargate](https://aws.amazon.com/fargate/)
+- **Arquiteturas orientadas a eventos**: [EventBridge](https://aws.amazon.com/eventbridge/), [SNS](https://aws.amazon.com/sns/)
+- **Escalabilidade**: [EC2 Auto Scaling](https://aws.amazon.com/autoscaling/) - horizontal vs. vertical
+- **Aceleradores de borda**: [CloudFront](https://aws.amazon.com/cloudfront/), [Global Accelerator](https://aws.amazon.com/global-accelerator/)
+- **Containers**: [ECS](https://aws.amazon.com/ecs/), [EKS](https://aws.amazon.com/eks/), [Fargate](https://aws.amazon.com/fargate/)
+- **Balanceamento de carga**: ALB (camada 7), NLB (camada 4), GLB (appliances de rede)
+- **Filas e mensagens**: SQS Standard vs. FIFO, SNS pub/sub
+- **Armazenamento**: Objeto (S3), Arquivo (EFS), Bloco (EBS)
+
+## Habilidades Necessarias
+
+- Projetar arquiteturas orientadas a eventos, microsservicos e multi-tier
+- Determinar estrategias de escalabilidade para componentes da arquitetura
+- Determinar servicos de desacoplamento (SQS, SNS, Step Functions)
+- Decidir quando usar containers vs. serverless
+- Recomendar tecnologias de computacao, armazenamento, rede e banco de dados
 
 ---
 
-🔙 [Voltar ao Índice](../../../index.md)
+## Dicas de Estudo para esta Semana
+
+1. **SQS Standard vs. FIFO**: Standard tem entrega pelo menos uma vez (maior throughput). FIFO garante ordem e exatamente uma vez (300 msg/s)
+2. **Padrao fan-out classico**: SNS para multiplas filas SQS (cada consumidor processa independentemente)
+3. **Auto Scaling**: Target Tracking (mantem metrica em X%), Step Scaling (acoes por faixas), Scheduled (horarios)
+4. **ALB vs. NLB**: ALB para roteamento HTTP (path, host). NLB para TCP/UDP, IP estatico, ultra-baixa latencia
+5. **Pratique**: Crie um Auto Scaling Group com ALB e politica de Target Tracking no Free Tier
+
+## Recursos desta Semana
+
+- [Questoes de pratica - Parte 4](../recursos-adicionais/questoes/questoes-semana-4.md)
+- [Dominio 2 completo](../dominio/design-arquiteturas-resilientes.md)
+
+---
+
+Voltar ao [Indice](../../../index.md)

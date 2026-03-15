@@ -1,48 +1,59 @@
-# 📋 Guia do Exame: Domínio 1 - Design de Arquiteturas Seguras
+# Semana 1 - Acesso Seguro aos Recursos da AWS
 
-## 🛡️ Tarefa 1.1: Projetar acesso seguro aos recursos da AWS
+> **Dominio 1 - Tarefa 1.1** | Tempo estimado: 5-7 horas de estudo
 
-### Conhecimentos Necessários
+## Objetivos de Aprendizado
 
-- 🔐 Controles de acesso e gerenciamento em várias contas  
-  **Serviços correlacionados**: [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/), [AWS Organizations](https://aws.amazon.com/organizations/)
-
-- 🛡️ Serviços de acesso federado e identidade da AWS (por exemplo, AWS Identity and Access Management [IAM], [AWS IAM Identity Center (AWS Single Sign-On)](https://aws.amazon.com/single-sign-on/))  
-  **Serviços correlacionados**: [AWS IAM](https://aws.amazon.com/iam/), [AWS IAM Identity Center (AWS Single Sign-On)](https://aws.amazon.com/single-sign-on/)
-
-- 🌍 Infraestrutura global da AWS (por exemplo, Zonas de Disponibilidade, Regiões da AWS)  
-  **Serviços correlacionados**: [Amazon VPC](https://aws.amazon.com/vpc/), [AWS CloudFormation](https://aws.amazon.com/cloudformation/)
-
-- 📜 Melhores práticas de segurança da AWS (por exemplo, princípio do menor privilégio)  
-  **Serviços correlacionados**: [AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/trustedadvisor/), [AWS Security Hub](https://aws.amazon.com/security-hub/)
-
-- 🤝 Modelo de responsabilidade compartilhada da AWS  
-  **Serviços correlacionados**: [AWS Management Console](https://aws.amazon.com/console/), [AWS CloudTrail](https://aws.amazon.com/cloudtrail/)
-
-### Habilidades Necessárias
-
-- 🛡️ Aplicar as melhores práticas de segurança da AWS para usuários IAM e usuários root (por exemplo, autenticação multifator [MFA])  
-  **Serviços correlacionados**: [AWS IAM](https://aws.amazon.com/iam/), [AWS Security Hub](https://aws.amazon.com/security-hub/)
-
-- 🧩 Projetar um modelo de autorização flexível que inclua usuários, grupos, funções e políticas do IAM  
-  **Serviços correlacionados**: [AWS IAM](https://aws.amazon.com/iam/), [AWS Organizations](https://aws.amazon.com/organizations/)
-
-- 🎛️ Projetar uma estratégia de controle de acesso baseada em funções (por exemplo, [AWS Security Token Service (AWS STS)](https://aws.amazon.com/sts/), troca de funções, acesso entre contas)  
-  **Serviços correlacionados**: [AWS IAM](https://aws.amazon.com/iam/), [AWS STS](https://aws.amazon.com/sts/)
-
-- 🏢 Projetar uma estratégia de segurança para múltiplas contas da AWS (por exemplo, [AWS Control Tower](https://aws.amazon.com/controltower/), políticas de controle de serviço [SCPs])  
-  **Serviços correlacionados**: [AWS Control Tower](https://aws.amazon.com/controltower/), [AWS Organizations](https://aws.amazon.com/organizations/)
-
-- 🔒 Determinar o uso apropriado de políticas de recursos para serviços da AWS  
-  **Serviços correlacionados**: [AWS IAM](https://aws.amazon.com/iam/), [AWS Resource Access Manager (RAM)](https://aws.amazon.com/ram/)
-
-- 🗂️ Determinar quando federar um serviço de diretório com funções do IAM  
-  **Serviços correlacionados**: [AWS IAM](https://aws.amazon.com/iam/), [AWS Directory Service](https://aws.amazon.com/directoryservice/)
+Ao final desta semana, voce devera ser capaz de:
+- Entender e aplicar o principio do menor privilegio no IAM
+- Diferenciar entre usuarios, grupos, funcoes e politicas do IAM
+- Projetar estrategias de acesso entre contas com STS e AssumeRole
+- Compreender o modelo de responsabilidade compartilhada da AWS
+- Configurar AWS Organizations e SCPs para multiplas contas
 
 ---
 
-Este guia abrange as principais áreas e habilidades necessárias para o Domínio 1 do exame AWS Solutions Architect Associate. Certifique-se de revisar cada área e prática para garantir uma compreensão abrangente e aplicação das melhores práticas de segurança da AWS.
+## Conhecimentos Necessarios
+
+- **Controles de acesso e gerenciamento em varias contas**
+  Servicos: [AWS IAM](https://aws.amazon.com/iam/), [AWS Organizations](https://aws.amazon.com/organizations/)
+
+- **Servicos de acesso federado e identidade da AWS**
+  Servicos: [AWS IAM](https://aws.amazon.com/iam/), [AWS IAM Identity Center](https://aws.amazon.com/single-sign-on/)
+
+- **Infraestrutura global da AWS** (Zonas de Disponibilidade, Regioes)
+  Servicos: [Amazon VPC](https://aws.amazon.com/vpc/), [AWS CloudFormation](https://aws.amazon.com/cloudformation/)
+
+- **Melhores praticas de seguranca da AWS** (principio do menor privilegio)
+  Servicos: [AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/trustedadvisor/), [AWS Security Hub](https://aws.amazon.com/security-hub/)
+
+- **Modelo de responsabilidade compartilhada da AWS**
+  Servicos: [AWS CloudTrail](https://aws.amazon.com/cloudtrail/)
+
+## Habilidades Necessarias
+
+- Aplicar melhores praticas de seguranca para usuarios IAM e root (MFA obrigatorio)
+- Projetar modelos de autorizacao flexiveis com usuarios, grupos, funcoes e politicas
+- Projetar estrategias de controle de acesso baseadas em funcoes com [AWS STS](https://aws.amazon.com/sts/)
+- Projetar estrategias de seguranca para multiplas contas com [AWS Control Tower](https://aws.amazon.com/controltower/) e SCPs
+- Determinar o uso apropriado de politicas de recursos vs. politicas de identidade
+- Determinar quando federar um servico de diretorio com funcoes do IAM
 
 ---
 
-🔙 [Voltar ao Índice](../../../index.md)
+## Dicas de Estudo para esta Semana
+
+1. **Crie uma conta AWS Free Tier** e pratique criando usuarios, grupos e politicas IAM
+2. **Leia a FAQ do IAM**: [IAM FAQ](https://aws.amazon.com/iam/faqs/)
+3. **Entenda a diferenca entre politicas gerenciadas e inline** - isso e cobrado no exame
+4. **Pratique com o IAM Policy Simulator**: Teste suas politicas antes de aplica-las
+5. **Memorize**: A conta root deve ter MFA, nao deve ter access keys, e so deve ser usada para tarefas que exigem root
+
+## Recursos desta Semana
+
+- [Questoes de pratica - Parte 1](../recursos-adicionais/questoes/questoes-semana-1.md)
+- [Dominio 1 completo](../dominio/design-aplicacoes-seguras.md)
+
+---
+
+Voltar ao [Indice](../../../index.md)

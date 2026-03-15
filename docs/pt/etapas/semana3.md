@@ -1,48 +1,57 @@
-# 📋 Guia do Exame: Domínio 1 - Design de Arquiteturas Seguras
+# Semana 3 - Seguranca de Dados e Criptografia
 
-## 🔒 Tarefa 1.3: Determinar controles apropriados de segurança de dados
+> **Dominio 1 - Tarefa 1.3** | Tempo estimado: 5-7 horas de estudo
 
-### Conhecimentos Necessários
+## Objetivos de Aprendizado
 
-- 🗄️ Acesso e governança de dados  
-  **Serviços correlacionados**: [AWS IAM](https://aws.amazon.com/iam/), [AWS CloudTrail](https://aws.amazon.com/cloudtrail/)
-
-- 🛠️ Recuperação de dados  
-  **Serviços correlacionados**: [AWS Backup](https://aws.amazon.com/backup/), [AWS Storage Gateway](https://aws.amazon.com/storagegateway/)
-
-- 📂 Retenção e classificação de dados  
-  **Serviços correlacionados**: [Amazon S3](https://aws.amazon.com/s3/), [Amazon Macie](https://aws.amazon.com/macie/)
-
-- 🗝️ Criptografia e gerenciamento apropriado de chaves  
-  **Serviços correlacionados**: [AWS Key Management Service (KMS)](https://aws.amazon.com/kms/), [AWS Certificate Manager (ACM)](https://aws.amazon.com/certificate-manager/)
-
-### Habilidades Necessárias
-
-- ✅ Alinhar tecnologias da AWS para atender aos requisitos de conformidade  
-  **Serviços correlacionados**: [AWS Config](https://aws.amazon.com/config/), [AWS Audit Manager](https://aws.amazon.com/audit-manager/)
-
-- 🔐 Criptografar dados em repouso (por exemplo, [AWS Key Management Service (KMS)](https://aws.amazon.com/kms/))  
-  **Serviços correlacionados**: [AWS KMS](https://aws.amazon.com/kms/), [Amazon S3 (Server-Side Encryption)](https://aws.amazon.com/s3/)
-
-- 🔒 Criptografar dados em trânsito (por exemplo, [AWS Certificate Manager (ACM)](https://aws.amazon.com/certificate-manager/) usando TLS)  
-  **Serviços correlacionados**: [AWS Certificate Manager (ACM)](https://aws.amazon.com/certificate-manager/)
-
-- 🛡️ Implementar políticas de acesso para chaves de criptografia  
-  **Serviços correlacionados**: [AWS IAM](https://aws.amazon.com/iam/), [AWS KMS](https://aws.amazon.com/kms/)
-
-- 💾 Implementar backups e replicações de dados  
-  **Serviços correlacionados**: [AWS Backup](https://aws.amazon.com/backup/), [AWS Storage Gateway](https://aws.amazon.com/storagegateway/)
-
-- 📝 Implementar políticas para acesso, ciclo de vida e proteção de dados  
-  **Serviços correlacionados**: [AWS IAM](https://aws.amazon.com/iam/), [Amazon S3 (Lifecycle Policies)](https://aws.amazon.com/s3/)
-
-- 🔄 Rotacionar chaves de criptografia e renovar certificados  
-  **Serviços correlacionados**: [AWS KMS](https://aws.amazon.com/kms/), [AWS Certificate Manager (ACM)](https://aws.amazon.com/certificate-manager/)
+Ao final desta semana, voce devera ser capaz de:
+- Entender criptografia em repouso (SSE-S3, SSE-KMS, SSE-C) e em transito (TLS)
+- Gerenciar chaves de criptografia com AWS KMS
+- Implementar politicas de acesso e retencao de dados
+- Configurar backups e replicacoes com AWS Backup
+- Alinhar tecnologias AWS com requisitos de conformidade
 
 ---
 
-Este guia abrange as principais áreas e habilidades necessárias para o Domínio 1 do exame AWS Solutions Architect Associate. Certifique-se de revisar cada área e prática para garantir uma compreensão abrangente e aplicação das melhores práticas de segurança da AWS.
+## Conhecimentos Necessarios
+
+- **Acesso e governanca de dados**
+  Servicos: [AWS IAM](https://aws.amazon.com/iam/), [AWS CloudTrail](https://aws.amazon.com/cloudtrail/)
+
+- **Recuperacao de dados**
+  Servicos: [AWS Backup](https://aws.amazon.com/backup/), [AWS Storage Gateway](https://aws.amazon.com/storagegateway/)
+
+- **Retencao e classificacao de dados**
+  Servicos: [Amazon S3](https://aws.amazon.com/s3/), [Amazon Macie](https://aws.amazon.com/macie/)
+
+- **Criptografia e gerenciamento de chaves**
+  Servicos: [AWS KMS](https://aws.amazon.com/kms/), [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/)
+
+## Habilidades Necessarias
+
+- Alinhar tecnologias AWS com requisitos de conformidade (HIPAA, PCI-DSS)
+- Criptografar dados em repouso com [AWS KMS](https://aws.amazon.com/kms/)
+- Criptografar dados em transito com [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/) e TLS
+- Implementar politicas de acesso para chaves de criptografia
+- Implementar backups e replicacoes de dados
+- Implementar politicas de ciclo de vida e protecao de dados
+- Rotacionar chaves de criptografia e renovar certificados
 
 ---
 
-🔙 [Voltar ao Índice](../../../index.md)
+## Dicas de Estudo para esta Semana
+
+1. **Entenda as 3 opcoes de SSE no S3**: SSE-S3 (chave do S3), SSE-KMS (chave do KMS com auditoria), SSE-C (chave do cliente)
+2. **KMS vs. CloudHSM**: KMS e gerenciado e multi-tenant. CloudHSM e dedicado e para requisitos regulatorios rigorosos
+3. **Secrets Manager vs. Parameter Store**: Secrets Manager tem rotacao automatica nativa. Parameter Store e mais barato e simples
+4. **ACM**: Certificados gratuitos para CloudFront, ALB e API Gateway. Renovacao automatica
+5. **Pratique**: Crie um bucket S3 com criptografia SSE-KMS e configure uma lifecycle policy
+
+## Recursos desta Semana
+
+- [Questoes de pratica - Parte 3](../recursos-adicionais/questoes/questoes-semana-3.md)
+- [Dominio 1 completo](../dominio/design-aplicacoes-seguras.md)
+
+---
+
+Voltar ao [Indice](../../../index.md)
