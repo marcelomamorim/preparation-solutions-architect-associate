@@ -6,10 +6,10 @@
 
 Ao final desta semana, você deverá ser capaz de:
 - Selecionar o tipo de armazenamento correto (S3, EBS, EFS, FSx) para cada cenário
-- Entender familias de instâncias EC2 e quando usar cada uma
+- Entender famílias de instâncias EC2 e quando usar cada uma
 - Projetar soluções de banco de dados de alto desempenho (RDS, Aurora, DynamoDB)
 - Implementar estratégias de cache com ElastiCache
-- Configurar Auto Scaling para computacao elastica
+- Configurar Auto Scaling para computação elástica
 
 ---
 
@@ -30,7 +30,7 @@ Ao final desta semana, você deverá ser capaz de:
 ### Banco de Dados
 - **Relacional**: [RDS](https://aws.amazon.com/rds/), [Aurora](https://aws.amazon.com/rds/aurora/) - replicas de leitura, Multi-AZ
 - **NoSQL**: [DynamoDB](https://aws.amazon.com/dynamodb/) - chave-valor, latência em milissegundos
-- **Cache**: [ElastiCache](https://aws.amazon.com/elasticache/) - Redis vs. Memcached
+- **Cache**: [ElastiCache](https://aws.amazon.com/elásticache/) - Redis vs. Memcached
 - **Proxy**: [RDS Proxy](https://aws.amazon.com/rds/proxy/) - pool de conexões
 
 ## Habilidades Necessárias
@@ -49,7 +49,7 @@ Ao final desta semana, você deverá ser capaz de:
 2. **S3 vs. EFS vs. EBS**: S3 = objetos via HTTP. EFS = NFS compartilhado. EBS = bloco para uma instância
 3. **Aurora vs. RDS**: Aurora e 5x mais rápido que MySQL, 3x que PostgreSQL. Até 15 replicas vs. 5 no RDS
 4. **Redis vs. Memcached**: Redis tem persistência, replicação, pub/sub. Memcached e mais simples, multi-thread
-5. **Lambda**: 15 min max, 10 GB memoria, 1000 concorrência padrão. Use RDS Proxy para acessar bancos relacionais
+5. **Lambda**: 15 min max, 10 GB memória, 1000 concorrência padrão. Use RDS Proxy para acessar bancos relacionais
 
 ## Recursos desta Semana
 

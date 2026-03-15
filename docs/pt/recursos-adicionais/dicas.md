@@ -11,7 +11,7 @@
 - **Defina um cronograma realista**: Reserve de 4 a 8 semanas para preparação, dependendo do seu nivel de experiência com AWS
 - **Estude um domínio por vez**: Não tente cobrir tudo ao mesmo tempo. Foque em um domínio, pratique questões, e so depois passe para o próximo
 - **Pratique com laboratorios hands-on**: A experiência prática e fundamental. Use o [AWS Free Tier](https://aws.amazon.com/free/) para experimentar serviços sem custo
-- **Revise o AWS Well-Architected Framework**: Muitas questões sao baseadas nos 6 pilares (Excelencia Operacional, Segurança, Confiabilidade, Eficiência de Performance, Otimização de Custos, Sustentabilidade)
+- **Revise o AWS Well-Architected Framework**: Muitas questões são baseadas nos 6 pilares (Excelencia Operacional, Segurança, Confiabilidade, Eficiência de Performance, Otimização de Custos, Sustentabilidade)
 
 ### Recursos Recomendados
 
@@ -75,7 +75,7 @@ Priorize o estudo destes serviços:
 ## Apos o Exame
 
 - O resultado (aprovado/reprovado) aparece imediatamente na tela
-- A nota exata e o detalhamento por domínio chegam em até 5 dias uteis por email
+- A nota exata é o detalhamento por domínio chegam em até 5 dias úteis por email
 - Se não passar, você pode tentar novamente apos 14 dias
 - A certificação e válida por 3 anos
 

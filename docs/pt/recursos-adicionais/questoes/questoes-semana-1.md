@@ -6,23 +6,23 @@
 
 ### Questao 1
 
-Uma empresa precisa permitir que desenvolvedores de uma conta AWS de desenvolvimento acessem um bucket S3 em uma conta AWS de produção. Qual e a abordagem mais segura?
+Uma empresa precisa permitir que desenvolvedores de uma conta AWS de desenvolvimento acessem um bucket S3 em uma conta AWS de produção. Qual é a abordagem mais segura?
 
 **A)** Criar usuários IAM na conta de produção para cada desenvolvedor
 
 **B)** Compartilhar as credenciais de um usuário IAM da conta de produção
 
-**C)** Criar uma função (role) IAM na conta de produção com uma politica de confianca para a conta de desenvolvimento e usar AssumeRole
+**C)** Criar uma função (role) IAM na conta de produção com uma política de confianca para a conta de desenvolvimento e usar AssumeRole
 
 **D)** Tornar o bucket S3 público
 
-> **Resposta: C** - O acesso entre contas com IAM Roles e AssumeRole e a prática recomendada pela AWS. Evita criar usuários duplicados, não expoe credenciais e permite auditoria via CloudTrail.
+> **Resposta: C** - O acesso entre contas com IAM Roles e AssumeRole é a prática recomendada pela AWS. Evita criar usuários duplicados, não expoe credenciais e permite auditoria via CloudTrail.
 
 ---
 
 ### Questao 2
 
-Qual serviço da AWS permite gerenciar centralmente politicas de acesso para múltiplas contas AWS?
+Qual serviço da AWS permite gerenciar centralmente políticas de acesso para múltiplas contas AWS?
 
 **A)** AWS IAM
 
@@ -48,7 +48,7 @@ Uma empresa quer implementar single sign-on (SSO) para que seus funcionarios ace
 
 **D)** AWS Directory Service
 
-> **Resposta: B** - O AWS IAM Identity Center e o serviço recomendado para SSO em múltiplas contas AWS. Integra-se nativamente com AWS Organizations e suporta conexão com Active Directory corporativo. Cognito e para aplicações voltadas ao consumidor final.
+> **Resposta: B** - O AWS IAM Identity Center é o serviço recomendado para SSO em múltiplas contas AWS. Integra-se nativamente com AWS Organizations e suporta conexão com Active Directory corporativo. Cognito e para aplicações voltadas ao consumidor final.
 
 ---
 
@@ -70,7 +70,7 @@ Segundo o modelo de responsabilidade compartilhada da AWS, qual das seguintes e 
 
 ### Questao 5
 
-Qual e a prática recomendada para proteger a conta root da AWS?
+Qual é a prática recomendada para proteger a conta root da AWS?
 
 **A)** Usar a conta root para tarefas administrativas diarias
 

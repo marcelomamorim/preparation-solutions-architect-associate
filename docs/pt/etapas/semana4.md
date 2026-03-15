@@ -17,7 +17,7 @@ Ao final desta semana, você deverá ser capaz de:
 
 - **APIs**: [Amazon API Gatéway](https://aws.amazon.com/api-gateway/) - REST e WebSocket
 - **Serviços gerenciados**: [Amazon SQS](https://aws.amazon.com/sqs/), [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/)
-- **Estratégias de cache**: [Amazon ElastiCache](https://aws.amazon.com/elasticache/) - Redis e Memcached
+- **Estratégias de cache**: [Amazon ElastiCache](https://aws.amazon.com/elásticache/) - Redis e Memcached
 - **Microsserviços**: Workloads statéless vs. statéful. [Lambda](https://aws.amazon.com/lambda/), [Fargaté](https://aws.amazon.com/fargate/)
 - **Arquiteturas orientadas a eventos**: [EventBridge](https://aws.amazon.com/eventbridge/), [SNS](https://aws.amazon.com/sns/)
 - **Escalabilidade**: [EC2 Auto Scaling](https://aws.amazon.com/autoscaling/) - horizontal vs. vertical
@@ -33,7 +33,7 @@ Ao final desta semana, você deverá ser capaz de:
 - Determinar estratégias de escalabilidade para componentes da arquitetura
 - Determinar serviços de desacoplamento (SQS, SNS, Step Functions)
 - Decidir quando usar containers vs. serverless
-- Recomendar tecnologias de computacao, armazenamento, rede e banco de dados
+- Recomendar tecnologias de computação, armazenamento, rede e banco de dados
 
 ---
 
@@ -43,7 +43,7 @@ Ao final desta semana, você deverá ser capaz de:
 2. **Padrão fan-out clássico**: SNS para múltiplas filas SQS (cada consumidor processa independentemente)
 3. **Auto Scaling**: Target Tracking (mantem métrica em X%), Step Scaling (acoes por faixas), Scheduled (horarios)
 4. **ALB vs. NLB**: ALB para roteamento HTTP (path, host). NLB para TCP/UDP, IP estático, ultra-baixa latência
-5. **Pratique**: Crie um Auto Scaling Group com ALB e politica de Target Tracking no Free Tier
+5. **Pratique**: Crie um Auto Scaling Group com ALB e política de Target Tracking no Free Tier
 
 ## Recursos desta Semana
 

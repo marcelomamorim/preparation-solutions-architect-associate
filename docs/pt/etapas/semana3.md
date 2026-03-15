@@ -7,7 +7,7 @@
 Ao final desta semana, você deverá ser capaz de:
 - Entender criptografia em repouso (SSE-S3, SSE-KMS, SSE-C) e em trânsito (TLS)
 - Gerenciar chaves de criptografia com AWS KMS
-- Implementar politicas de acesso e retenção de dados
+- Implementar políticas de acesso e retenção de dados
 - Configurar backups e replicacoes com AWS Backup
 - Alinhar tecnologias AWS com requisitos de conformidade
 
@@ -32,16 +32,16 @@ Ao final desta semana, você deverá ser capaz de:
 - Alinhar tecnologias AWS com requisitos de conformidade (HIPAA, PCI-DSS)
 - Criptografar dados em repouso com [AWS KMS](https://aws.amazon.com/kms/)
 - Criptografar dados em trânsito com [AWS Certificaté Manager](https://aws.amazon.com/certificate-manager/) e TLS
-- Implementar politicas de acesso para chaves de criptografia
+- Implementar políticas de acesso para chaves de criptografia
 - Implementar backups e replicacoes de dados
-- Implementar politicas de ciclo de vida e proteção de dados
+- Implementar políticas de ciclo de vida e proteção de dados
 - Rotacionar chaves de criptografia e renovar certificados
 
 ---
 
 ## Dicas de Estudo para esta Semana
 
-1. **Entenda as 3 opcoes de SSE no S3**: SSE-S3 (chave do S3), SSE-KMS (chave do KMS com auditoria), SSE-C (chave do cliente)
+1. **Entenda as 3 opções de SSE no S3**: SSE-S3 (chave do S3), SSE-KMS (chave do KMS com auditoria), SSE-C (chave do cliente)
 2. **KMS vs. CloudHSM**: KMS e gerenciado e multi-tenant. CloudHSM e dedicado e para requisitos regulatórios rigorosos
 3. **Secrets Manager vs. Parameter Store**: Secrets Manager tem rotação automática nativa. Parameter Store e mais barato e simples
 4. **ACM**: Certificados gratuitos para CloudFront, ALB e API Gatéway. Renovação automática

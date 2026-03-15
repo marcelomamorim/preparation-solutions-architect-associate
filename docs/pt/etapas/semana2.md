@@ -45,7 +45,7 @@ Ao final desta semana, você deverá ser capaz de:
 ## Dicas de Estudo para esta Semana
 
 1. **Desenhe uma VPC completa** no papel: sub-redes públicas/privadas, Internet Gatéway, NAT Gatéway, tabelas de roteamento
-2. **Memorize**: Security Groups sao statéful (retorno automático), NACLs sao statéless (regras de entrada E saida)
+2. **Memorize**: Security Groups são statéful (retorno automático), NACLs são statéless (regras de entrada E saida)
 3. **VPC Endpoints**: Gatéway (S3, DynamoDB - gratuito) vs. Interface (outros serviços - custo por hora)
 4. **Pratique no console**: Crie uma VPC com sub-redes públicas e privadas usando o VPC Wizard
 5. **Entenda a camada de proteção**: WAF (camada 7, SQL injection/XSS) vs. Shield (camada 3/4, DDoS)

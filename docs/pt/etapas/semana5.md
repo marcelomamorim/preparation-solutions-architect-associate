@@ -38,7 +38,7 @@ Ao final desta semana, você deverá ser capaz de:
 ## Dicas de Estudo para esta Semana
 
 1. **Estratégias de DR** (da mais barata a mais rápida): Backup & Restore, Pilot Light, Warm Standby, Active-Active
-2. **RDS Multi-AZ**: Failover automático em 60-120 segundos. Replicas de leitura NAO sao Multi-AZ por padrão
+2. **RDS Multi-AZ**: Failover automático em 60-120 segundos. Replicas de leitura NAO são Multi-AZ por padrão
 3. **Route 53 Failover**: Configure health checks + failover routing para DR automático
 4. **Aurora**: Até 15 replicas de leitura em 3 AZs, failover em menos de 30 segundos
 5. **Memorize**: S3 tem 99.999999999% (11 noves) de durabilidade

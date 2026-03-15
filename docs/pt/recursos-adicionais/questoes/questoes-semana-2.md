@@ -16,7 +16,7 @@ Uma aplicação em uma sub-rede privada precisa acessar o Amazon S3 sem que o tr
 
 **D)** Usar um Internet Gatéway
 
-> **Resposta: B** - Um VPC Gatéway Endpoint para S3 permite acesso direto ao S3 pela rede privada da AWS, sem custo adicional de transferencia de dados e sem expor o tráfego a internet pública. NAT Gatéway funcionaria, mas tem custo adicional e o tráfego passa pelo NAT.
+> **Resposta: B** - Um VPC Gatéway Endpoint para S3 permite acesso direto ao S3 pela rede privada da AWS, sem custo adicional de transferencia de dados e sem expor o tráfego a internet pública. NAT Gatéway funcionaria, mas tem custo adicional é o tráfego passa pelo NAT.
 
 ---
 
@@ -24,15 +24,15 @@ Uma aplicação em uma sub-rede privada precisa acessar o Amazon S3 sem que o tr
 
 Qual a diferenca principal entre Security Groups e Network ACLs?
 
-**A)** Security Groups sao statéless e NACLs sao statéful
+**A)** Security Groups são statéless e NACLs são statéful
 
 **B)** Security Groups operam no nivel da sub-rede e NACLs no nivel da instância
 
-**C)** Security Groups sao statéful e NACLs sao statéless
+**C)** Security Groups são statéful e NACLs são statéless
 
-**D)** Não ha diferenca, ambos funcionam da mesma forma
+**D)** Não há diferenca, ambos funcionam da mesma forma
 
-> **Resposta: C** - Security Groups sao statéful (o tráfego de retorno e permitido automáticamente). NACLs sao statéless (você precisa configurar regras de entrada E saida explicitamente). Security Groups operam no nivel da instância, NACLs no nivel da sub-rede.
+> **Resposta: C** - Security Groups são statéful (o tráfego de retorno e permitido automaticamente). NACLs são statéless (você precisa configurar regras de entrada E saida explicitamente). Security Groups operam no nivel da instância, NACLs no nivel da sub-rede.
 
 ---
 
@@ -70,7 +70,7 @@ Uma instância EC2 em uma sub-rede privada precisa baixar atualizacoes da intern
 
 ### Questao 5
 
-Uma empresa quer detectar automáticamente atividades maliciosas e comportamentos anomalos em suas contas AWS, como chamadas de API incomuns ou tentativas de acesso não autorizadas. Qual serviço usar?
+Uma empresa quer detectar automaticamente atividades maliciosas e comportamentos anomalos em suas contas AWS, como chamadas de API incomuns ou tentativas de acesso não autorizadas. Qual serviço usar?
 
 **A)** AWS WAF
 
@@ -80,7 +80,7 @@ Uma empresa quer detectar automáticamente atividades maliciosas e comportamento
 
 **D)** AWS Config
 
-> **Resposta: C** - Amazon GuardDuty usa machine learning e análise de dados de CloudTrail, VPC Flow Logs e DNS para detectar ameacas automáticamente. Inspector avalia vulnerabilidades em EC2. WAF protege aplicações web. Config monitora conformidade de configuração.
+> **Resposta: C** - Amazon GuardDuty usa machine learning e análise de dados de CloudTrail, VPC Flow Logs e DNS para detectar ameacas automaticamente. Inspector avalia vulnerabilidades em EC2. WAF protege aplicações web. Config monitora conformidade de configuração.
 
 ---
 

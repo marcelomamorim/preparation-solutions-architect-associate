@@ -16,13 +16,13 @@ Uma empresa precisa garantir que seu banco de dados RDS MySQL esteja disponível
 
 **D)** Fazer backups manuais a cada hora
 
-> **Resposta: B** - RDS Multi-AZ cria uma replica sincrona em outra AZ. Em caso de falha da AZ primaria, o failover automático ocorre em 60-120 segundos. Replicas de leitura sao para distribuir carga de leitura, não para failover automático.
+> **Resposta: B** - RDS Multi-AZ cria uma replica sincrona em outra AZ. Em caso de falha da AZ primaria, o failover automático ocorre em 60-120 segundos. Replicas de leitura são para distribuir carga de leitura, não para failover automático.
 
 ---
 
 ### Questao 2
 
-Uma aplicação crítica precisa de um RTO (Recovery Time Objective) de minutos e um RPO (Recovery Point Objective) próximo de zero. A empresa tem orçamento limitado. Qual estratégia de DR e mais adequada?
+Uma aplicação crítica precisa de um RTO (Recovery Time Objective) de minutos é um RPO (Recovery Point Objective) próximo de zero. A empresa tem orçamento limitado. Qual estratégia de DR e mais adequada?
 
 **A)** Backup & Restore
 
@@ -32,13 +32,13 @@ Uma aplicação crítica precisa de um RTO (Recovery Time Objective) de minutos 
 
 **D)** Active-Active (Multi-site)
 
-> **Resposta: C** - Warm Standby mantem uma versao reduzida do ambiente em execucao em outra região, permitindo RTO de minutos. Pilot Light também oferece RTO de minutos, mas precisa escalar recursos durante o DR. Active-Active tem RTO quase zero, mas custa muito mais.
+> **Resposta: C** - Warm Standby mantem uma versão reduzida do ambiente em execucao em outra região, permitindo RTO de minutos. Pilot Light também oferece RTO de minutos, mas precisa escalar recursos durante o DR. Active-Active tem RTO quase zero, mas custa muito mais.
 
 ---
 
 ### Questao 3
 
-Uma aplicação usa Route 53 para DNS e precisa redirecionar tráfego automáticamente para uma região de backup quando a região primaria ficar indisponível. Qual politica de roteamento deve ser usada?
+Uma aplicação usa Route 53 para DNS e precisa redirecionar tráfego automaticamente para uma região de backup quando a região primaria ficar indisponível. Qual política de roteamento deve ser usada?
 
 **A)** Simple Routing
 
@@ -48,7 +48,7 @@ Uma aplicação usa Route 53 para DNS e precisa redirecionar tráfego automátic
 
 **D)** Laténcy-based Routing
 
-> **Resposta: C** - Failover Routing com health checks monitora a saúde do endpoint primário e redireciona automáticamente para o endpoint secundário quando o primário falha. Health checks verificam a disponibilidade a cada 10 ou 30 segundos.
+> **Resposta: C** - Failover Routing com health checks monitora a saúde do endpoint primário e redireciona automaticamente para o endpoint secundário quando o primário falha. Health checks verificam a disponibilidade a cada 10 ou 30 segundos.
 
 ---
 
@@ -70,7 +70,7 @@ Uma empresa precisa monitorar a utilização de CPU de suas instâncias EC2 e re
 
 ### Questao 5
 
-Uma empresa quer replicar dados do S3 automáticamente para outra região AWS para fins de disaster recovery. Qual recurso do S3 deve ser configurado?
+Uma empresa quer replicar dados do S3 automaticamente para outra região AWS para fins de disaster recovery. Qual recurso do S3 deve ser configurado?
 
 **A)** S3 Transfer Acceleration
 
@@ -80,7 +80,7 @@ Uma empresa quer replicar dados do S3 automáticamente para outra região AWS pa
 
 **D)** S3 Versioning apenas
 
-> **Resposta: B** - S3 Cross-Region Replication (CRR) replica automáticamente objetos para um bucket em outra região. Requer que o versionamento esteja habilitado em ambos os buckets. E essencial para estratégias de DR que envolvem dados no S3.
+> **Resposta: B** - S3 Cross-Region Replication (CRR) replica automaticamente objetos para um bucket em outra região. Requer que o versionamento esteja habilitado em ambos os buckets. E essencial para estratégias de DR que envolvem dados no S3.
 
 ---
 

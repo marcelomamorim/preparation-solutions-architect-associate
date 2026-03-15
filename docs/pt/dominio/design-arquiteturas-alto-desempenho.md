@@ -1,6 +1,6 @@
 # Domínio 3 - Design de Arquiteturas de Alto Desempenho (24% do Exame)
 
-> Este domínio avalia sua capacidade de selecionar soluções de armazenamento, computacao, banco de dados e rede que aténdam aos requisitos de performance. Foque em entender quando usar cada tipo de serviço e como escalar.
+> Este domínio avalia sua capacidade de selecionar soluções de armazenamento, computação, banco de dados e rede que atendam aos requisitos de performance. Foque em entender quando usar cada tipo de serviço e como escalar.
 
 ---
 
@@ -25,22 +25,22 @@
 ### Habilidades Necessárias
 
 - Selecionar serviços de armazenamento baseados em requisitos de desempenho (IOPS, throughput, latência)
-- Escolher serviços que escalam automáticamente (S3 e EFS escalam sem intervencao)
+- Escolher serviços que escalam automaticamente (S3 e EFS escalam sem intervencao)
 - Entender classes de armazenamento do S3 e quando usar cada uma
 
-> **Dica para o exame**: Para alto IOPS, use EBS io2 Block Express (até 256,000 IOPS). Para throughput alto com compartilhamento, use EFS ou FSx for Lustre. S3 escala automáticamente sem limites práticos de throughput.
+> **Dica para o exame**: Para alto IOPS, use EBS io2 Block Express (até 256,000 IOPS). Para throughput alto com compartilhamento, use EFS ou FSx for Lustre. S3 escala automaticamente sem limites práticos de throughput.
 
 ---
 
-## Tarefa 3.2: Projetar soluções de computacao elasticas e de alto desempenho
+## Tarefa 3.2: Projetar soluções de computação elásticas e de alto desempenho
 
 ### Conhecimentos Necessários
 
-- **Serviços de computacao da AWS**
+- **Serviços de computação da AWS**
   - [AWS Batch](https://aws.amazon.com/batch/) - Processamento em lote em escala
   - [Amazon EMR](https://aws.amazon.com/emr/) - Big data com Hadoop, Spark, Hive
   - [AWS Fargaté](https://aws.amazon.com/fargate/) - Containers serverless
-  - [AWS Lambda](https://aws.amazon.com/lambda/) - Funcoes serverless (até 15 min, 10 GB de memoria)
+  - [AWS Lambda](https://aws.amazon.com/lambda/) - Funcoes serverless (até 15 min, 10 GB de memória)
 
 - **Computacao distribuida e serviços de borda**
   [Amazon CloudFront](https://aws.amazon.com/cloudfront/) executa lógica na borda com Lambda@Edge e CloudFront Functions. O [AWS Global Accelerator](https://aws.amazon.com/global-accelerator/) roteia tráfego pela rede AWS para menor latência.
@@ -58,10 +58,10 @@
 
 - Desacoplar workloads para escalabilidade independente
 - Identificar métricas e condições para acoes de escalabilidade
-- Selecionar tipos de instância EC2 adequados (familias: M-geral, C-computacao, R-memoria, T-burst)
-- Dimensionar recursos Lambda (memoria de 128 MB a 10 GB)
+- Selecionar tipos de instância EC2 adequados (famílias: M-geral, C-computação, R-memória, T-burst)
+- Dimensionar recursos Lambda (memória de 128 MB a 10 GB)
 
-> **Dica para o exame**: Para workloads imprevisiveis, use Auto Scaling com Target Tracking. Para workloads agendadas (ex: pico as 9h), use Scheduled Scaling. Lambda escala automáticamente, mas tem limites de concorrência (1000 por padrão por região).
+> **Dica para o exame**: Para workloads imprevisíveis, use Auto Scaling com Target Tracking. Para workloads agendadas (ex: pico as 9h), use Scheduled Scaling. Lambda escala automaticamente, mas tem limites de concorrência (1000 por padrão por região).
 
 ---
 
@@ -70,7 +70,7 @@
 ### Conhecimentos Necessários
 
 - **Estratégias de cache**
-  [Amazon ElastiCache](https://aws.amazon.com/elasticache/) oferece Redis (mais funcionalidades, persistência, replicação) e Memcached (mais simples, multi-thread). Use cache para leituras frequentes e dados que mudam pouco.
+  [Amazon ElastiCache](https://aws.amazon.com/elásticache/) oferece Redis (mais funcionalidades, persistência, replicação) e Memcached (mais simples, multi-thread). Use cache para leituras frequentes e dados que mudam pouco.
 
 - **Padrões de acesso a dados**
   - **Leitura intensiva**: Use replicas de leitura e cache (ElastiCache)
@@ -80,7 +80,7 @@
 - **Motores e tipos de banco de dados**
   - **Relacional** ([Amazon RDS](https://aws.amazon.com/rds/), [Aurora](https://aws.amazon.com/rds/aurora/)) - ACID, queries complexas, joins
   - **Chave-valor** ([Amazon DynamoDB](https://aws.amazon.com/dynamodb/)) - Latência em milissegundos, escala massiva
-  - **In-memory** ([ElastiCache](https://aws.amazon.com/elasticache/)) - Microsegundos, cache e sessoes
+  - **In-memory** ([ElastiCache](https://aws.amazon.com/elásticache/)) - Microsegundos, cache e sessoes
   - **Documental** ([DocumentDB](https://aws.amazon.com/documentdb/)) - Compativel com MongoDB
   - **Grafo** ([Neptune](https://aws.amazon.com/neptune/)) - Relacionamentos complexos
 
@@ -95,7 +95,7 @@
 - Escolher entre bancos relacionais e não-relacionais
 - Integrar caching para reduzir latência e carga no banco
 
-> **Dica para o exame**: Aurora e até 5x mais rápido que MySQL e 3x mais rápido que PostgreSQL. DynamoDB Accelerator (DAX) oferece cache in-memory para DynamoDB com latência em microsegundos. Entenda quando usar cada opcao.
+> **Dica para o exame**: Aurora e até 5x mais rápido que MySQL e 3x mais rápido que PostgreSQL. DynamoDB Accelerator (DAX) oferece cache in-memory para DynamoDB com latência em microsegundos. Entenda quando usar cada opção.
 
 ---
 
@@ -145,14 +145,14 @@
   - [AWS DataSync](https://aws.amazon.com/datasync/) - Transferencia rápida de dados on-premises para AWS
 
 - **Transformacao de dados**
-  - [AWS Glue](https://aws.amazon.com/glue/) - ETL serverless, catalogo de dados, conversao de formatos (CSV para Parquet)
+  - [AWS Glue](https://aws.amazon.com/glue/) - ETL serverless, catalogo de dados, conversão de formatos (CSV para Parquet)
 
 ### Habilidades Necessárias
 
 - Construir e proteger data lakes com Lake Formation e S3
 - Projetar arquiteturas de streaming de dados com Kinesis
 - Implementar pipelines de ETL com AWS Glue
-- Selecionar opcoes de computacao para processamento de dados (EMR, Glue, Lambda)
+- Selecionar opções de computação para processamento de dados (EMR, Glue, Lambda)
 
 > **Dica para o exame**: Kinesis Data Streams e para processamento em tempo real personalizado. Kinesis Data Firehose e para entrega automática (near real-time) a destinos como S3. Athena e ideal para queries ad-hoc no S3 sem necessidade de infraestrutura.
 
@@ -176,4 +176,4 @@
 
 ---
 
-Este guia abrange as principais areas do Domínio 3. Foque em entender as caracteristicas de desempenho de cada serviço e quando cada um e a melhor opcao para diferentes cenários.
+Este guia abrange as principais áreas do Domínio 3. Foque em entender as características de desempenho de cada serviço e quando cada um é a melhor opção para diferentes cenários.

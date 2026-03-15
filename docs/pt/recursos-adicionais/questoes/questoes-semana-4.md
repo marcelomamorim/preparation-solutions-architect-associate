@@ -6,17 +6,17 @@
 
 ### Questao 1
 
-Uma aplicação web experimenta picos de tráfego imprevisiveis. A equipe quer garantir que a aplicação escale automáticamente para aténder a demanda e reduza custos nos periodos de baixo tráfego. Qual solução e mais adequada?
+Uma aplicação web experimenta picos de tráfego imprevisíveis. A equipe quer garantir que a aplicação escale automaticamente para aténder a demanda e reduza custos nos periodos de baixo tráfego. Qual solução e mais adequada?
 
 **A)** Aumentar manualmente o número de instâncias EC2 antes dos picos esperados
 
 **B)** Usar instâncias EC2 maiores (escala vertical)
 
-**C)** Configurar um Auto Scaling Group com politica de Target Tracking baseada em CPU
+**C)** Configurar um Auto Scaling Group com política de Target Tracking baseada em CPU
 
 **D)** Usar uma única instância EC2 muito grande
 
-> **Resposta: C** - Auto Scaling com Target Tracking ajusta automáticamente o número de instâncias para manter a métrica alvo (ex: CPU em 60%). Escala para cima durante picos e para baixo em periodos ociosos, otimizando custos.
+> **Resposta: C** - Auto Scaling com Target Tracking ajusta automaticamente o número de instâncias para manter a métrica alvo (ex: CPU em 60%). Escala para cima durante picos e para baixo em periodos ociosos, otimizando custos.
 
 ---
 
@@ -26,13 +26,13 @@ Uma aplicação de processamento de pedidos precisa garantir que nenhum pedido s
 
 **A)** Chamada sincrona direta entre os serviços
 
-**B)** Usar Amazon SQS entre o serviço de recebimento e o serviço de processamento
+**B)** Usar Amazon SQS entre o serviço de recebimento é o serviço de processamento
 
 **C)** Armazenar pedidos em um arquivo CSV no EBS
 
 **D)** Usar Amazon CloudFront para cache de pedidos
 
-> **Resposta: B** - Amazon SQS desacopla os serviços. Os pedidos sao armazenados na fila e processados quando o serviço de processamento estiver disponível. Mensagens persistem por até 14 dias. Use Dead Letter Queue para mensagens que falham repetidamente.
+> **Resposta: B** - Amazon SQS desacopla os serviços. Os pedidos são armazenados na fila e processados quando o serviço de processamento estiver disponível. Mensagens persistem por até 14 dias. Use Dead Letter Queue para mensagens que falham repetidamente.
 
 ---
 
@@ -64,7 +64,7 @@ Uma empresa quer executar containers Docker sem gerenciar servidores ou clusters
 
 **D)** AWS Lambda com layers de container
 
-> **Resposta: B** - Amazon ECS com Fargaté e a opcao serverless para containers. Você define a tarefa (CPU, memoria, imagem) e o Fargaté gerencia toda a infraestrutura. Não precisa provisionar, configurar ou escalar clusters de servidores.
+> **Resposta: B** - Amazon ECS com Fargaté é a opção serverless para containers. Você define a tarefa (CPU, memória, imagem) é o Fargaté gerencia toda a infraestrutura. Não precisa provisionar, configurar ou escalar clusters de servidores.
 
 ---
 

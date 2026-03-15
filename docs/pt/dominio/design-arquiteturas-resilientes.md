@@ -15,21 +15,21 @@
   Use serviços gerenciados sempre que possível para reduzir a carga operacional. O [AWS Transfer Family](https://aws.amazon.com/aws-transfer-family/) gerencia transferencias SFTP/FTP. O [Amazon SQS](https://aws.amazon.com/sqs/) desacopla componentes com filas de mensagens.
 
 - **Estratégias de cache**
-  O [Amazon ElastiCache](https://aws.amazon.com/elasticache/) oferece Redis e Memcached para caching in-memory. Use cache para reduzir latência e carga no banco de dados. Estratégias comuns: cache-aside (lazy loading), write-through e TTL.
+  O [Amazon ElastiCache](https://aws.amazon.com/elásticache/) oferece Redis e Memcached para caching in-memory. Use cache para reduzir latência e carga no banco de dados. Estratégias comuns: cache-aside (lazy loading), write-through e TTL.
 
 - **Principios de design para microsserviços**
-  Workloads **statéless** sao mais faceis de escalar horizontalmente. Armazene estado em serviços externos (DynamoDB, ElastiCache, S3). [AWS Lambda](https://aws.amazon.com/lambda/) e [AWS Fargaté](https://aws.amazon.com/fargate/) fácilitam microsserviços.
+  Workloads **statéless** são mais faceis de escalar horizontalmente. Armazene estado em serviços externos (DynamoDB, ElastiCache, S3). [AWS Lambda](https://aws.amazon.com/lambda/) e [AWS Fargaté](https://aws.amazon.com/fargate/) fácilitam microsserviços.
 
 - **Arquiteturas orientadas a eventos**
-  O [Amazon EventBridge](https://aws.amazon.com/eventbridge/) e o barramento de eventos serverless da AWS. O [Amazon SNS](https://aws.amazon.com/sns/) permite pub/sub para notificações. Combine com SQS para processamento assincrono confiável.
+  O [Amazon EventBridge](https://aws.amazon.com/eventbridge/) é o barramento de eventos serverless da AWS. O [Amazon SNS](https://aws.amazon.com/sns/) permite pub/sub para notificações. Combine com SQS para processamento assincrono confiável.
 
 - **Escalabilidade horizontal e vertical**
   - **Horizontal** (scale out): Adicionar mais instâncias - preferido na AWS
   - **Vertical** (scale up): Aumentar o tamanho da instância - tem limites
-  - [Amazon EC2 Auto Scaling](https://aws.amazon.com/autoscaling/) gerencia a escalabilidade horizontal automáticamente
+  - [Amazon EC2 Auto Scaling](https://aws.amazon.com/autoscaling/) gerencia a escalabilidade horizontal automaticamente
 
 - **Aceleradores de borda**
-  O [Amazon CloudFront](https://aws.amazon.com/cloudfront/) e um CDN global que cacheia conteúdo em edge locations. O [AWS Global Accelerator](https://aws.amazon.com/global-accelerator/) melhora a disponibilidade e performance usando a rede global da AWS.
+  O [Amazon CloudFront](https://aws.amazon.com/cloudfront/) é um CDN global que cacheia conteúdo em edge locations. O [AWS Global Accelerator](https://aws.amazon.com/global-accelerator/) melhora a disponibilidade e performance usando a rede global da AWS.
 
 - **Containers e orquestracao**
   - [Amazon ECS](https://aws.amazon.com/ecs/) - Orquestracao de containers pela AWS
@@ -52,9 +52,9 @@
 - Determinar estratégias de escalabilidade para componentes da arquitetura
 - Determinar serviços AWS para desacoplamento (SQS, SNS, Step Functions)
 - Decidir quando usar containers vs. serverless vs. instâncias EC2
-- Recomendar tecnologias adequadas de computacao, armazenamento, rede e banco de dados
+- Recomendar tecnologias adequadas de computação, armazenamento, rede e banco de dados
 
-> **Dica para o exame**: Quando a questao menciona "desacoplamento", pense em SQS, SNS e EventBridge. Quando menciona "escalabilidade", pense em Auto Scaling Groups e Lambda. A combinacao SQS + Auto Scaling e um padrão clássico no exame.
+> **Dica para o exame**: Quando a questao menciona "desacoplamento", pense em SQS, SNS e EventBridge. Quando menciona "escalabilidade", pense em Auto Scaling Groups e Lambda. A combinacao SQS + Auto Scaling é um padrão clássico no exame.
 
 ---
 
@@ -65,11 +65,11 @@
 - **Infraestrutura global da AWS**
   Distribua recursos em múltiplas Zonas de Disponibilidade (AZs) para alta disponibilidade. Use múltiplas Regioes para disaster recovery. O [Amazon Route 53](https://aws.amazon.com/route53/) oferece DNS com health checks e failover.
 
-- **Estratégias de recuperação de desastrês (DR)**
+- **Estratégias de recuperação de desastres (DR)**
   Da mais barata para a mais rápida:
   1. **Backup & Restore** - RPO/RTO: horas. Backups em S3, restauracao manual
   2. **Pilot Light** - RPO/RTO: minutos. Componentes críticos em standby mínimo
-  3. **Warm Standby** - RPO/RTO: minutos. Versao reduzida do ambiente em execucao
+  3. **Warm Standby** - RPO/RTO: minutos. Versão reduzida do ambiente em execucao
   4. **Active-Active (Multi-site)** - RPO/RTO: quase zero. Ambiente completo em múltiplas regiões
 
 - **Padrões de design distribuido**
@@ -115,4 +115,4 @@
 
 ---
 
-Este guia abrange as principais areas do Domínio 2. A resiliência e um dos pilares do Well-Architected Framework, então entenda profundamente os conceitos de alta disponibilidade, tolerância a falhas e recuperação de desastrês.
+Este guia abrange as principais áreas do Domínio 2. A resiliência é um dos pilares do Well-Architected Framework, então entenda profundamente os conceitos de alta disponibilidade, tolerância a falhas e recuperação de desastres.

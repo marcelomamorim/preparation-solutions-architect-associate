@@ -4,10 +4,10 @@
 
 ## Objetivos desta Semana
 
-Esta e a semana de revisão final. Seu foco deve ser:
+Esta é a semana de revisão final. Seu foco deve ser:
 - Revisar todos os 4 domínios do exame
 - Práticar com simulados completos (65 questões em 130 minutos)
-- Identificar pontos fracos e revisar topicos específicos
+- Identificar pontos fracos e revisar tópicos específicos
 - Consolidar o conhecimento com flashcards e resumos
 
 ---
@@ -56,18 +56,18 @@ Esta e a semana de revisão final. Seu foco deve ser:
 
 ### Domínio 1
 1. Explique a diferenca entre um usuário do IAM e uma função do IAM. Quando você deve usar cada um?
-2. Quais sao os benefícios do AWS IAM Identity Center para gerenciamento de acesso federado?
+2. Quais são os benefícios do AWS IAM Identity Center para gerenciamento de acesso federado?
 3. Descreva as melhores práticas de segurança para o usuário root na conta AWS.
 
 ### Domínio 2
-1. Quais sao os componentes do Amazon API Gatéway e como ajudam na criacao de APIs?
+1. Quais são os componentes do Amazon API Gatéway e como ajudam na criacao de APIs?
 2. Explique como o ElastiCache melhora a performance de uma aplicação web.
 3. Descreva uma arquitetura resiliente usando múltiplas AZs.
 
 ### Domínio 3
 1. Qual a diferenca entre S3, EFS e EBS? Quando usar cada um?
 2. Explique Fargaté vs. EC2 para execucao de containers.
-3. Quais sao os benefícios do CloudFront como CDN?
+3. Quais são os benefícios do CloudFront como CDN?
 
 ### Domínio 4
 1. Como o Cost Explorer ajuda na otimização de custos?
@@ -85,7 +85,7 @@ Esta e a semana de revisão final. Seu foco deve ser:
 | 3 | Revisão completa do Domínio 3 (Alto Desempenho) |
 | 4 | Revisão completa do Domínio 4 (Custos) |
 | 5 | Simulado completo #1 (65 questões, 130 min) |
-| 6 | Revisão dos erros do simulado + topicos fracos |
+| 6 | Revisão dos erros do simulado + tópicos fracos |
 | 7 | Simulado completo #2 + revisão final |
 
 ---

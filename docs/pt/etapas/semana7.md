@@ -22,7 +22,7 @@ Ao final desta semana, você deverá ser capaz de:
 
 ### Ingestão e Transformacao de Dados (Domínio 3)
 - **Streaming**: [Kinesis Data Streams](https://aws.amazon.com/kinesis/) vs. [Kinesis Data Firehose](https://aws.amazon.com/kinesis/data-firehose/)
-- **ETL**: [AWS Glue](https://aws.amazon.com/glue/) - catalogo de dados, conversao de formatos
+- **ETL**: [AWS Glue](https://aws.amazon.com/glue/) - catalogo de dados, conversão de formatos
 - **Análise**: [Amazon Athena](https://aws.amazon.com/athena/) - SQL no S3, [QuickSight](https://aws.amazon.com/quicksight/) - BI
 - **Data Lake**: [Lake Formation](https://aws.amazon.com/lake-formation/) + S3
 
@@ -50,7 +50,7 @@ Ao final desta semana, você deverá ser capaz de:
 2. **Kinesis Streams vs. Firehose**: Streams = processamento custom em tempo real. Firehose = entrega automática (near real-time) a S3/Redshift
 3. **Spot Instances**: Até 90% de desconto, mas podem ser interrompidas. Use para batch, CI/CD, ML training
 4. **VPC Endpoints**: Gatéway (S3, DynamoDB - gratuito) elimina custos de NAT. Interface (outros - custo por hora)
-5. **S3 Intelligent-Tiering**: Ideal quando o padrão de acesso e desconhecido. Move automáticamente entre tiers
+5. **S3 Intelligent-Tiering**: Ideal quando o padrão de acesso e desconhecido. Move automaticamente entre tiers
 
 ## Recursos desta Semana
 

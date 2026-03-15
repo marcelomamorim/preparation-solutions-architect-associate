@@ -25,7 +25,7 @@
   - **Tags de alocação de custos** - Rastreie custos por projeto, equipe ou ambiente
 
 - **Ciclos de vida e estratégias de backup**
-  Use S3 Lifecycle Policies para mover objetos automáticamente entre classes de armazenamento. Configure regras para excluir versoes antigas apos um periodo definido.
+  Use S3 Lifecycle Policies para mover objetos automaticamente entre classes de armazenamento. Configure regras para excluir versoes antigas apos um periodo definido.
 
 - **Armazenamento híbrido**
   - [AWS DataSync](https://aws.amazon.com/datasync/) - Transferencia rápida de dados
@@ -46,11 +46,11 @@
 - Gerenciar ciclos de vida de objetos S3 com transicoes automáticas
 - Selecionar soluções de backup e arquivamento econômicas
 
-> **Dica para o exame**: S3 Intelligent-Tiering e ideal quando você não sabe o padrão de acesso dos dados. Para dados que precisam ser retidos por anos (compliance), use S3 Glacier Deep Archive com Object Lock. S3 Lifecycle Policies sao essenciais para automação de custos.
+> **Dica para o exame**: S3 Intelligent-Tiering e ideal quando você não sabe o padrão de acesso dos dados. Para dados que precisam ser retidos por anos (compliance), use S3 Glacier Deep Archive com Object Lock. S3 Lifecycle Policies são essenciais para automação de custos.
 
 ---
 
-## Tarefa 4.2: Projetar soluções de computacao otimizadas por custo
+## Tarefa 4.2: Projetar soluções de computação otimizadas por custo
 
 ### Conhecimentos Necessários
 
@@ -64,8 +64,8 @@
 - **Quando usar Spot Instances**
   Ideal para workloads tolerantes a interrupções: processamento em lote, CI/CD, treinamento de ML, big data (EMR). Não use para bancos de dados ou aplicações críticas.
 
-- **Tipos e familias de instâncias EC2**
-  - **M** (General Purpose) - Uso geral, equilibrio computacao/memoria
+- **Tipos e famílias de instâncias EC2**
+  - **M** (General Purpose) - Uso geral, equilíbrio computação/memória
   - **C** (Compute Optimized) - Processamento intensivo, HPC
   - **R** (Memory Optimized) - Bancos de dados in-memory, cache
   - **T** (Burstable) - Workloads com picos esporadicos
@@ -73,7 +73,7 @@
 
 - **Computacao serverless vs. containers vs. EC2**
   - **Lambda** - Eventos esporadicos, funções curtas (< 15 min), escala a zero
-  - **Fargaté** - Containers sem gerenciar servidores, pague por vCPU e memoria usada
+  - **Fargaté** - Containers sem gerenciar servidores, pague por vCPU e memória usada
   - **EC2** - Controle total, ideal para workloads consistentes de longa duracao
 
 ### Habilidades Necessárias
@@ -92,12 +92,12 @@
 ### Conhecimentos Necessários
 
 - **Serviços de banco de dados e seus custos**
-  - [Amazon Aurora Serverless](https://aws.amazon.com/rds/aurora/) - Escala automáticamente, pague por ACUs usadas (ideal para workloads imprevisiveis)
+  - [Amazon Aurora Serverless](https://aws.amazon.com/rds/aurora/) - Escala automaticamente, pague por ACUs usadas (ideal para workloads imprevisíveis)
   - [Amazon DynamoDB](https://aws.amazon.com/dynamodb/) - Modo On-Demand (pague por requisicao) ou Provisioned (com auto-scaling)
   - [Amazon RDS](https://aws.amazon.com/rds/) - Reserved Instances disponíveis para economia de até 69%
 
 - **Estratégias de cache para reducao de custos**
-  [Amazon ElastiCache](https://aws.amazon.com/elasticache/) reduz custos ao diminuir a carga de leitura no banco de dados principal. Menos leituras = menos IOPS = instância menor necessária.
+  [Amazon ElastiCache](https://aws.amazon.com/elásticache/) reduz custos ao diminuir a carga de leitura no banco de dados principal. Menos leituras = menos IOPS = instância menor necessária.
 
 - **Politicas de retenção de dados**
   Configure periodos de retenção de backups automáticos no RDS. Use snapshots manuais para retencoes mais longas. Considere mover dados históricos para S3 com Athena para queries.
@@ -107,12 +107,12 @@
 
 ### Habilidades Necessárias
 
-- Projetar politicas de backup e retenção adequadas
+- Projetar políticas de backup e retenção adequadas
 - Escolher o motor de banco de dados mais econômico
 - Decidir entre DynamoDB On-Demand vs. Provisioned
 - Migrar de bancos comerciais para open source para reduzir custos
 
-> **Dica para o exame**: Aurora Serverless v2 e ideal para workloads imprevisiveis (dev/test, aplicações com picos). DynamoDB On-Demand e melhor quando o tráfego e imprevisível; Provisioned com auto-scaling e mais econômico para tráfego previsível.
+> **Dica para o exame**: Aurora Serverless v2 e ideal para workloads imprevisíveis (dev/test, aplicações com picos). DynamoDB On-Demand e melhor quando o tráfego e imprevisível; Provisioned com auto-scaling e mais econômico para tráfego previsível.
 
 ---
 
@@ -121,8 +121,8 @@
 ### Conhecimentos Necessários
 
 - **Custos de transferencia de dados**
-  - Dados de entrada (ingress) sao gratuitos
-  - Dados de saida (egress) sao cobrados
+  - Dados de entrada (ingress) são gratuitos
+  - Dados de saida (egress) são cobrados
   - Transferencia entre AZs tem custo (use endpoints VPC para reduzir)
   - Transferencia entre Regioes tem custo maior
 
@@ -158,7 +158,7 @@
 | AWS Compute Optimizer | Recomendacoes de right-sizing |
 | AWS Trusted Advisor | Recomendacoes de otimização |
 | S3 Intelligent-Tiering | Otimização automática de armazenamento |
-| EC2 Spot Instances | Até 90% de desconto em computacao |
+| EC2 Spot Instances | Até 90% de desconto em computação |
 | Savings Plans | Descontos por compromisso de uso |
 | Aurora Serverless | Banco de dados que escala a zero |
 | VPC Endpoints | Elimina custos de NAT para serviços AWS |
@@ -166,4 +166,4 @@
 
 ---
 
-Este guia abrange as principais areas do Domínio 4. A otimização de custos e um dos pilares do Well-Architected Framework. Lembre-se: o objetivo não e gastar menos, mas **gastar de forma inteligente** para maximizar o valor entregue.
+Este guia abrange as principais áreas do Domínio 4. A otimização de custos é um dos pilares do Well-Architected Framework. Lembre-se: o objetivo não e gastar menos, mas **gastar de forma inteligente** para maximizar o valor entregue.

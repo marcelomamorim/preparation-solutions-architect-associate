@@ -6,7 +6,7 @@
 
 ### Questao 1
 
-Uma aplicação de análise de dados precisa processar arquivos grandes armazenados no S3. Os arquivos sao acessados frequentemente durante os primeiros 30 dias e raramente depois. Qual estratégia de armazenamento otimiza custos?
+Uma aplicação de análise de dados precisa processar arquivos grandes armazenados no S3. Os arquivos são acessados frequentemente durante os primeiros 30 dias e raramente depois. Qual estratégia de armazenamento otimiza custos?
 
 **A)** Armazenar tudo no S3 Standard permanentemente
 
@@ -16,7 +16,7 @@ Uma aplicação de análise de dados precisa processar arquivos grandes armazena
 
 **D)** Armazenar em EBS gp3
 
-> **Resposta: B** - S3 Lifecycle Policies automatizam a transicao entre classes de armazenamento. S3 Standard para acesso frequente nos primeiros 30 dias, Standard-IA para acesso menos frequente, e Glacier para arquivamento de longo prazo. Isso otimiza custos automáticamente.
+> **Resposta: B** - S3 Lifecycle Policies automatizam a transicao entre classes de armazenamento. S3 Standard para acesso frequente nos primeiros 30 dias, Standard-IA para acesso menos frequente, e Glacier para arquivamento de longo prazo. Isso otimiza custos automaticamente.
 
 ---
 
@@ -32,7 +32,7 @@ Uma aplicação de processamento de imagens precisa de armazenamento compartilha
 
 **D)** Instance Store
 
-> **Resposta: C** - Amazon EFS e um sistema de arquivos NFS elástico que pode ser montado simultaneamente em múltiplas instâncias EC2 em diferentes AZs. EBS e anexado a uma única instância (exceto io2 com Multi-Attach). S3 e armazenamento de objetos, não sistema de arquivos.
+> **Resposta: C** - Amazon EFS é um sistema de arquivos NFS elástico que pode ser montado simultaneamente em múltiplas instâncias EC2 em diferentes AZs. EBS e anexado a uma única instância (exceto io2 com Multi-Attach). S3 e armazenamento de objetos, não sistema de arquivos.
 
 ---
 
@@ -46,7 +46,7 @@ Uma função Lambda e invocada por um API Gatéway e precisa acessar um banco de
 
 **C)** Migrar para DynamoDB
 
-**D)** Aumentar a memoria da função Lambda
+**D)** Aumentar a memória da função Lambda
 
 > **Resposta: B** - Amazon RDS Proxy gerencia um pool de conexões compartilhadas com o banco de dados. Lambda cria muitas conexões efemeras que sobrecarregam o RDS. O RDS Proxy reutiliza conexões existentes, reduzindo a carga no banco e melhorando o tempo de failover.
 

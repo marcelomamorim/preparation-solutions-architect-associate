@@ -1,12 +1,12 @@
 # Questões de Prática - Parte 7: Banco de Dados e Otimização de Custos
 
-> Teste seus conhecimentos sobre bancos de dados AWS, otimização de custos de computacao e armazenamento.
+> Teste seus conhecimentos sobre bancos de dados AWS, otimização de custos de computação e armazenamento.
 
 ---
 
 ### Questao 1
 
-Uma startup precisa de um banco de dados para sua aplicação web. O tráfego e imprevisível e pode variar de zero a milhares de requisicoes por segundo. A equipe quer minimizar custos quando não ha tráfego. Qual solução e mais adequada?
+Uma startup precisa de um banco de dados para sua aplicação web. O tráfego e imprevisível e pode variar de zero a milhares de requisicoes por segundo. A equipe quer minimizar custos quando não há tráfego. Qual solução e mais adequada?
 
 **A)** Amazon RDS MySQL com instância Multi-AZ
 
@@ -16,7 +16,7 @@ Uma startup precisa de um banco de dados para sua aplicação web. O tráfego e 
 
 **D)** Amazon EC2 com MySQL instalado
 
-> **Resposta: B** - Aurora Serverless v2 escala automáticamente a capacidade de computacao baseada na demanda, podendo escalar até quase zero quando não ha tráfego. E ideal para workloads imprevisiveis. DynamoDB On-Demand também seria uma opcao válida para NoSQL.
+> **Resposta: B** - Aurora Serverless v2 escala automaticamente a capacidade de computação baseada na demanda, podendo escalar até quase zero quando não há tráfego. E ideal para workloads imprevisíveis. DynamoDB On-Demand também seria uma opção válida para NoSQL.
 
 ---
 
@@ -38,7 +38,7 @@ Uma empresa tem workloads de processamento em lote que podem ser interrompidas s
 
 ### Questao 3
 
-Uma empresa executa uma aplicação com tráfego previsível e constante, 24/7, durante todo o ano. A empresa quer reduzir os custos de computacao EC2. Qual abordagem oferece a melhor economia?
+Uma empresa executa uma aplicação com tráfego previsível e constante, 24/7, durante todo o ano. A empresa quer reduzir os custos de computação EC2. Qual abordagem oferece a melhor economia?
 
 **A)** Usar apenas On-Demand Instances
 
@@ -46,9 +46,9 @@ Uma empresa executa uma aplicação com tráfego previsível e constante, 24/7, 
 
 **C)** Usar apenas Spot Instances
 
-**D)** Usar instâncias T3 com creditos ilimitados
+**D)** Usar instâncias T3 com créditos ilimitados
 
-> **Resposta: B** - Compute Savings Plans com compromisso de 3 anos e pagamento antecipado total oferecem o maior desconto (até 72%). Para workloads previsiveis 24/7, o compromisso de longo prazo e a melhor estratégia. Spot não e adequado para cargas críticas constantes.
+> **Resposta: B** - Compute Savings Plans com compromisso de 3 anos e pagamento antecipado total oferecem o maior desconto (até 72%). Para workloads previsiveis 24/7, o compromisso de longo prazo é a melhor estratégia. Spot não e adequado para cargas críticas constantes.
 
 ---
 
@@ -64,7 +64,7 @@ Uma aplicação usa DynamoDB com tráfego variável. Durante o dia, recebe milha
 
 **D)** Capacidade provisionada com Reserved Capacity
 
-> **Resposta: B** - Capacidade provisionada com Auto Scaling ajusta a capacidade automáticamente baseada no tráfego, mantendo custos baixos a noite e escalando durante o dia. On-Demand e mais simples mas pode ser mais caro para padrões previsiveis. Reserved e para tráfego muito estável.
+> **Resposta: B** - Capacidade provisionada com Auto Scaling ajusta a capacidade automaticamente baseada no tráfego, mantendo custos baixos a noite e escalando durante o dia. On-Demand e mais simples mas pode ser mais caro para padrões previsiveis. Reserved e para tráfego muito estável.
 
 ---
 
@@ -80,7 +80,7 @@ Uma empresa quer identificar instâncias EC2 que estao superdimensionadas (usand
 
 **D)** AWS Cost Explorer
 
-> **Resposta: C** - AWS Compute Optimizer analisa métricas de utilização (CPU, memoria, rede) e recomenda tipos de instância ideais para cada workload. Trusted Advisor também identifica instâncias ociosas, mas Compute Optimizer oferece recomendações mais detalhadas com estimativas de economia.
+> **Resposta: C** - AWS Compute Optimizer analisa métricas de utilização (CPU, memória, rede) e recomenda tipos de instância ideais para cada workload. Trusted Advisor também identifica instâncias ociosas, mas Compute Optimizer oferece recomendações mais detalhadas com estimativas de economia.
 
 ---
 

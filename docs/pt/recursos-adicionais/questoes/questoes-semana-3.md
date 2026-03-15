@@ -6,7 +6,7 @@
 
 ### Questao 1
 
-Uma empresa precisa criptografar dados armazenados no Amazon S3 e manter controle total sobre as chaves de criptografia, incluindo auditoria de uso via CloudTrail. Qual opcao de criptografia deve ser usada?
+Uma empresa precisa criptografar dados armazenados no Amazon S3 e manter controle total sobre as chaves de criptografia, incluindo auditoria de uso via CloudTrail. Qual opção de criptografia deve ser usada?
 
 **A)** SSE-S3 (Server-Side Encryption com chaves gerenciadas pelo S3)
 
@@ -22,7 +22,7 @@ Uma empresa precisa criptografar dados armazenados no Amazon S3 e manter control
 
 ### Questao 2
 
-Uma aplicação precisa armazenar credenciais de banco de dados de forma segura e rotaciona-las automáticamente a cada 30 dias. Qual serviço e mais adequado?
+Uma aplicação precisa armazenar credenciais de banco de dados de forma segura e rotaciona-las automaticamente a cada 30 dias. Qual serviço e mais adequado?
 
 **A)** AWS Systems Manager Parameter Store (SecureString)
 
@@ -48,13 +48,13 @@ Uma empresa precisa garantir que todos os objetos enviados para um bucket S3 sej
 
 **D)** Usar S3 Transfer Acceleration
 
-> **Resposta: B** - Uma bucket policy que nega PutObject requests sem o header de criptografia garante que todos os objetos sejam criptografados. Alternativamente, o S3 agora suporta criptografia padrão (default encryption) com SSE-S3, que criptografa automáticamente todos os novos objetos.
+> **Resposta: B** - Uma bucket policy que nega PutObject requests sem o header de criptografia garante que todos os objetos sejam criptografados. Alternativamente, o S3 agora suporta criptografia padrão (default encryption) com SSE-S3, que criptografa automaticamente todos os novos objetos.
 
 ---
 
 ### Questao 4
 
-Qual serviço da AWS detecta automáticamente dados sensíveis (como PII e números de cartao de credito) armazenados em buckets S3?
+Qual serviço da AWS detecta automaticamente dados sensíveis (como PII e números de cartao de crédito) armazenados em buckets S3?
 
 **A)** Amazon GuardDuty
 
@@ -64,13 +64,13 @@ Qual serviço da AWS detecta automáticamente dados sensíveis (como PII e núme
 
 **D)** AWS Config
 
-> **Resposta: C** - Amazon Macie usa machine learning para descobrir e proteger dados sensíveis no S3. Ele identifica automáticamente PII, dados financeiros e outros dados sensíveis, gerando alertas e relatórios.
+> **Resposta: C** - Amazon Macie usa machine learning para descobrir e proteger dados sensíveis no S3. Ele identifica automaticamente PII, dados financeiros e outros dados sensíveis, gerando alertas e relatórios.
 
 ---
 
 ### Questao 5
 
-Uma empresa precisa garantir que certificados TLS/SSL para seus domínios sejam renovados automáticamente e integrados com CloudFront e ALB. Qual serviço deve ser usado?
+Uma empresa precisa garantir que certificados TLS/SSL para seus domínios sejam renovados automaticamente e integrados com CloudFront e ALB. Qual serviço deve ser usado?
 
 **A)** AWS KMS
 
@@ -80,7 +80,7 @@ Uma empresa precisa garantir que certificados TLS/SSL para seus domínios sejam 
 
 **D)** AWS CloudHSM
 
-> **Resposta: B** - O AWS Certificaté Manager provisiona e gerencia certificados TLS/SSL gratuitamente para uso com serviços AWS integrados (CloudFront, ALB, API Gatéway). Os certificados sao renovados automáticamente antes de expirar.
+> **Resposta: B** - O AWS Certificaté Manager provisiona e gerencia certificados TLS/SSL gratuitamente para uso com serviços AWS integrados (CloudFront, ALB, API Gatéway). Os certificados são renovados automaticamente antes de expirar.
 
 ---
 

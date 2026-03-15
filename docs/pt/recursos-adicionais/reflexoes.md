@@ -6,7 +6,7 @@
 
 ## Os 6 Pilares do AWS Well-Architected Framework
 
-O Well-Architected Framework e a base filosofica de muitas questões do exame. Entenda cada pilar:
+O Well-Architected Framework é a base filosofica de muitas questões do exame. Entenda cada pilar:
 
 ### 1. Excelencia Operacional
 - Automatize tudo que puder (CloudFormation, Systems Manager)
@@ -68,7 +68,7 @@ API Gatéway → Lambda → DynamoDB
               S3 (arquivos estáticos)
 ```
 - **Quando usar**: APIs e microserviços com tráfego variável, quando se quer zero gerenciamento de servidores
-- **Pontos-chave**: Lambda escala automáticamente, DynamoDB On-Demand para tráfego imprevisível
+- **Pontos-chave**: Lambda escala automaticamente, DynamoDB On-Demand para tráfego imprevisível
 
 ### Padrão 3: Processamento Assincrono
 ```
@@ -108,15 +108,15 @@ On-Premises ←→ Direct Connect ←→ AWS VPC
 ## Erros Comuns a Evitar
 
 1. **Não usar Multi-AZ quando a questao pede alta disponibilidade**: Sempre distribua em pelo menos 2 AZs
-2. **Confundir Security Groups com NACLs**: SGs sao statéful (nivel de instância), NACLs sao statéless (nivel de sub-rede)
-3. **Escolher a opcao mais complexa**: Na AWS, prefira serviços gerenciados e serverless quando possível
+2. **Confundir Security Groups com NACLs**: SGs são statéful (nivel de instância), NACLs são statéless (nivel de sub-rede)
+3. **Escolher a opção mais complexa**: Na AWS, prefira serviços gerenciados e serverless quando possível
 4. **Ignorar custos de transferencia de dados**: Dados entre AZs e entre Regioes tem custo
 5. **Não considerar limites de serviço**: Lambda tem 15 min de timeout, SQS tem 14 dias de retenção máxima
 6. **Confundir Kinesis Data Streams com Firehose**: Streams e para processamento custom, Firehose e para entrega automática
 
 ---
 
-## Analogias Uteis
+## Analogias Úteis
 
 | Conceito AWS | Analogia |
 |-------------|---------|
@@ -124,7 +124,7 @@ On-Premises ←→ Direct Connect ←→ AWS VPC
 | Security Groups | Porteiro do predio (checa quem entra, lembra quem saiu) |
 | NACLs | Guarita do condomínio (checa entrada E saida) |
 | SQS | Fila do banco (primeiro a chegar, primeiro a ser aténdido) |
-| SNS | Lista de transmissao do WhatsApp (uma mensagem para muitos) |
+| SNS | Lista de transmissão do WhatsApp (uma mensagem para muitos) |
 | CloudFront | Filial de uma loja (produto mais perto do cliente) |
 | Auto Scaling | Contratacao temporaria (mais funcionarios no Natal) |
 | Lambda | Uber (paga apenas pela corrida, sem custo de carro parado) |

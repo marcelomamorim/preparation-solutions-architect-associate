@@ -1,19 +1,19 @@
-# Checklist de Revisão Final - AWS Solutions Architect Associaté
+# Checklist de Revisão Final - AWS Solutions Architect Associate
 
-> Use este checklist antes do exame para garantir que você cobriu todos os topicos importantes. Marque cada item conforme for revisando.
+> Use este checklist antes do exame para garantir que você cobriu todos os tópicos importantes. Marque cada item conforme for revisando.
 
 ---
 
 ## Domínio 1: Design de Arquiteturas Seguras (30%)
 
 ### IAM e Gerenciamento de Acesso
-- [ ] Usuarios, grupos, funções e politicas do IAM
+- [ ] Usuarios, grupos, funções e políticas do IAM
 - [ ] Politicas gerenciadas vs. inline vs. de recurso
-- [ ] Principio do menor privilegio
+- [ ] Principio do menor privilégio
 - [ ] AWS Organizations e SCPs (Service Control Policies)
 - [ ] AWS IAM Identity Center (SSO) e federacao
 - [ ] AWS STS e AssumeRole para acesso entre contas
-- [ ] MFA e politicas de senha
+- [ ] MFA e políticas de senha
 
 ### Segurança de Rede
 - [ ] VPC: sub-redes públicas e privadas
@@ -45,12 +45,12 @@
 - [ ] Amazon EventBridge: roteamento de eventos
 - [ ] AWS Step Functions: orquestracao de workflows
 - [ ] Escalabilidade horizontal vs. vertical
-- [ ] EC2 Auto Scaling: politicas (Target Tracking, Step, Scheduled)
+- [ ] EC2 Auto Scaling: políticas (Target Tracking, Step, Scheduled)
 
 ### Alta Disponibilidade
 - [ ] Multi-AZ para RDS, ElastiCache, EFS
 - [ ] ELB: ALB (camada 7) vs. NLB (camada 4) vs. GLB
-- [ ] Amazon Route 53: politicas de roteamento (Simple, Weighted, Laténcy, Failover, Geolocation, Multivalue)
+- [ ] Amazon Route 53: políticas de roteamento (Simple, Weighted, Laténcy, Failover, Geolocation, Multivalue)
 - [ ] Health checks e failover automático
 
 ### Recuperação de Desastrês
@@ -62,7 +62,7 @@
 ### Containers e Serverless
 - [ ] Amazon ECS vs. Amazon EKS
 - [ ] AWS Fargaté (serverless para containers)
-- [ ] AWS Lambda: limites (15 min, 10 GB memoria, 1000 concorrência padrão)
+- [ ] AWS Lambda: limites (15 min, 10 GB memória, 1000 concorrência padrão)
 
 ---
 
@@ -76,7 +76,7 @@
 - [ ] S3 Transfer Acceleration e multipart upload
 
 ### Computacao
-- [ ] Familias de instâncias EC2: M (geral), C (computacao), R (memoria), T (burst)
+- [ ] Famílias de instâncias EC2: M (geral), C (computação), R (memória), T (burst)
 - [ ] Spot Instances, Reserved Instances, Savings Plans
 - [ ] Lambda@Edge e CloudFront Functions
 - [ ] AWS Batch para processamento em lote
@@ -117,7 +117,7 @@
 - [ ] Requester Pays para buckets S3
 
 ### Otimização de Banco de Dados
-- [ ] Aurora Serverless para workloads imprevisiveis
+- [ ] Aurora Serverless para workloads imprevisíveis
 - [ ] DynamoDB: On-Demand vs. Provisioned
 - [ ] Migrar de bancos comerciais para open source com DMS
 - [ ] Reserved Instances para RDS
@@ -125,7 +125,7 @@
 ### Otimização de Rede
 - [ ] VPC Endpoints eliminam custos de NAT
 - [ ] CloudFront reduz custos de egress
-- [ ] Dados de entrada (ingress) sao gratuitos
+- [ ] Dados de entrada (ingress) são gratuitos
 - [ ] VPC Peering na mesma AZ e gratuito
 
 ### Ferramentas de Gerenciamento de Custos

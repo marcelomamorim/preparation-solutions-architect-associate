@@ -16,7 +16,7 @@ Uma empresa precisa conectar seu data center on-premises a uma VPC da AWS com co
 
 **D)** VPC Peering
 
-> **Resposta: B** - AWS Direct Connect estabelece uma conexão de rede dedicada entre o data center e a AWS, oferecendo largura de banda consistente (1 Gbps ou 10 Gbps) e latência mais previsível que uma VPN via internet. Para redundância, combine com VPN como backup.
+> **Resposta: B** - AWS Direct Connect estabelece uma conexão de rede dedicada entre o data center é a AWS, oferecendo largura de banda consistente (1 Gbps ou 10 Gbps) e latência mais previsível que uma VPN via internet. Para redundância, combine com VPN como backup.
 
 ---
 
@@ -64,13 +64,13 @@ Uma empresa precisa migrar 50 TB de dados do data center on-premises para o Amaz
 
 **D)** Configurar Direct Connect
 
-> **Resposta: C** - AWS Snowball Edge e um dispositivo físico que pode armazenar até 80 TB. A AWS envia o dispositivo, você carrega os dados localmente e devolve para a AWS, que transfere para o S3. Com 100 Mbps, 50 TB levaria ~46 dias via internet. Snowball pode completar em ~1 semana incluindo envio.
+> **Resposta: C** - AWS Snowball Edge é um dispositivo físico que pode armazenar até 80 TB. A AWS envia o dispositivo, você carrega os dados localmente e devolve para a AWS, que transfere para o S3. Com 100 Mbps, 50 TB levaria ~46 dias via internet. Snowball pode completar em ~1 semana incluindo envio.
 
 ---
 
 ### Questao 5
 
-Uma empresa usa CloudFormation para gerenciar toda sua infraestrutura. Apos uma atualizacao, um stack falhou e precisa ser revertido. Qual e a melhor abordagem?
+Uma empresa usa CloudFormation para gerenciar toda sua infraestrutura. Apos uma atualizacao, um stack falhou e precisa ser revertido. Qual é a melhor abordagem?
 
 **A)** Deletar o stack e criar um novo manualmente
 
@@ -80,7 +80,7 @@ Uma empresa usa CloudFormation para gerenciar toda sua infraestrutura. Apos uma 
 
 **D)** Criar um novo stack com um nome diferente
 
-> **Resposta: B** - CloudFormation tem rollback automático: se uma atualizacao de stack falhar, ele reverte automáticamente para o estado anterior. Você também pode usar Change Sets para visualizar mudancas antes de aplica-las, reduzindo o risco de falhas.
+> **Resposta: B** - CloudFormation tem rollback automático: se uma atualizacao de stack falhar, ele reverte automaticamente para o estado anterior. Você também pode usar Change Sets para visualizar mudancas antes de aplica-las, reduzindo o risco de falhas.
 
 ---
 
