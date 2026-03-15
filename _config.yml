@@ -14,7 +14,7 @@ nav:
       - title: "Design de Arquiteturas de Alto Desempenho"
         url: /docs/pt/design-arquiteturas-alto-desempenho/
 
-      - title: "Design de Aplicações Seguras"
+      - title: "Design de Arquiteturas Seguras"
         url: /docs/pt/design-aplicacoes-seguras/
 
       - title: "Design de Arquiteturas Otimizadas"

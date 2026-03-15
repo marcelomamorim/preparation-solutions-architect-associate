@@ -1,123 +1,116 @@
-# 📋 Guia do Exame: Domínio 1 - Design de Arquiteturas Seguras
+# Domínio 1 - Design de Arquiteturas Seguras (30% do Exame)
 
-## 🛡️ Tarefa 1.1: Projetar acesso seguro aos recursos da AWS
-
-### Conhecimentos Necessários
-
-- 🔐 Controles de acesso e gerenciamento em várias contas  
-  **Serviços correlacionados**: AWS Identity and Access Management (IAM), AWS Organizations
-
-- 🛡️ Serviços de acesso federado e identidade da AWS (por exemplo, AWS Identity and Access Management [IAM], AWS IAM Identity Center [AWS Single Sign-On])  
-  **Serviços correlacionados**: AWS IAM, AWS IAM Identity Center (AWS Single Sign-On)
-
-- 🌍 Infraestrutura global da AWS (por exemplo, Zonas de Disponibilidade, Regiões da AWS)  
-  **Serviços correlacionados**: Amazon VPC, AWS CloudFormation
-
-- 📜 Melhores práticas de segurança da AWS (por exemplo, princípio do menor privilégio)  
-  **Serviços correlacionados**: AWS Trusted Advisor, AWS Security Hub
-
-- 🤝 Modelo de responsabilidade compartilhada da AWS  
-  **Serviços correlacionados**: AWS Management Console, AWS CloudTrail
-
-### Habilidades Necessárias
-
-- 🛡️ Aplicar as melhores práticas de segurança da AWS para usuários IAM e usuários root (por exemplo, autenticação multifator [MFA])  
-  **Serviços correlacionados**: AWS IAM, AWS Security Hub
-
-- 🧩 Projetar um modelo de autorização flexível que inclua usuários, grupos, funções e políticas do IAM  
-  **Serviços correlacionados**: AWS IAM, AWS Organizations
-
-- 🎛️ Projetar uma estratégia de controle de acesso baseada em funções (por exemplo, AWS Security Token Service [AWS STS], troca de funções, acesso entre contas)  
-  **Serviços correlacionados**: AWS IAM, AWS STS
-
-- 🏢 Projetar uma estratégia de segurança para múltiplas contas da AWS (por exemplo, AWS Control Tower, políticas de controle de serviço [SCPs])  
-  **Serviços correlacionados**: AWS Control Tower, AWS Organizations
-
-- 🔒 Determinar o uso apropriado de políticas de recursos para serviços da AWS  
-  **Serviços correlacionados**: AWS IAM, AWS Resource Access Manager (RAM)
-
-- 🗂️ Determinar quando federar um serviço de diretório com funções do IAM  
-  **Serviços correlacionados**: AWS IAM, AWS Directory Service
+> Este é o domínio com maior peso no exame. Foque em entender profundamente IAM, criptografia, segurança de rede é o modelo de responsabilidade compartilhada da AWS.
 
 ---
 
-## 🛠️ Tarefa 1.2: Projetar cargas de trabalho e aplicações seguras
+## Tarefa 1.1: Projetar acesso seguro aos recursos da AWS
 
 ### Conhecimentos Necessários
 
-- 🔧 Segurança de configuração e credenciais da aplicação  
-  **Serviços correlacionados**: AWS Secrets Manager, AWS IAM
+- **Controles de acesso e gerenciamento em várias contas**
+  Entenda como usar [AWS Organizations](https://aws.amazon.com/organizations/) para gerenciar múltiplas contas e [AWS IAM](https://aws.amazon.com/iam/) para controlar quem pode acessar quais recursos. Contas separadas ajudam a isolar workloads e limitar o raio de explosão de incidentes de segurança.
 
-- 🌐 Endpoints de serviço da AWS  
-  **Serviços correlacionados**: Amazon VPC, AWS Direct Connect
+- **Serviços de acesso federado e identidade da AWS**
+  O [AWS IAM Identity Center](https://aws.amazon.com/single-sign-on/) permite login único (SSO) para várias contas AWS e aplicações. A federacao permite que usuários externos acessem recursos AWS sem criar usuários IAM individuais.
 
-- 🚪 Controle de portas, protocolos e tráfego de rede na AWS  
-  **Serviços correlacionados**: Amazon VPC, AWS Network Firewall
+- **Infraestrutura global da AWS**
+  A AWS opera em múltiplas [Regioes e Zonas de Disponibilidade](https://aws.amazon.com/about-aws/global-infrastructure/). Entenda como selecionar regiões com base em requisitos de conformidade, latência e disponibilidade de serviços.
 
-- 🔑 Acesso seguro à aplicação  
-  **Serviços correlacionados**: Amazon Cognito, AWS IAM
+- **Melhores práticas de segurança da AWS**
+  O **princípio do menor privilégio** e fundamental: conceda apenas as permissoes necessárias para realizar uma tarefa. Use o [AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/trustedadvisor/) é o [AWS Security Hub](https://aws.amazon.com/security-hub/) para auditar e monitorar.
 
-- 🛡️ Serviços de segurança com casos de uso apropriados (por exemplo, Amazon Cognito, Amazon GuardDuty, Amazon Macie)  
-  **Serviços correlacionados**: Amazon Cognito, Amazon GuardDuty, Amazon Macie
-
-- 🚨 Vetores de ameaça externos à AWS (por exemplo, DDoS, injeção de SQL)  
-  **Serviços correlacionados**: AWS Shield, AWS WAF
+- **Modelo de responsabilidade compartilhada da AWS**
+  A AWS e responsavel pela segurança **da** nuvem (infraestrutura física, rede, hipervisor). O cliente e responsavel pela segurança **na** nuvem (dados, identidade, aplicações, configuração de rede).
 
 ### Habilidades Necessárias
 
-- 🛠️ Projetar arquiteturas de VPC com componentes de segurança (por exemplo, grupos de segurança, tabelas de rotas, ACLs de rede, gateways NAT)  
-  **Serviços correlacionados**: Amazon VPC, AWS Network Firewall
+- Aplicar as melhores práticas de segurança para usuários IAM e root (ex: MFA obrigatório para root)
+- Projetar modelos de autorizacao flexiveis com usuários, grupos, funções e políticas do IAM
+- Projetar estratégias de controle de acesso baseadas em funções usando [AWS STS](https://aws.amazon.com/sts/)
+- Projetar estratégias de segurança para múltiplas contas com [AWS Control Tower](https://aws.amazon.com/controltower/) e SCPs
+- Determinar o uso apropriado de políticas de recursos vs. políticas de identidade
+- Determinar quando federar um serviço de diretório com funções do IAM
 
-- 🌐 Determinar estratégias de segmentação de rede (por exemplo, uso de sub-redes públicas e privadas)  
-  **Serviços correlacionados**: Amazon VPC
-
-- 🔗 Integrar serviços da AWS para proteger aplicações (por exemplo, AWS Shield, AWS WAF, IAM Identity Center, AWS Secrets Manager)  
-  **Serviços correlacionados**: AWS Shield, AWS WAF, AWS Secrets Manager
-
-- 🔒 Proteger conexões de rede externas para e da Nuvem AWS (por exemplo, VPN, AWS Direct Connect)  
-  **Serviços correlacionados**: AWS Site-to-Site VPN, AWS Direct Connect
+> **Dica para o exame**: Preste aténcao especial na diferenca entre políticas de identidade (anexadas a usuários/grupos/funções) e políticas de recurso (anexadas a recursos como buckets S3). Ambas trabalham juntas para determinar o acesso efetivo.
 
 ---
 
-## 🔒 Tarefa 1.3: Determinar controles apropriados de segurança de dados
+## Tarefa 1.2: Projetar cargas de trabalho e aplicações seguras
 
 ### Conhecimentos Necessários
 
-- 🗄️ Acesso e governança de dados  
-  **Serviços correlacionados**: AWS IAM, AWS CloudTrail
+- **Segurança de configuração e credenciais**
+  Nunca codifique credenciais no código. Use o [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) para armazenar e rotacionar segredos automaticamente. Use variaveis de ambiente ou roles IAM em instâncias EC2.
 
-- 🛠️ Recuperação de dados  
-  **Serviços correlacionados**: AWS Backup, AWS Storage Gateway
+- **Endpoints de serviço da AWS**
+  Use [VPC Endpoints](https://docs.aws.amazon.com/vpc/latest/privatelink/) (Interface e Gatéway) para acessar serviços AWS sem tráfego pela internet pública. Isso melhora segurança e pode reduzir custos.
 
-- 📂 Retenção e classificação de dados  
-  **Serviços correlacionados**: Amazon S3, Amazon Macie
+- **Controle de portas, protocolos e tráfego de rede**
+  Use Security Groups (statéful, nivel de instância) e NACLs (statéless, nivel de sub-rede) para controlar tráfego. O [AWS Network Firewall](https://aws.amazon.com/network-firewall/) oferece filtragem avancada.
 
-- 🗝️ Criptografia e gerenciamento apropriado de chaves  
-  **Serviços correlacionados**: AWS Key Management Service (KMS), AWS Certificate Manager (ACM)
+- **Serviços de segurança da AWS**
+  - [Amazon GuardDuty](https://aws.amazon.com/guardduty/) - Detecção inteligente de ameacas
+  - [Amazon Macie](https://aws.amazon.com/macie/) - Descoberta e proteção de dados sensíveis no S3
+  - [Amazon Cognito](https://aws.amazon.com/cognito/) - Autenticacao de usuários para aplicações
+  - [AWS Shield](https://aws.amazon.com/shield/) - Proteção contra DDoS
+  - [AWS WAF](https://aws.amazon.com/waf/) - Firewall de aplicações web
 
 ### Habilidades Necessárias
 
-- ✅ Alinhar tecnologias da AWS para atender aos requisitos de conformidade  
-  **Serviços correlacionados**: AWS Config, AWS Audit Manager
+- Projetar arquiteturas de VPC com componentes de segurança (Security Groups, NACLs, NAT Gatéways)
+- Determinar estratégias de segmentacao de rede (sub-redes públicas e privadas)
+- Integrar serviços de segurança para proteger aplicações
+- Proteger conexões externas com [AWS VPN](https://aws.amazon.com/vpn/) e [AWS Direct Connect](https://aws.amazon.com/directconnect/)
 
-- 🔐 Criptografar dados em repouso (por exemplo, AWS Key Management Service [AWS KMS])  
-  **Serviços correlacionados**: AWS KMS, Amazon S3 (Server-Side Encryption)
-
-- 🔒 Criptografar dados em trânsito (por exemplo, AWS Certificate Manager [ACM] usando TLS)  
-  **Serviços correlacionados**: AWS Certificate Manager (ACM)
-
-- 🛡️ Implementar políticas de acesso para chaves de criptografia  
-  **Serviços correlacionados**: AWS IAM, AWS KMS
-
-- 💾 Implementar backups e replicações de dados  
-  **Serviços correlacionados**: AWS Backup, AWS Storage Gateway
-
-- 📝 Implementar políticas para acesso, ciclo de vida e proteção de dados  
-  **Serviços correlacionados**: AWS IAM, Amazon S3 (Lifecycle Policies)
-
-- 🔄 Rotacionar chaves de criptografia e renovar certificados  
-  **Serviços correlacionados**: AWS KMS, AWS Certificate Manager (ACM)
+> **Dica para o exame**: Security Groups são statéful (tráfego de retorno e permitido automaticamente). NACLs são statéless (você precisa configurar regras de entrada E saida explicitamente). Essa diferenca e cobrada frequentemente.
 
 ---
 
-Este guia abrange as principais áreas e habilidades necessárias para o Domínio 1 do exame AWS Solutions Architect Associate. Certifique-se de revisar cada área e prática para garantir uma compreensão abrangente e aplicação das melhores práticas de segurança da AWS.
+## Tarefa 1.3: Determinar controles apropriados de segurança de dados
+
+### Conhecimentos Necessários
+
+- **Acesso e governanca de dados**
+  Use [AWS CloudTrail](https://aws.amazon.com/cloudtrail/) para auditar todas as chamadas de API. Ative o log de acesso ao S3 para rastrear quem acessou seus dados.
+
+- **Recuperação de dados**
+  Planeje backups com [AWS Backup](https://aws.amazon.com/backup/) para gerenciar backups centralizados. Defina políticas de retenção adequadas ao seu negocio.
+
+- **Criptografia e gerenciamento de chaves**
+  - [AWS KMS](https://aws.amazon.com/kms/) - Gerenciamento de chaves de criptografia (CMKs gerenciadas pela AWS, pelo cliente, ou customizadas)
+  - [AWS Certificaté Manager](https://aws.amazon.com/certificate-manager/) - Certificados TLS/SSL gratuitos para serviços AWS integrados
+  - Entenda a diferenca entre criptografia do lado do servidor (SSE) e do lado do cliente (CSE)
+
+### Habilidades Necessárias
+
+- Alinhar tecnologias da AWS com requisitos de conformidade (HIPAA, PCI-DSS, LGPD)
+- Criptografar dados em repouso (SSE-S3, SSE-KMS, SSE-C) e em trânsito (TLS)
+- Implementar políticas de acesso para chaves de criptografia
+- Implementar backups e replicacoes de dados
+- Rotacionar chaves de criptografia e renovar certificados automaticamente
+
+> **Dica para o exame**: Para o S3, existem três opções de criptografia do lado do servidor: SSE-S3 (chave gerenciada pelo S3), SSE-KMS (chave gerenciada pelo KMS, com auditoria via CloudTrail) e SSE-C (chave fornecida pelo cliente). Saiba quando usar cada uma.
+
+---
+
+## Serviços-Chave para o Domínio 1
+
+| Serviço | Função Principal |
+|---------|-----------------|
+| AWS IAM | Gerenciamento de identidade e acesso |
+| AWS Organizations | Gerenciamento de múltiplas contas |
+| AWS IAM Identity Center | Login único (SSO) |
+| AWS KMS | Gerenciamento de chaves de criptografia |
+| AWS Secrets Manager | Armazenamento seguro de segredos |
+| AWS Certificaté Manager | Certificados TLS/SSL |
+| Amazon GuardDuty | Detecção de ameacas |
+| AWS WAF | Firewall de aplicação web |
+| AWS Shield | Proteção contra DDoS |
+| Amazon Macie | Proteção de dados sensíveis |
+| AWS CloudTrail | Auditoria de chamadas de API |
+| Amazon VPC | Redes virtuais isoladas |
+
+---
+
+Este guia abrange as principais áreas e habilidades necessárias para o Domínio 1 do exame AWS Solutions Architect Associate. Este domínio representa 30% do exame, então certifique-se de dominar todos os conceitos de segurança.

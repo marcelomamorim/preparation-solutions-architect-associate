@@ -1,95 +1,100 @@
-# 🌍 Multi-Language Guide
+# Guia de Preparação para o Exame AWS Solutions Architect Associate (SAA-C03)
 
-## 🇧🇷 Versão em Português
-
-Clique [aqui](#guia-de-estudo-para-o-exame-aws-solutions-architect-associate-em-português) para a versão em português.
-
-## 🇺🇸 English Version
-
-Click [here](#aws-solutions-architect-associate-exam-study-guide-in-english) for the English version.
+> **Seu recurso completo para conquistar a certificação AWS Solutions Architect Associate.** Este guia foi criado pela comunidade para oferecer um caminho estruturado de estudo, cobrindo todos os domínios do exame com materiais práticos, questões de revisão e dicas de especialistas.
 
 ---
 
-# Guia de Estudo para o Exame AWS Solutions Architect Associate em Português
+## Sobre o Exame
 
-## 📜 Introdução
+O exame **AWS Certified Solutions Architect - Associate (SAA-C03)** válida a capacidade de projetar e implementar soluções distribuídas na AWS. É uma das certificações mais procuradas no mercado de cloud computing.
 
-Bem-vindo ao guia de estudo para o exame AWS Solutions Architect Associate. Este recurso foi criado para ajudar você a se preparar de forma eficaz, oferecendo uma estrutura clara e recursos úteis para cada etapa do processo de aprendizado.
+- **Codigo do Exame**: SAA-C03
+- **Formato**: 65 questões (múltipla escolha e múltipla resposta)
+- **Duracao**: 130 minutos
+- **Nota minima para aprovacao**: 720 de 1000
+- **Custo**: USD 150
+- **Idiomas disponiveis**: Ingles, Japones, Coreano, Portugues, Chines Simplificado, entre outros
+- **Guia Oficial**: [AWS Certified Solutions Architect - Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
 
-## 🎯 Benefícios da Certificação
+---
 
-- **Validação de Competências**: Confirma sua capacidade de arquitetar e implantar soluções seguras e robustas na AWS.
-- **Reconhecimento Profissional**: A certificação aumenta sua visibilidade e credibilidade no mercado de computação em nuvem.
-- **Oportunidades de Carreira**: Abre portas para novas vagas e oportunidades de avanço na carreira.
-- **Aprendizado Profundo**: Amplia seu conhecimento sobre os serviços AWS e as melhores práticas de arquitetura.
+## Benefícios da Certificação
 
-## 📚 Índice
+- **Validacao de Competencias**: Confirma sua capacidade de arquitetar e implantar soluções seguras e robustas na AWS
+- **Reconhecimento Profissional**: Aumenta sua visibilidade e credibilidade no mercado de computação em nuvem
+- **Oportunidades de Carreira**: Abre portas para novas vagas e avancos na carreira, com salarios mais competitivos
+- **Aprendizado Profundo**: Amplia seu conhecimento sobre os serviços AWS e melhores práticas de arquitetura
+- **Acesso a Comunidade AWS**: Faz parte de uma rede global de profissionais certificados
 
-### 📅 Cronograma de 8 Semanas
+---
 
-| Semana                                                                                         | Domínio                                                                                              | Slides |
-|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|--------|
-| [Parte 1: Introdução](docs/pt/etapas/semana1.md)                                               | [Domínio 1: Design de Arquiteturas Seguras](docs/pt/dominio/design-arquiteturas-seguras.md)          | [Slides Parte 1](docs/pt/slides/semana1.md) |
-| [Parte 2: Domínio 1 - Design de Arquiteturas Seguras (Parte 2)](docs/pt/etapas/semana2.md)     | [Domínio 1: Design de Arquiteturas Seguras](docs/pt/dominio/design-arquiteturas-seguras.md)          | [Slides Parte 2](docs/pt/slides/semana2.md) |
-| [Parte 3: Domínio 1 - Design de Arquiteturas Seguras (Parte 3)](docs/pt/etapas/semana3.md)     | [Domínio 1: Design de Arquiteturas Seguras](docs/pt/dominio/design-arquiteturas-seguras.md)          | [Slides Parte 3](docs/pt/slides/semana3.md) |
-| [Parte 4: Domínio 2 - Design de Arquiteturas Resilientes (Parte 1)](docs/pt/etapas/semana4.md) | [Domínio 2: Design de Arquiteturas Resilientes](docs/pt/dominio/design-arquiteturas-resilientes.md) | [Slides Parte 4](docs/pt/slides/semana4.md) |
-| [Parte 5: Domínio 2 - Design de Arquiteturas Resilientes (Parte 2)](docs/pt/etapas/semana5.md) | [Domínio 2: Design de Arquiteturas Resilientes](docs/pt/dominio/design-arquiteturas-resilientes.md) | [Slides Parte 5](docs/pt/slides/semana5.md) |
-| [Parte 6: Domínio 3 - Design de Arquiteturas de Alto Desempenho](docs/pt/etapas/semana6.md)    | [Domínio 3: Design de Arquiteturas de Alto Desempenho](docs/pt/dominio/design-arquiteturas-alto-desempenho.md) | [Slides Parte 6](docs/pt/slides/semana6.md) |
-| [Parte 7: Domínio 4 - Design de Arquiteturas Otimizadas por Custo](docs/pt/etapas/semana7.md)  | [Domínio 4: Design de Arquiteturas Otimizadas por Custo](docs/pt/dominio/design-arquiteturas-otimizadas-custo.md) | [Slides Parte 7](docs/pt/slides/semana7.md) |
-| [Parte 8: Revisão e Exercícios](docs/pt/etapas/semana8.md)                                     |                                                                                                      | [Slides Parte 8](docs/pt/slides/semana8.md) |
+## Cronograma de Estudo em 8 Partes
 
-### 📊 Distribuição dos Domínios no Exame
+| Parte | Conteúdo | Domínio | Slides |
+|-------|----------|---------|--------|
+| [Parte 1: Introdução](docs/pt/etapas/semana1.md) | Visão geral do exame e acesso seguro a recursos | [Domínio 1: Arquiteturas Seguras](docs/pt/dominio/design-aplicacoes-seguras.md) | [Slides Parte 1](docs/pt/slides/semana1.md) |
+| [Parte 2: Workloads Seguras](docs/pt/etapas/semana2.md) | Projetar cargas de trabalho e aplicações seguras | [Domínio 1: Arquiteturas Seguras](docs/pt/dominio/design-aplicacoes-seguras.md) | [Slides Parte 2](docs/pt/slides/semana2.md) |
+| [Parte 3: Segurança de Dados](docs/pt/etapas/semana3.md) | Controles de segurança de dados e criptografia | [Domínio 1: Arquiteturas Seguras](docs/pt/dominio/design-aplicacoes-seguras.md) | [Slides Parte 3](docs/pt/slides/semana3.md) |
+| [Parte 4: Arquiteturas Escaláveis](docs/pt/etapas/semana4.md) | Arquiteturas escaláveis e fracamente acopladas | [Domínio 2: Arquiteturas Resilientes](docs/pt/dominio/design-arquiteturas-resilientes.md) | [Slides Parte 4](docs/pt/slides/semana4.md) |
+| [Parte 5: Alta Disponibilidade](docs/pt/etapas/semana5.md) | Arquiteturas altamente disponiveis e tolerantes a falhas | [Domínio 2: Arquiteturas Resilientes](docs/pt/dominio/design-arquiteturas-resilientes.md) | [Slides Parte 5](docs/pt/slides/semana5.md) |
+| [Parte 6: Alto Desempenho](docs/pt/etapas/semana6.md) | Armazenamento, computação, banco de dados e rede | [Domínio 3: Alto Desempenho](docs/pt/dominio/design-arquiteturas-alto-desempenho.md) | [Slides Parte 6](docs/pt/slides/semana6.md) |
+| [Parte 7: Otimização de Custos](docs/pt/etapas/semana7.md) | Solucoes otimizadas por custo em todas as áreas | [Domínio 4: Otimização de Custos](docs/pt/dominio/design-arquiteturas-otimizadas-custo.md) | [Slides Parte 7](docs/pt/slides/semana7.md) |
+| [Parte 8: Revisão e Exercícios](docs/pt/etapas/semana8.md) | Revisão geral e questões práticas | Todos os domínios | [Slides Parte 8](docs/pt/slides/semana8.md) |
+
+---
+
+## Distribuição dos Domínios no Exame
 
 ![Distribuição dos Domínios no Exame](assets/images/distribuicao_dominios.png)
 
-- **Domínio 1**: Design de Arquiteturas Seguras (30% do conteúdo do exame)
-- **Domínio 2**: Design de Arquiteturas Resilientes (26% do conteúdo do exame)
-- **Domínio 3**: Design de Arquiteturas de Alto Desempenho (24% do conteúdo do exame)
-- **Domínio 4**: Design de Arquiteturas Otimizadas por Custo (20% do conteúdo do exame)
+| Domínio | Peso no Exame | Descrição |
+|---------|:-------------:|-----------|
+| **Domínio 1**: Design de Arquiteturas Seguras | **30%** | Acesso seguro, workloads seguras, segurança de dados |
+| **Domínio 2**: Design de Arquiteturas Resilientes | **26%** | Escalabilidade, desacoplamento, alta disponibilidade, DR |
+| **Domínio 3**: Design de Arquiteturas de Alto Desempenho | **24%** | Armazenamento, computação, banco de dados, rede |
+| **Domínio 4**: Design de Arquiteturas Otimizadas por Custo | **20%** | Otimização de armazenamento, computação, banco de dados, rede |
 
-## 🎉 Mensagem de Boas-Vindas
-
-Estamos empolgados em tê-lo aqui e esperamos que este guia seja um recurso valioso em sua jornada de preparação para o exame AWS Solutions Architect Associate. Desejamos muito sucesso no aprendizado e na prova!
+> **Dica**: Invista mais tempo nos Domínios 1 e 2, que juntos representam **56%** do exame.
 
 ---
 
-# AWS Solutions Architect Associate Exam Study Guide in English
+## Recursos Adicionais
 
-## 📜 Introduction
+- [Dicas de Estudo e Estratégias para o Exame](docs/pt/recursos-adicionais/dicas.md) - Estratégias comprovadas para maximizar sua preparação
+- [Checklist de Revisão Final](docs/pt/recursos-adicionais/revisao.md) - Verifique se você cobriu todos os tópicos antes do exame
+- [Reflexões e Boas Práticas](docs/pt/recursos-adicionais/reflexoes.md) - Insights sobre arquitetura AWS do mundo real
 
-Welcome to the AWS Solutions Architect Associate Exam study guide. This resource is designed to help you prepare effectively for the exam, providing a clear structure and useful resources for each step of your learning process.
+### Questões de Prática por Parte
 
-## 🎯 Exam Benefits
+| Parte | Questões |
+|-------|----------|
+| Parte 1 | [Questões - Acesso Seguro](docs/pt/recursos-adicionais/questoes/questoes-semana-1.md) |
+| Parte 2 | [Questões - Workloads Seguras](docs/pt/recursos-adicionais/questoes/questoes-semana-2.md) |
+| Parte 3 | [Questões - Segurança de Dados](docs/pt/recursos-adicionais/questoes/questoes-semana-3.md) |
+| Parte 4 | [Questões - Arquiteturas Escaláveis](docs/pt/recursos-adicionais/questoes/questoes-semana-4.md) |
+| Parte 5 | [Questões - Alta Disponibilidade](docs/pt/recursos-adicionais/questoes/questoes-semana-5.md) |
+| Parte 6 | [Questões - Alto Desempenho](docs/pt/recursos-adicionais/questoes/questoes-semana-6.md) |
+| Parte 7 | [Questões - Otimização de Custos](docs/pt/recursos-adicionais/questoes/questoes-semana-7.md) |
+| Parte 8 | [Questões - Revisão Geral](docs/pt/recursos-adicionais/questoes/questoes-semana-8.md) |
 
-- **Skill Validation**: Validates your ability to architect and deploy secure and robust solutions on AWS.
-- **Professional Recognition**: Certification increases your visibility and credibility in cloud computing.
-- **Career Opportunities**: Opens doors to new job opportunities and career advancement.
-- **In-Depth Learning**: Deepens your understanding of AWS services and best architectural practices.
+---
 
-## 📚 Table of Contents
+## Links Úteis
 
-### 📅 8-Week Schedule
+- [Pagina Oficial da Certificação AWS SAA-C03](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
+- [Guia do Exame AWS (PDF)](https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
+- [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
+- [AWS Architecture Center](https://aws.amazon.com/architecture/)
+- [AWS Whitepapers & Guides](https://aws.amazon.com/whitepapers/)
+- [AWS Free Tier](https://aws.amazon.com/free/) - Para praticar com serviços reais
+- [AWS Skill Builder](https://skillbuilder.aws/) - Cursos oficiais gratuitos e pagos
 
-| Week                                                                                         | Domain                                                                                              | Slides |
-|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|--------|
-| [Part 1: Introduction](docs/pt/etapas/semana1.md)   | [Domain 1: Secure Architecture Design](docs/pt/dominio/design-arquiteturas-seguras.md)       | [Slides Part 1](docs/pt/slides/semana1.md) |
-| [Part 2: Domain 1 - Secure Architecture Design (Part 2)](docs/pt/etapas/semana2.md)         | [Domain 1: Secure Architecture Design](docs/pt/dominio/design-arquiteturas-seguras.md)       | [Slides Part 2](docs/pt/slides/semana2.md) |
-| [Part 3: Domain 1 - Secure Architecture Design (Part 3)](docs/pt/etapas/semana3.md)         | [Domain 1: Secure Architecture Design](docs/pt/dominio/design-arquiteturas-seguras.md)       | [Slides Part 3](docs/pt/slides/semana3.md) |
-| [Part 4: Domain 2 - Resilient Architecture Design (Part 1)](docs/pt/etapas/semana4.md)      | [Domain 2: Resilient Architecture Design](docs/pt/dominio/design-arquiteturas-resilientes.md) | [Slides Part 4](docs/pt/slides/semana4.md) |
-| [Part 5: Domain 2 - Resilient Architecture Design (Part 2)](docs/pt/etapas/semana5.md)      | [Domain 2: Resilient Architecture Design](docs/pt/dominio/design-arquiteturas-resilientes.md) | [Slides Part 5](docs/pt/slides/semana5.md) |
-| [Part 6: Domain 3 - High-Performance Architecture Design](docs/pt/etapas/semana6.md)        | [Domain 3: High-Performance Architecture Design](docs/pt/dominio/design-arquiteturas-alto-desempenho.md) | [Slides Part 6](docs/pt/slides/semana6.md) |
-| [Part 7: Domain 4 - Cost-Optimized Architecture Design](docs/pt/etapas/semana7.md)          | [Domain 4: Cost-Optimized Architecture Design](docs/pt/dominio/design-arquiteturas-otimizadas-custo.md) | [Slides Part 7](docs/pt/slides/semana7.md) |
-| [Part 8: Review and Exercises](docs/pt/etapas/semana8.md)                                   |                                                                                                     | [Slides Part 8](docs/pt/slides/semana8.md) |
+---
 
-### 📊 Exam Domain Statistics
+## Como Contribuir
 
-![Exam Domain Distribution](assets/images/distribuicao_dominios.png)
+Este é um projeto open source e contribuições são muito bem-vindas! Consulte o [CONTRIBUTING.md](CONTRIBUTING.md) para saber como participar.
 
-- **Domain 1**: Secure Architecture Design (30% of the exam content)
-- **Domain 2**: Resilient Architecture Design (26% of the exam content)
-- **Domain 3**: High-Performance Architecture Design (24% of the exam content)
-- **Domain 4**: Cost-Optimized Architecture Design (20% of the exam content)
+---
 
-## 🎉 Welcome Message
-
-We're excited to have you here, and we hope this guide will be a valuable resource on your journey to passing the AWS Solutions Architect Associate Exam. Best of luck in your studies and the exam!
+Desejamos muito sucesso na sua jornada de preparação para o exame AWS Solutions Architect Associate!

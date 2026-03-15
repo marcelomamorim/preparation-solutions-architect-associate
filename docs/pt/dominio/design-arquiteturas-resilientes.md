@@ -1,148 +1,118 @@
-# 📋 Guia do Exame: Domínio 2 - Design de Arquiteturas Resilientes
+# Domínio 2 - Design de Arquiteturas Resilientes (26% do Exame)
 
-## 🎯 Tarefa 2.1: Projetar arquiteturas escaláveis e fracamente acopladas
-
-### Conhecimentos Necessários
-
-- 🌐 Criação e gerenciamento de APIs (por exemplo, Amazon API Gateway, REST API)  
-  **Serviços correlacionados**: Amazon API Gateway
-
-- ⚙️ Serviços gerenciados da AWS com casos de uso apropriados (por exemplo, AWS Transfer Family, Amazon Simple Queue Service [Amazon SQS], Secrets Manager)  
-  **Serviços correlacionados**: AWS Transfer Family, Amazon SQS, AWS Secrets Manager
-
-- 💾 Estratégias de cache  
-  **Serviços correlacionados**: Amazon ElastiCache
-
-- 🛠️ Princípios de design para microsserviços (por exemplo, workloads sem estado em comparação com workloads com estado)  
-  **Serviços correlacionados**: AWS Lambda, AWS Fargate, Amazon ECS, Amazon EKS
-
-- 🔄 Arquiteturas orientadas a eventos  
-  **Serviços correlacionados**: Amazon EventBridge, Amazon SNS
-
-- 🔄 Escalabilidade horizontal e vertical  
-  **Serviços correlacionados**: Amazon EC2 Auto Scaling, AWS Lambda
-
-- 🚀 Uso apropriado de aceleradores de borda (por exemplo, Content Delivery Network [CDN])  
-  **Serviços correlacionados**: Amazon CloudFront, AWS Global Accelerator
-
-- 📦 Migração de aplicações para containers  
-  **Serviços correlacionados**: Amazon ECS, Amazon EKS, AWS Fargate
-
-- ⚖️ Conceitos de balanceamento de carga (por exemplo, Application Load Balancer)  
-  **Serviços correlacionados**: Elastic Load Balancing
-
-- 🏗️ Arquiteturas em múltiplos níveis  
-  **Serviços correlacionados**: Amazon EC2, Amazon RDS
-
-- 📬 Conceitos de filas e mensagens (por exemplo, public/subscribe)  
-  **Serviços correlacionados**: Amazon SQS, Amazon SNS
-
-- 🚀 Tecnologias e padrões serverless (por exemplo, AWS Fargate, AWS Lambda)  
-  **Serviços correlacionados**: AWS Fargate, AWS Lambda
-
-- 💾 Tipos de armazenamento com características associadas (por exemplo, objeto, arquivo, bloco)  
-  **Serviços correlacionados**: Amazon S3, Amazon EFS, Amazon EBS
-
-- ⚙️ Orquestração de containers (por exemplo, Amazon Elastic Container Service [Amazon ECS], Amazon Elastic Kubernetes Service [Amazon EKS])  
-  **Serviços correlacionados**: Amazon ECS, Amazon EKS
-
-- 🔄 Quando usar réplicas de leitura  
-  **Serviços correlacionados**: Amazon RDS
-
-- 🛠️ Orquestração de workflows (por exemplo, AWS Step Functions)  
-  **Serviços correlacionados**: AWS Step Functions
-
-### Habilidades Necessárias
-
-- 🛠️ Projetar arquiteturas orientadas a eventos, microsserviços e/ou em múltiplos níveis com base em requisitos  
-  **Serviços correlacionados**: Amazon EventBridge, AWS Lambda
-
-- 🔄 Determinar estratégias de escalabilidade para componentes usados em um design de arquitetura  
-  **Serviços correlacionados**: Amazon EC2 Auto Scaling, AWS Lambda
-
-- 🛠️ Determinar os serviços AWS necessários para alcançar desacoplamento com base nos requisitos  
-  **Serviços correlacionados**: Amazon SQS, Amazon SNS, AWS Step Functions
-
-- 📦 Determinar quando usar containers  
-  **Serviços correlacionados**: Amazon ECS, Amazon EKS
-
-- 🚀 Determinar quando usar tecnologias e padrões serverless  
-  **Serviços correlacionados**: AWS Lambda, AWS Fargate
-
-- 📊 Recomendar tecnologias adequadas de computação, armazenamento, rede e banco de dados com base nos requisitos  
-  **Serviços correlacionados**: Amazon EC2, Amazon S3, Amazon RDS
-
-- 🛠️ Usar serviços da AWS para workloads com propósito específico  
-  **Serviços correlacionados**: Amazon Redshift, Amazon DynamoDB, AWS Glue
+> Este domínio avalia sua capacidade de projetar arquiteturas que sejam escaláveis, fracamente acopladas, altamente disponiveis e tolerantes a falhas. Foque em desacoplamento, estratégias de DR e uso de múltiplas AZs.
 
 ---
 
-## 🔒 Tarefa 2.2: Projetar arquiteturas altamente disponíveis e/ou tolerantes a falhas
+## Tarefa 2.1: Projetar arquiteturas escaláveis e fracamente acopladas
 
 ### Conhecimentos Necessários
 
-- 🌍 Infraestrutura global da AWS (por exemplo, Zonas de Disponibilidade, Regiões da AWS, Amazon Route 53)  
-  **Serviços correlacionados**: Amazon Route 53, AWS Regions
+- **Criacao e gerenciamento de APIs**
+  O [Amazon API Gatéway](https://aws.amazon.com/api-gateway/) permite criar, públicar e gerenciar APIs REST e WebSocket. Suporta throttling, caching, autorizacao e versionamento. Integra-se com Lambda para arquiteturas serverless.
 
-- ⚙️ Serviços gerenciados da AWS com casos de uso apropriados (por exemplo, Amazon Comprehend, Amazon Polly)  
-  **Serviços correlacionados**: Amazon Comprehend, Amazon Polly
+- **Serviços gerenciados da AWS**
+  Use serviços gerenciados sempre que possível para reduzir a carga operacional. O [AWS Transfer Family](https://aws.amazon.com/aws-transfer-family/) gerencia transferencias SFTP/FTP. O [Amazon SQS](https://aws.amazon.com/sqs/) desacopla componentes com filas de mensagens.
 
-- 🌐 Conceitos básicos de rede (por exemplo, tabelas de roteamento)  
-  **Serviços correlacionados**: Amazon VPC
+- **Estratégias de cache**
+  O [Amazon ElastiCache](https://aws.amazon.com/elásticache/) oferece Redis e Memcached para caching in-memory. Use cache para reduzir latência e carga no banco de dados. Estratégias comuns: cache-aside (lazy loading), write-through e TTL.
 
-- 🛠️ Estratégias de recuperação de desastres (por exemplo, backup e restauração, pilot light, warm standby, failover ativo-ativo, ponto de recuperação [RPO], tempo de recuperação [RTO])  
-  **Serviços correlacionados**: AWS Backup, AWS Storage Gateway
+- **Principios de design para microsserviços**
+  Workloads **statéless** são mais faceis de escalar horizontalmente. Armazene estado em serviços externos (DynamoDB, ElastiCache, S3). [AWS Lambda](https://aws.amazon.com/lambda/) e [AWS Fargaté](https://aws.amazon.com/fargate/) fácilitam microsserviços.
 
-- 🛡️ Padrões de design distribuído  
-  **Serviços correlacionados**: Amazon CloudFront, AWS Global Accelerator
+- **Arquiteturas orientadas a eventos**
+  O [Amazon EventBridge](https://aws.amazon.com/eventbridge/) é o barramento de eventos serverless da AWS. O [Amazon SNS](https://aws.amazon.com/sns/) permite pub/sub para notificações. Combine com SQS para processamento assincrono confiável.
 
-- 🔄 Estratégias de failover  
-  **Serviços correlacionados**: Amazon Route 53
+- **Escalabilidade horizontal e vertical**
+  - **Horizontal** (scale out): Adicionar mais instâncias - preferido na AWS
+  - **Vertical** (scale up): Aumentar o tamanho da instância - tem limites
+  - [Amazon EC2 Auto Scaling](https://aws.amazon.com/autoscaling/) gerencia a escalabilidade horizontal automaticamente
 
-- 📦 Infraestrutura imutável  
-  **Serviços correlacionados**: AWS Elastic Beanstalk, AWS CloudFormation
+- **Aceleradores de borda**
+  O [Amazon CloudFront](https://aws.amazon.com/cloudfront/) é um CDN global que cacheia conteúdo em edge locations. O [AWS Global Accelerator](https://aws.amazon.com/global-accelerator/) melhora a disponibilidade e performance usando a rede global da AWS.
 
-- ⚖️ Conceitos de balanceamento de carga (por exemplo, Application Load Balancer)  
-  **Serviços correlacionados**: Elastic Load Balancing
+- **Containers e orquestracao**
+  - [Amazon ECS](https://aws.amazon.com/ecs/) - Orquestracao de containers pela AWS
+  - [Amazon EKS](https://aws.amazon.com/eks/) - Kubernetes gerenciado
+  - [AWS Fargaté](https://aws.amazon.com/fargate/) - Serverless para containers (sem gerenciar servidores)
 
-- 🛡️ Conceitos de proxy (por exemplo, Amazon RDS Proxy)  
-  **Serviços correlacionados**: Amazon RDS Proxy
+- **Balanceamento de carga**
+  - **ALB** (Application Load Balancer) - Camada 7, roteamento por conteúdo HTTP/HTTPS
+  - **NLB** (Network Load Balancer) - Camada 4, ultra-baixa latência, milhoes de requisicoes/segundo
+  - **GLB** (Gatéway Load Balancer) - Para appliances de rede virtual
 
-- 📊 Quotas de serviço e limitação (por exemplo, como configurar as quotas de serviço para uma workload em um ambiente de standby)  
-  **Serviços correlacionados**: AWS Trusted Advisor, AWS Management Console
-
-- 💾 Opções de armazenamento e características (por exemplo, durabilidade, replicação)  
-  **Serviços correlacionados**: Amazon S3, Amazon EBS, Amazon EFS
-
-- 👀 Visibilidade de workloads (por exemplo, AWS X-Ray)  
-  **Serviços correlacionados**: AWS X-Ray, Amazon CloudWatch
+- **Filas e mensagens**
+  - **Amazon SQS Standard** - Entrega pelo menos uma vez, sem garantia de ordem
+  - **Amazon SQS FIFO** - Exatamente uma vez, ordem garantida (menor throughput)
+  - **Amazon SNS** - Pub/Sub para fan-out de mensagens
 
 ### Habilidades Necessárias
 
-- 🛠️ Determinar estratégias de automação para garantir a integridade da infraestrutura  
-  **Serviços correlacionados**: AWS CloudFormation, AWS Systems Manager
+- Projetar arquiteturas orientadas a eventos, microsserviços e multi-tier
+- Determinar estratégias de escalabilidade para componentes da arquitetura
+- Determinar serviços AWS para desacoplamento (SQS, SNS, Step Functions)
+- Decidir quando usar containers vs. serverless vs. instâncias EC2
+- Recomendar tecnologias adequadas de computação, armazenamento, rede e banco de dados
 
-- 🌍 Determinar os serviços da AWS necessários para fornecer uma arquitetura altamente disponível e/ou tolerante a falhas em Regiões da AWS ou Zonas de Disponibilidade  
-  **Serviços correlacionados**: Amazon Route 53, AWS Global Accelerator, Amazon RDS
-
-- 📊 Identificar métricas com base nos requisitos de negócios para entregar uma solução altamente disponível  
-  **Serviços correlacionados**: Amazon CloudWatch, AWS X-Ray
-
-- 🔄 Implementar designs para mitigar pontos únicos de falha  
-  **Serviços correlacionados**: Elastic Load Balancing, Amazon Route 53
-
-- 🔒 Implementar estratégias para garantir a durabilidade e disponibilidade dos dados (por exemplo, backups)  
-  **Serviços correlacionados**: AWS Backup, Amazon S3
-
-- 🛠️ Selecionar uma estratégia de recuperação de desastres apropriada para atender aos requisitos de negócios  
-  **Serviços correlacionados**: AWS Backup, AWS Storage Gateway
-
-- 🚀 Usar serviços da AWS que melhorem a confiabilidade de aplicações legadas e aplicações não projetadas para a nuvem (por exemplo, quando mudanças na aplicação não são possíveis)  
-  **Serviços correlacionados**: Amazon RDS Proxy, AWS App Mesh
-
-- 🛠️ Usar serviços da AWS com propósito específico para workloads  
-  **Serviços correlacionados**: Amazon Redshift, Amazon DynamoDB, AWS Glue
+> **Dica para o exame**: Quando a questao menciona "desacoplamento", pense em SQS, SNS e EventBridge. Quando menciona "escalabilidade", pense em Auto Scaling Groups e Lambda. A combinacao SQS + Auto Scaling é um padrão clássico no exame.
 
 ---
 
-Este guia abrange as principais áreas e habilidades necessárias para o Domínio 2 do exame AWS Solutions Architect Associate. Certifique-se de revisar cada área e prática para garantir uma compreensão abrangente e aplicação das melhores práticas de resiliência da AWS.
+## Tarefa 2.2: Projetar arquiteturas altamente disponiveis e/ou tolerantes a falhas
+
+### Conhecimentos Necessários
+
+- **Infraestrutura global da AWS**
+  Distribua recursos em múltiplas Zonas de Disponibilidade (AZs) para alta disponibilidade. Use múltiplas Regioes para disaster recovery. O [Amazon Route 53](https://aws.amazon.com/route53/) oferece DNS com health checks e failover.
+
+- **Estratégias de recuperação de desastres (DR)**
+  Da mais barata para a mais rápida:
+  1. **Backup & Restore** - RPO/RTO: horas. Backups em S3, restauracao manual
+  2. **Pilot Light** - RPO/RTO: minutos. Componentes críticos em standby mínimo
+  3. **Warm Standby** - RPO/RTO: minutos. Versão reduzida do ambiente em execucao
+  4. **Active-Active (Multi-site)** - RPO/RTO: quase zero. Ambiente completo em múltiplas regiões
+
+- **Padrões de design distribuido**
+  Use [Amazon CloudFront](https://aws.amazon.com/cloudfront/) para distribuir conteúdo globalmente. O [AWS Global Accelerator](https://aws.amazon.com/global-accelerator/) melhora a disponibilidade com failover automático entre regiões.
+
+- **Infraestrutura imutavel**
+  Use [AWS CloudFormation](https://aws.amazon.com/cloudformation/) ou Terraform para definir infraestrutura como código. Em vez de atualizar servidores existentes, substitua-os por novos (Blue/Green, Canary deployments).
+
+- **Proxies de banco de dados**
+  O [Amazon RDS Proxy](https://aws.amazon.com/rds/proxy/) gerencia pools de conexões, melhora a resiliência e reduz o tempo de failover de banco de dados. Essencial para funções Lambda que acessam RDS.
+
+- **Visibilidade de workloads**
+  - [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) - Metricas, logs, alarmes e dashboards
+  - [AWS X-Ray](https://aws.amazon.com/xray/) - Rastreamento distribuido para debugar microsserviços
+
+### Habilidades Necessárias
+
+- Determinar estratégias de automação para integridade da infraestrutura
+- Fornecer arquiteturas altamente disponiveis em múltiplas AZs e Regioes
+- Identificar métricas de negocio para soluções de alta disponibilidade
+- Implementar designs para mitigar pontos únicos de falha (SPOF)
+- Implementar estratégias para durabilidade e disponibilidade de dados
+- Selecionar estratégias de DR apropriadas ao negocio
+
+> **Dica para o exame**: Sempre distribua recursos em pelo menos 2 AZs. Se a questao pede "máxima disponibilidade", pense em Multi-AZ e Multi-Region. Para banco de dados, Multi-AZ RDS oferece failover automático. Aurora pode ter até 15 replicas de leitura em 3 AZs.
+
+---
+
+## Serviços-Chave para o Domínio 2
+
+| Serviço | Função Principal |
+|---------|-----------------|
+| Amazon SQS | Filas de mensagens para desacoplamento |
+| Amazon SNS | Pub/Sub para notificações e fan-out |
+| Amazon EventBridge | Barramento de eventos serverless |
+| Elastic Load Balancing | Distribuição de tráfego (ALB, NLB, GLB) |
+| Amazon EC2 Auto Scaling | Escalabilidade automática de instâncias |
+| Amazon Route 53 | DNS com health checks e failover |
+| AWS CloudFormation | Infraestrutura como código |
+| Amazon CloudWatch | Monitoramento e observabilidade |
+| AWS Backup | Gerenciamento centralizado de backups |
+| Amazon RDS Proxy | Pool de conexões para bancos de dados |
+
+---
+
+Este guia abrange as principais áreas do Domínio 2. A resiliência é um dos pilares do Well-Architected Framework, então entenda profundamente os conceitos de alta disponibilidade, tolerância a falhas e recuperação de desastres.
